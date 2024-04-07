@@ -1,3 +1,0 @@
-# PatternFly Java
-
-PatternFly Website
