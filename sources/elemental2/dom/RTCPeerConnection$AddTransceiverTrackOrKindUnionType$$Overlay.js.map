@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAmCmB,Q;;QAE6C,2F,UAAUA,C;EAAVC,mB;EAC1DA,yE;;;QAIuB,mI;EAAAC,mB;EACvBA,sI;;;QAIa,0G;EAAAC,mB;EACbA,mE;;;QAIc,2G;EAAAC,mB;EACdA,uD;;;QAIc,iG;EAAAC,mB;EACdA,wC;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["RTCPeerConnection.java"],
+"names":["o","elemental2.dom.RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.of","elemental2.dom.RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.asMediaStreamTrack__$devirt","elemental2.dom.RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.asString__$devirt","elemental2.dom.RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.isMediaStreamTrack__$devirt","elemental2.dom.RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.isString__$devirt","elemental2.dom.RTCPeerConnection$AddTransceiverTrackOrKindUnionType$$Overlay.<clinit>"]
+}

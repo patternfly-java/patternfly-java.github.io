@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RelativeTime.js.map",
+"lineCount":161,
+"mappings":"A;;;;;;;;;;;;;;;;;;MAsCa,Y;;CAAA,W;EAAAA,Q;EAAAA;OA0DwB,4CA1DxBA,C;;;QAIkB,oD;EAAAC,uB;EACvBA,qJ;;;QAGuB,sE,gBAAoBC,M;EAApBD,uB;EACvBA,6K;;;QAGuB,oF,oBAAoBC,M;EAApBD,uB;EACvBA,2L;;;QAGuB,8E,uBAAsBE,O;EAAtBF,uB;EACvBA,sL;;;QAGuB,4F,2BAAsBE,O;EAAtBF,uB;EACvBA,oM;;;QAGuB,uG,kCAAuCG,O;EAAvCH,uB;EACvBA,+M;;;QAGuB,yH,gBAAoBC,M,mCAAkCE,O;EAAtDH,uB;EACvBA,yO;;;QAGuB,uI,oBAAoBC,M,mCAAkCE,O;EAAtDH,uB;EACvBA,uP;;;QAGuB,iI,uBAAsBE,O,mCAAmCC,O;EAAzDH,uB;EACvBA,kP;;;QAGuB,+I,2BAAsBE,O,mCAAmCC,O;EAAzDH,uB;EACvBA,gQ;;;QAmBJ,mD,gCAAgCI,G;EAAhCC,uB;EAAAA,mC;EAAAA,6G;EAAAA,iB;;;CAAA,6F,gCAAgCD,G;EAAKE,qC;EACjCA,gI;;;CAGgB,gD,aAAYC,I;EAC5BC,iF;;;CAGgB,wE,aAAYC,I,cAAaC,E;EACzCF,mF;;;CAGgB,wC,iBAAUD,I;EAC1BC,uI;;;CAGgB,wD,iBAAUC,I,kBAAWC,E;EACrCF,+L;;;CAGgB,gC,eAAYD,I;EAC5BC,uE;;;CAGgB,wC,eAAYC,I,gBAAaC,E;EACzCF,IAAKG,OAALH,yD;EACAA;GAAAA,IAA2BI,KAA3BJ,qHAAAA;;IACIA,IAAKK,IAALL,wDADJA;IAEIA,IAAKM,KAALN,mGAFJA;IAGIA;KACIA,gOADJA;KAHJA;;G;EAOAA,qR;;;YA/CyB,6C;EAAAO,kG;;;QA9CpB,O;EAAAC,+B;EAAAA,4B;EAAAA,qB;EA8CoBA,8H;EAGzBA,iP;EACAA,yR;EACAA,wR;EACAA,gO;EACAA,kN;EACAA,4K;EACAA,uI;;;;;;;;;;;;;;;;;;;;;AAvDK;aA8CoB,mDA9CpB;",
+"sources":["RelativeTime.java"],
+"names":["org.jboss.elemento.intl.RelativeTime.<synthetic: ctor_js>","org.jboss.elemento.intl.RelativeTime.relativeTime","locale","locales","options","rtf","org.jboss.elemento.intl.RelativeTime.<synthetic: ctor_create>","org.jboss.elemento.intl.RelativeTime.<init>","date","org.jboss.elemento.intl.RelativeTime.from","from","to","elapsed","entry","unit","value","org.jboss.elemento.intl.RelativeTime.<synthetic: getter>","org.jboss.elemento.intl.RelativeTime.<clinit>"]
+}

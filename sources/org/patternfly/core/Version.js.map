@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Version.js.map",
+"lineCount":31,
+"mappings":"A;;;;;;;MAQiB,O;;QAAA,O;EAAAA,0B;EAAAA,uB;;;;;;;;;;;;;;AAEN;QAAA,uDAAA,W;AACA;QAAA,kDAAA,W;AACA;QAAA,wDAAA;",
+"sources":["Version.java"],
+"names":["org.patternfly.core.Version.<clinit>"]
+}

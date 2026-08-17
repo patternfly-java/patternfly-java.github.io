@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"JsPropertyMap$$Overlay.js.map",
+"lineCount":79,
+"mappings":"A;;;;;MA8BiB,Q;;QAIsC,kC;EAAAA,mB;EACnDA,4E;;;QAKmD,sE,gBAAUC,C,WAAmBC,C;EAA7BF,mB;EACnDA,IAAiBG,GAAjBH,kF;EACAA,2G;EACAA,W;;;QAKmD,0G,gBAC1CI,E,WAAoBC,E,iBAAWC,E,WAAoBC,E;EADTP,mB;EAEnDA,IAAiBG,GAAjBH,kF;EACAA,6G;EACAA,6G;EACAA,W;;;QAKmD,8I,gBAC1CI,E,WAAoBC,E,iBAAWC,E,WAAoBC,E,iBAAWC,E,WAAoBC,E;EADxCT,mB;EAEnDA,IAAiBG,GAAjBH,kF;EACAA,6G;EACAA,6G;EACAA,6G;EACAA,W;;;QAKkB,gF,oDAAWU,Y;EAAXC,mB;EAClBA,2E;;;QAQuB,sF,oDAAiBC,a;EAAjBC,mB;EACvBA,qD;;;QAIoB,uF,oDAAgBH,Y;EAAhBI,mB;EACpBA,0E;;;QASoB,6F,oDAAsBF,a;EAAtBG,mB;EACpBA,sE;;;QAIc,uE,oDAAWL,Y;EAAXM,mB;EACdA,yD;;;QAIW,uE,oDAAcN,Y;EAAdO,mB;EACXA,qD;;;QAIW,sF,oDAAWP,Y,WAA8BQ,K;EAAzCC,mB;EACXA,yD;;;QAIW,0F,oEAA4BC,E;EAA5BC,mB;EACXA,qC;;;QApFa,O;EAAAC,2B;EAAAA;",
+"sources":["JsPropertyMap.java"],
+"names":["jsinterop.base.JsPropertyMap$$Overlay.of","k","v","map","k1","v1","k2","v2","k3","v3","propertyName","jsinterop.base.JsPropertyMap$$Overlay.get__$devirt","qualifiedName","jsinterop.base.JsPropertyMap$$Overlay.nestedGet__$devirt","jsinterop.base.JsPropertyMap$$Overlay.getAsAny__$devirt","jsinterop.base.JsPropertyMap$$Overlay.nestedGetAsAny__$devirt","jsinterop.base.JsPropertyMap$$Overlay.has__$devirt","jsinterop.base.JsPropertyMap$$Overlay.delete__$devirt","value","jsinterop.base.JsPropertyMap$$Overlay.set__$devirt","cb","jsinterop.base.JsPropertyMap$$Overlay.forEach__$devirt","jsinterop.base.JsPropertyMap$$Overlay.<clinit>"]
+}

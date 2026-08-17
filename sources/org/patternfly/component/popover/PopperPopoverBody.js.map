@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PopperPopoverBody.js.map",
+"lineCount":98,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;MA+Ba,iB;;CAAA,W;EAAAA,Q;EAAAA;OAcI,wDAdJA,C;;;QAKuB,iE;EAAAC,4B;EAC5BA,qC;;;QAUJ,S;EAAAC,4B;EAAAA,wC;EAAAA,4E;EAAAA,iB;;;CAAA,+D;EACIC,u6B;EACAA,qY;;;CAMqB,0D;EACrBC,Y;;;;CAzBK,uC;EAAAA,yE;;;;CAAA,yD;EAAAC,iN;;;;CAAA,wB;EAAAA,0G;;;;CAAA,4E;EAAAA,iN;;;QAAA,O;EAAAC,oC;EAAAA,iC;EAAAA,oC;EAAAA,6B;;;;;;;;;;;;;;;;;;;;AAWkB;kBAAA,sEAAA,Q;AACA;kBAAA,wEAAA;",
+"sources":["PopperPopoverBody.java"],
+"names":["org.patternfly.component.popover.PopperPopoverBody.<synthetic: ctor_js>","org.patternfly.component.popover.PopperPopoverBody.popoverBody","org.patternfly.component.popover.PopperPopoverBody.<synthetic: ctor_create>","org.patternfly.component.popover.PopperPopoverBody.<init>","org.patternfly.component.popover.PopperPopoverBody.that","org.patternfly.component.popover.PopperPopoverBody.text","org.patternfly.component.popover.PopperPopoverBody.<clinit>"]
+}

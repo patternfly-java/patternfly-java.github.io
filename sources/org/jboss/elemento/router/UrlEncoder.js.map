@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"UrlEncoder.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;;MAsBU,U;;CAGC,4C,gBAAcA,K;;CAGd,4C,gBAAcA,K;;QANf,O;EAAAC,6B;EAAAA;",
+"sources":["UrlEncoder.java"],
+"names":["value","org.jboss.elemento.router.UrlEncoder.<clinit>"]
+}

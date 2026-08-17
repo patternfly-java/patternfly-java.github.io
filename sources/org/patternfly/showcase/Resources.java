@@ -1,0 +1,60 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.showcase;
+
+import org.treblereel.j2cl.processors.annotations.GWT3Resource;
+import org.treblereel.j2cl.processors.common.resources.ClientBundle;
+import org.treblereel.j2cl.processors.common.resources.TextResource;
+
+import static elemental2.dom.DomGlobal.btoa;
+
+@GWT3Resource
+public interface Resources extends ClientBundle {
+
+    static String avatarData() {
+        return "data:image/svg+xml;base64," + btoa(ResourcesImpl.INSTANCE.avatar().getText());
+    }
+
+    @Source("avatar.svg")
+    TextResource avatar();
+
+    @Source("charts.json")
+    TextResource charts();
+
+    @Source("components.json")
+    TextResource components();
+
+    @Source("extensions.json")
+    TextResource extensions();
+
+    @Source("files.json")
+    TextResource files();
+
+    @Source("layouts.json")
+    TextResource layouts();
+
+    @Source("pf-logo.svg")
+    TextResource pfLogo();
+
+    @Source("rhcp.json")
+    TextResource rhcp();
+
+    @Source("servers.json")
+    TextResource servers();
+
+    @Source("users.json")
+    TextResource users();
+}

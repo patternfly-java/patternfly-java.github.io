@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"GamepadEventInit$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA0BiB,Q;;QAES,yC;EAAAA,mB;EACtBA,4L;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["GamepadEventInit.java"],
+"names":["elemental2.dom.GamepadEventInit$$Overlay.create","elemental2.dom.GamepadEventInit$$Overlay.<clinit>"]
+}

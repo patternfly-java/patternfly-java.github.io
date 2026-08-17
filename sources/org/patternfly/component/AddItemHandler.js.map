@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AddItemHandler.js.map",
+"lineCount":25,
+"mappings":"A;;;;;;;;;;;;;MA0BiB,c;;CASR,wF,UAAQA,S,WAAaC,I;;QATb,M;EAAAC,yB;EAAAA,mE;;;QAAA,O;EAAAC,iC;EAAAA;",
+"sources":["AddItemHandler.java"],
+"names":["component","item","org.patternfly.component.AddItemHandler.<synthetic: adapt_lambda>","org.patternfly.component.AddItemHandler.<clinit>"]
+}

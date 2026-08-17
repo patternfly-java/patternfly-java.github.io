@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ObjectMethods.js.map",
+"lineCount":29,
+"mappings":"A;;;;;MAgBa,a;;CAAA,W;EAAAA,Q;;;CAEG,uD,iBAAoBC,I;EAChCC,Y;;;QAGM,S;EAAAC,oC;EAAAA,yD;EAAAA,iB;;;CAAA,4C;EAAgBC,qC;;;QANb,O;EAAAC,gC;EAAAA,6B;EAAAA;",
+"sources":["ObjectMethods.java"],
+"names":["java.lang.runtime.ObjectMethods.<synthetic: ctor_js>","args","java.lang.runtime.ObjectMethods.bootstrap","java.lang.runtime.ObjectMethods.<synthetic: ctor_create>","java.lang.runtime.ObjectMethods.<init>","java.lang.runtime.ObjectMethods.<clinit>"]
+}

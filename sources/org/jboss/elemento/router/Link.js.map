@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Link.js.map",
+"lineCount":54,
+"mappings":"A;;;;;;;;;;;;;;MA2Ba,I;;CAAA,W;EAAAA,Q;;;QAoBU,0H,qBAAkBC,Y,iBAAqBC,K,wBAAiBC,M;EAAxDC,e;EACfA,iM;;;QAYe,gG,qBAAkBH,Y,iBAAqBC,K;EAAvCE,e;EACfA,mG;;;QAKJ,iE,qBAAkBH,Y,iBAAqBC,K;EAAvCG,e;EAAAA,2B;EAAAA,qI;EAAAA,iB;;;CAAA,qG,qBAAkBJ,Y,iBAAqBC,K;EACnCI,8T;;;CAMQ,sC;EACRC,Y;;;;CA/CK,+C;EAAAA,qD;;;QAAA,O;EAAAC,uB;EAAAA,oB;EAAAA;",
+"sources":["Link.java"],
+"names":["org.jboss.elemento.router.Link.<synthetic: ctor_js>","placeManager","route","values","org.jboss.elemento.router.Link.link","org.jboss.elemento.router.Link.<synthetic: ctor_create>","org.jboss.elemento.router.Link.<init>","org.jboss.elemento.router.Link.that","org.jboss.elemento.router.Link.<clinit>"]
+}

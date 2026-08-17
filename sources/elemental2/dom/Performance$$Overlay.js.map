@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Performance$$Overlay.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;MA0Ba,Q;;QAoE+B,+J,8CAC/BA,W,mCAAuCC,qB,iBAA8BC,O;EADtCC,mB;EAExCA,8I;;;QAQwC,6I,8CAC/BH,W,mCAAuCC,qB;EADRE,mB;EAExCA,qI;;;QAOwC,uI,8CAC/BH,W,iBAAoBC,qB,iBAA8BC,O;EADnBC,mB;EAExCA,8I;;;QAQwC,qH,8CAC/BH,W,iBAAoBC,qB;EADWE,mB;EAExCA,qI;;;QAnGS,O;EAAAC,2B;EAAAA;",
+"sources":["Performance.java"],
+"names":["measureName","startOrMeasureOptions","endMark","elemental2.dom.Performance$$Overlay.measure__$devirt","elemental2.dom.Performance$$Overlay.<clinit>"]
+}

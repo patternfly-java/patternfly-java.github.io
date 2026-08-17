@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ResizeObserverCallback$$Overlay.js.map",
+"lineCount":15,
+"mappings":"A;;;;;MAwBiB,Q;;QAIU,uJ,2GAA+BA,E,wBAAmBC,E;EAAlDC,mB;EACvBA,0H;;;QALa,O;EAAAC,2B;EAAAA;",
+"sources":["ResizeObserverCallback.java"],
+"names":["p0","p1","elemental2.dom.ResizeObserverCallback$$Overlay.onInvoke__$devirt","elemental2.dom.ResizeObserverCallback$$Overlay.<clinit>"]
+}

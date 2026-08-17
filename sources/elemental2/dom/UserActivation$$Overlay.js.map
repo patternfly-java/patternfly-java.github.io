@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"UserActivation$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEO,uC;EAAAA,mB;EACpBA,0L;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["UserActivation.java"],
+"names":["elemental2.dom.UserActivation$$Overlay.create","elemental2.dom.UserActivation$$Overlay.<clinit>"]
+}

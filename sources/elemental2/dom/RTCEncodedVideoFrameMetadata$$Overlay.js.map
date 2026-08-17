@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCEncodedVideoFrameMetadata$$Overlay.js.map",
+"lineCount":20,
+"mappings":"A;;;;;MA0BiB,Q;;QAmCF,oG,qEAA2CA,mB;EAA3CC,mB;EACXA,yI;;;QAOW,6F,qEAAoCC,Y;EAApCC,mB;EACXA,2H;;;QA5Ca,O;EAAAC,2B;EAAAA;",
+"sources":["RTCEncodedVideoFrameMetadata.java"],
+"names":["contributingSources","elemental2.dom.RTCEncodedVideoFrameMetadata$$Overlay.setContributingSources__$devirt","dependencies","elemental2.dom.RTCEncodedVideoFrameMetadata$$Overlay.setDependencies__$devirt","elemental2.dom.RTCEncodedVideoFrameMetadata$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CustomEventInit$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA0BiB,Q;;QAEwC,wC;EAAAA,mB;EACrDA,8L;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["CustomEventInit.java"],
+"names":["elemental2.dom.CustomEventInit$$Overlay.create","elemental2.dom.CustomEventInit$$Overlay.<clinit>"]
+}

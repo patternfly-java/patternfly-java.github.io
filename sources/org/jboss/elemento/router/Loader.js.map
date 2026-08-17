@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Loader.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;;;;MA0BkB,M;;CAEP,yB;;QAFO,O;EAAAA,yB;EAAAA;",
+"sources":["Loader.java"],
+"names":["org.jboss.elemento.router.Loader.<clinit>"]
+}

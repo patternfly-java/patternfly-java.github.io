@@ -1,0 +1,9 @@
+goog.module('org.patternfly.chart.donut.DonutElement.$Overlay');
+
+goog.require('elemental2.core.JsArray.$Overlay');
+goog.require('nativebootstrap.Util');
+goog.require('org.patternfly.chart.Data.$Overlay');
+
+const $Overlay = goog.require('org.patternfly.chart.donut.DonutElement.$Overlay$impl');
+/** @nodts */
+exports = $Overlay;

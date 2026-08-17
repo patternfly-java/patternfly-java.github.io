@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PanelMain.js.map",
+"lineCount":135,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;MAgCa,S;;CAAA,W;EAAAA,Q;EAAAA;OAcoB,wDAdpBA,C;;;QAMe,qD;EAAAC,oB;EACpBA,6B;;;QASJ,S;EAAAC,oB;EAAAA,gC;EAAAA,kE;EAAAA,iB;;;CAAA,qD;EACIC,u3B;EACAA,2wB;;;CAKW,2C;EACXC,qE;;;CAIW,sC;EACXC,qE;;;CAMa,gD;EACbC,Y;;;;CApCK,uC;EAAAA,+D;;;;CAAA,wD;EAAAC,4M;;;;CAAA,2D;EAAAA,+M;;;;CAAA,mE;EAAAA,uN;;;;CAAA,yD;EAAAC,mM;;;;CAAA,wB;EAAAA,4G;;;;CAAA,iE;EAAAD,4M;;;;CAAA,oE;EAAAA,+M;;;;CAAA,4E;EAAAA,uN;;;;CAAA,kE;EAAAC,mM;;;QAAA,O;EAAAC,4B;EAAAA,yB;EAAAA,4B;EAAAA,mC;EAAAA,8B;;;;;;;;;;;;;;;;;;AAYkB;UAAA,4DAAA,Q;AACA;UAAA,8DAAA;",
+"sources":["PanelMain.java"],
+"names":["org.patternfly.component.panel.PanelMain.<synthetic: ctor_js>","org.patternfly.component.panel.PanelMain.panelMain","org.patternfly.component.panel.PanelMain.<synthetic: ctor_create>","org.patternfly.component.panel.PanelMain.<init>","org.patternfly.component.panel.PanelMain.containerDelegate","org.patternfly.component.panel.PanelMain.textDelegate","org.patternfly.component.panel.PanelMain.that","org.patternfly.component.panel.PanelMain.add","org.patternfly.component.panel.PanelMain.text","org.patternfly.component.panel.PanelMain.<clinit>"]
+}

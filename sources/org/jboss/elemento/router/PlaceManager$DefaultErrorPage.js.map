@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PlaceManager$DefaultErrorPage.js.map",
+"lineCount":61,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;MAqrByB,gB;;CAAA,W;EAAAA,Q;EAAAA;OAEI,iEAFJA,C;;;QAIjB,0D,cAAuBC,K,iBAAcC,K;EAArCC,2B;EAAAA,uC;EAAAA,gJ;EAAAA,iB;;;CAAA,uH,cAAuBF,K,iBAAcC,K;EAAOE,qC;EACxCA,+E;;;CAIyB,0I,cAAeH,K,mBAAiBI,S,oBAAsBC,I;EAC/EC,isF;;;;CAVa,c;EAAAC,oE;;;;CAAA,c;EAAAC,oE;;;QAAA,O;EAAAC,mC;EAAAA,gC;EAAAA,qB;EAAAA;",
+"sources":["PlaceManager.java"],
+"names":["org.jboss.elemento.router.PlaceManager$DefaultErrorPage.<synthetic: ctor_js>","place","error","org.jboss.elemento.router.PlaceManager$DefaultErrorPage.<synthetic: ctor_create>","org.jboss.elemento.router.PlaceManager$DefaultErrorPage.<init>","parameter","data","org.jboss.elemento.router.PlaceManager$DefaultErrorPage.elements","org.jboss.elemento.router.PlaceManager$DefaultErrorPage.attach","org.jboss.elemento.router.PlaceManager$DefaultErrorPage.detach","org.jboss.elemento.router.PlaceManager$DefaultErrorPage.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Event$$Overlay.js.map",
+"lineCount":40,
+"mappings":"A;;;;;MAyBa,Q;;YAMwB,0C;EAAAA,uF;;;YACA,+C;EAAAA,4F;;;YACA,gD;EAAAA,6F;;;QARxB,O;EAAAC,2B;EAAAA,wB;EAMwBA,4E;EACAA,sF;EACAA,wF;;;;;;;;;;AARxB;SAMwB,gDANxB,K;AAAA;SAOwB,qDAPxB,K;AAAA;SAQwB,sDARxB;",
+"sources":["Event.java"],
+"names":["elemental2.dom.Event$$Overlay.<synthetic: getter>","elemental2.dom.Event$$Overlay.<clinit>"]
+}

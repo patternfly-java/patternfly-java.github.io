@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PrimitiveLists.js.map",
+"lineCount":56,
+"mappings":"A;;;;;;;;;;;;;;;;MAuBmB,c;;CAAA,W;EAAAA,Q;;;QAEE,sD;EAAAC,yB;EACjBA,6G;;;QA0BgB,oD;EAAAC,yB;EAChBA,4G;;;QA0BiB,sD;EAAAC,yB;EACjBA,6G;;;QA0BmB,0D;EAAAC,yB;EACnBA,+G;;;QA0BM,S;EAAAC,qC;EAAAA,0D;EAAAA,iB;;;CAAA,6C;EAAiBC,qC;;;QA9GR,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["PrimitiveLists.java"],
+"names":["javaemul.internal.PrimitiveLists.<synthetic: ctor_js>","javaemul.internal.PrimitiveLists.createForByte","javaemul.internal.PrimitiveLists.createForInt","javaemul.internal.PrimitiveLists.createForLong","javaemul.internal.PrimitiveLists.createForDouble","javaemul.internal.PrimitiveLists.<synthetic: ctor_create>","javaemul.internal.PrimitiveLists.<init>","javaemul.internal.PrimitiveLists.<clinit>"]
+}

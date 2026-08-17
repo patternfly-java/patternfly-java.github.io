@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PageNavigation.js.map",
+"lineCount":75,
+"mappings":"A;;;;;;;;;;;;;;;;MA8Ba,c;;CAAA,W;EAAAA,Q;;;QAOoB,8D;EAAAC,yB;EACzBA,kC;;;QAQJ,S;EAAAC,yB;EAAAA,qC;EAAAA,sE;EAAAA,iB;;;CAAA,yD;EACIC,k4B;;;CAKkB,6G,mBAAyBC,U;EAC3CC,uJ;;;CAMkB,oD;EAClBC,Y;;;;CA9BK,uC;EAAAA,mE;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA,6B;;;;;;;;;;;;;;;;;AAakB;eAAA,gEAAA,Q;AACA;eAAA,kEAAA;",
+"sources":["PageNavigation.java"],
+"names":["org.patternfly.component.page.PageNavigation.<synthetic: ctor_js>","org.patternfly.component.page.PageNavigation.pageNavigation","org.patternfly.component.page.PageNavigation.<synthetic: ctor_create>","org.patternfly.component.page.PageNavigation.<init>","navigation","org.patternfly.component.page.PageNavigation.addNavigation","org.patternfly.component.page.PageNavigation.that","org.patternfly.component.page.PageNavigation.<clinit>"]
+}

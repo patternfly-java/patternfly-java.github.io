@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HTMLOptionsCollection$AddElementUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAsDmB,Q;;QAE4C,gF,UAAoBA,C;EAApBC,mB;EACzDA,yE;;;QAIoC,8H;EAAAC,mB;EACpCA,4I;;;QAIkC,0H;EAAAC,mB;EAClCA,wI;;;QAIc,mG;EAAAC,mB;EACdA,0D;;;QAIc,iG;EAAAC,mB;EACdA,wD;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["HTMLOptionsCollection.java"],
+"names":["o","elemental2.dom.HTMLOptionsCollection$AddElementUnionType$$Overlay.of","elemental2.dom.HTMLOptionsCollection$AddElementUnionType$$Overlay.asHTMLOptGroupElement__$devirt","elemental2.dom.HTMLOptionsCollection$AddElementUnionType$$Overlay.asHTMLOptionElement__$devirt","elemental2.dom.HTMLOptionsCollection$AddElementUnionType$$Overlay.isHTMLOptGroupElement__$devirt","elemental2.dom.HTMLOptionsCollection$AddElementUnionType$$Overlay.isHTMLOptionElement__$devirt","elemental2.dom.HTMLOptionsCollection$AddElementUnionType$$Overlay.<clinit>"]
+}

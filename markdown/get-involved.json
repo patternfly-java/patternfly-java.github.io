@@ -1,0 +1,32 @@
+{
+  "id": "get-involved",
+  "title": "Get involved",
+  "html": "<h1 id=\"get-involved\" class=\"pf-v6-c-title pf-m-4xl\">Get involved</h1>\n<p>PatternFly Java is an open source project, and we welcome contributions of all kinds. Whether you want to report a bug, suggest a feature, or contribute code, there are many ways to get involved.</p>\n<h2 id=\"report-bugs\" class=\"pf-v6-c-title pf-m-2xl\">Report Bugs</h2>\n<p>Found something that doesn't work as expected? Open an issue on <a href=\"https://github.com/patternfly-java/patternfly-java/issues\">GitHub Issues</a>. Please include:</p>\n<ul>\n<li>A clear description of the problem</li>\n<li>Steps to reproduce the issue</li>\n<li>The expected vs. actual behavior</li>\n<li>Your environment (Java version, GWT or J2CL, browser)</li>\n</ul>\n<h2 id=\"request-features\" class=\"pf-v6-c-title pf-m-2xl\">Request Features</h2>\n<p>Have an idea for a new component or improvement? Start a conversation in <a href=\"https://github.com/orgs/patternfly-java/discussions\">GitHub Discussions</a> or open an issue with the <code>enhancement</code> label.</p>\n<h2 id=\"contribute-code\" class=\"pf-v6-c-title pf-m-2xl\">Contribute Code</h2>\n<p>We'd love your help! Check out the <a href=\"https://github.com/patternfly-java/patternfly-java/blob/main/CONTRIBUTING.md\">contributing guide</a> to get started. Good first contributions include:</p>\n<ul>\n<li>Adding missing component variations</li>\n<li>Improving documentation and examples</li>\n<li>Writing tests</li>\n<li>Fixing bugs from the issue tracker</li>\n</ul>\n<h2 id=\"join-the-discussion\" class=\"pf-v6-c-title pf-m-2xl\">Join the Discussion</h2>\n<p>Connect with the community:</p>\n<ul>\n<li><strong><a href=\"https://github.com/orgs/patternfly-java/discussions\">GitHub Discussions</a></strong> — Ask questions, share ideas, and discuss the project</li>\n<li><strong><a href=\"https://app.gitter.im/#/room/#pf4-java_core:gitter.im\">Gitter</a></strong> — Chat with the community in real time</li>\n<li><strong><a href=\"https://github.com/patternfly-java/patternfly-java/issues\">GitHub Issues</a></strong> — Track bugs and feature requests</li>\n</ul>\n<h2 id=\"stay-updated\" class=\"pf-v6-c-title pf-m-2xl\">Stay Updated</h2>\n<ul>\n<li>Watch the <a href=\"https://github.com/patternfly-java/patternfly-java\">GitHub repository</a> for releases and updates</li>\n<li>Check the <a href=\"https://github.com/patternfly-java/patternfly-java/blob/main/CHANGELOG.md\">changelog</a> for recent changes</li>\n</ul>\n<p>If you like what you're seeing, leave us a star on <a href=\"https://github.com/patternfly-java/patternfly-java\">GitHub</a>!</p>",
+  "toc": [
+    {
+      "id": "report-bugs",
+      "text": "Report Bugs",
+      "level": 2
+    },
+    {
+      "id": "request-features",
+      "text": "Request Features",
+      "level": 2
+    },
+    {
+      "id": "contribute-code",
+      "text": "Contribute Code",
+      "level": 2
+    },
+    {
+      "id": "join-the-discussion",
+      "text": "Join the Discussion",
+      "level": 2
+    },
+    {
+      "id": "stay-updated",
+      "text": "Stay Updated",
+      "level": 2
+    }
+  ]
+}

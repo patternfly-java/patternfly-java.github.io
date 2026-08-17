@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DrawerContent.js.map",
+"lineCount":82,
+"mappings":"A;;;;;;;;;;;;;;;;;;MA4Ba,a;;CAAA,W;EAAAA,Q;;;QAImB,8D;EAAAC,wB;EACxBA,iC;;;QAQJ,S;EAAAC,wB;EAAAA,oC;EAAAA,uE;EAAAA,iB;;;CAAA,0D;EACIC,+4B;;;CAKiB,oG,mBAAmBC,I;EACpCC,+I;;;CAKiB,mG,oBAAkBC,K;EACnCC,qQ;;;CAIiB,qD;EACjBC,Y;;;;CA/BK,uC;EAAAA,oE;;;QAAA,O;EAAAC,gC;EAAAA,6B;EAAAA,6B;;;;;;;;;;;;;;;;;;AAUkB;cAAA,iEAAA,Q;AACA;cAAA,mEAAA;",
+"sources":["DrawerContent.java"],
+"names":["org.patternfly.component.drawer.DrawerContent.<synthetic: ctor_js>","org.patternfly.component.drawer.DrawerContent.drawerContent","org.patternfly.component.drawer.DrawerContent.<synthetic: ctor_create>","org.patternfly.component.drawer.DrawerContent.<init>","body","org.patternfly.component.drawer.DrawerContent.addBody","color","org.patternfly.component.drawer.DrawerContent.color","org.patternfly.component.drawer.DrawerContent.that","org.patternfly.component.drawer.DrawerContent.<clinit>"]
+}

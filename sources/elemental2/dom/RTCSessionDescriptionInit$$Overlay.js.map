@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCSessionDescriptionInit$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEkB,kD;EAAAA,mB;EAC/BA,qM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["RTCSessionDescriptionInit.java"],
+"names":["elemental2.dom.RTCSessionDescriptionInit$$Overlay.create","elemental2.dom.RTCSessionDescriptionInit$$Overlay.<clinit>"]
+}

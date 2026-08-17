@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Number$__ParseLong.js.map",
+"lineCount":82,
+"mappings":"A;;;;;;;;;;;;;MAyCe,a;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,wB;EAAAA,oC;EAAAA,sD;EAAAA,iB;;;CAAA,yC;EAAAC,qC;;;YAMgB,kD;EAAAC,yG;;;YAyCA,oD;EAAAA,2G;;;YAMA,kD;EAAAA,yG;;;YAyCC,iD;EAAAA,wG;;;QA9FjB,O;EAAAC,gC;EAAAA,6B;EAAAA,qB;EAMgBA,4P;EAyCAA,uI;EAMAA,wR;EAyCCA,qI;EAG1BA,SAASC,CAATD;GACEA,4NADFA;GAEEA,iQAFFA;G;;;;;;;;;;;;;;;;;AAjGS;cAMgB,wDANhB,C;AAAA;cA+CgB,0DA/ChB,C;AAAA;cAqDgB,wDArDhB,C;AAAA;cA8FiB,uDA9FjB;",
+"sources":["Number.java"],
+"names":["java.lang.Number$__ParseLong.<synthetic: ctor_js>","java.lang.Number$__ParseLong.<synthetic: ctor_create>","java.lang.Number$__ParseLong.<init>","java.lang.Number$__ParseLong.<synthetic: getter>","java.lang.Number$__ParseLong.<clinit>","i"]
+}

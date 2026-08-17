@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AsyncDisposableStack$UseUnionType$$Overlay.js.map",
+"lineCount":25,
+"mappings":"A;;;;;MAwDmB,Q;;QAEoC,yE,UAAoBA,C;EAApBC,mB;EACjDA,yE;;;QAIgC,gH;EAAAC,mB;EAChCA,8F;;;QAI2B,sG;EAAAC,mB;EAC3BA,yF;;;QAba,O;EAAAC,2B;EAAAA;",
+"sources":["AsyncDisposableStack.java"],
+"names":["o","elemental2.core.AsyncDisposableStack$UseUnionType$$Overlay.of","elemental2.core.AsyncDisposableStack$UseUnionType$$Overlay.asAsyncDisposable__$devirt","elemental2.core.AsyncDisposableStack$UseUnionType$$Overlay.asDisposable__$devirt","elemental2.core.AsyncDisposableStack$UseUnionType$$Overlay.<clinit>"]
+}

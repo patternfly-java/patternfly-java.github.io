@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCRtpContributingSource$$Overlay.js.map",
+"lineCount":20,
+"mappings":"A;;;;;MA0BiB,Q;;QAkEF,8F,wDAAoBA,S;EAApBC,mB;EACXA,wG;;;QAKW,8E,0DAAoBD,S;EAApBC,mB;EACXA,wG;;;QAzEa,O;EAAAC,2B;EAAAA;",
+"sources":["RTCRtpContributingSource.java"],
+"names":["timestamp","elemental2.dom.RTCRtpContributingSource$$Overlay.setTimestamp__$devirt","elemental2.dom.RTCRtpContributingSource$$Overlay.<clinit>"]
+}

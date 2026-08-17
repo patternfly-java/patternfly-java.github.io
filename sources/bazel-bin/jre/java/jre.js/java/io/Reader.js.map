@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Reader.js.map",
+"lineCount":92,
+"mappings":"A;;;;;;;;;;;;;;;;MAkBsB,M;;CAAA,W;EAAAA,Q;;;CAAA,2B;EAAAC,qC;;;CAKC,a;;CAST,iB,eAASC,c;EACnBC,gJ;;;CAIa,wB;EACbC,a;;;CAIS,W;EACTC,IAAOC,GAAPD,6D;EACAA,+D;;;CAIS,yB,sBAAYE,G;EACrBF,oE;;;CAOkB,mC,sBAAYE,G,gBAASC,G,gBAASC,G;;CAGnC,gB;EACbC,a;;;CAIU,a;EACVC,gJ;;;CAIU,kB,eAAUC,C;EACpBC,IAAKC,SAALD,K;EACAA,IAAIE,UAAJF,wG;EACAA,IAAOG,UAAPH,sE;EACAA;GACEA,IAAKI,OAALJ,uJADFA;GAEEA;IACEA,MADFA;IAFFA;GAKEA,iDALFA;G;EAOAA,sC;;;QA9DkB,O;EAAAK,yB;EAAAA,sB;EAAAA,qB;;;;;;;;;;;;;;;;;;AAEK;OAAA,uCAAA;",
+"sources":["Reader.java"],
+"names":["java.io.Reader.<synthetic: ctor_js>","java.io.Reader.<init>","readAheadLimit","java.io.Reader.mark","java.io.Reader.markSupported","java.io.Reader.read","chr","buf","off","len","java.io.Reader.ready","java.io.Reader.reset","n","java.io.Reader.skip","remaining","bufferSize","skipBuffer","numRead","java.io.Reader.<clinit>"]
+}

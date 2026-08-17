@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Window$FrameElementUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAsEmB,Q;;QAE+B,mE,UAAoBA,C;EAApBC,mB;EAC5CA,yE;;;QAIkC,6G;EAAAC,mB;EAClCA,wI;;;QAIkC,6G;EAAAC,mB;EAClCA,wI;;;QAIc,oF;EAAAC,mB;EACdA,wD;;;QAIc,oF;EAAAC,mB;EACdA,wD;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["Window.java"],
+"names":["o","elemental2.dom.Window$FrameElementUnionType$$Overlay.of","elemental2.dom.Window$FrameElementUnionType$$Overlay.asHTMLIFrameElement__$devirt","elemental2.dom.Window$FrameElementUnionType$$Overlay.asHTMLObjectElement__$devirt","elemental2.dom.Window$FrameElementUnionType$$Overlay.isHTMLIFrameElement__$devirt","elemental2.dom.Window$FrameElementUnionType$$Overlay.isHTMLObjectElement__$devirt","elemental2.dom.Window$FrameElementUnionType$$Overlay.<clinit>"]
+}

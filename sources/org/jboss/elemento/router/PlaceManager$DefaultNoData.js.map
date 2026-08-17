@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PlaceManager$DefaultNoData.js.map",
+"lineCount":59,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;MAsqByB,a;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,wB;EAAAA,oC;EAAAA,8E;EAAAA,iB;;;CAAA,iE;EAAAC,qC;;;CAGY,0I,cAAeC,K,mBAAiBC,S,oBAAsBC,I;EAC/EC,IAAOC,KAAPD,6H;EACAA,+nF;;;;CALa,c;EAAAE,oE;;;;CAAA,c;EAAAC,oE;;;QAAA,O;EAAAC,gC;EAAAA,6B;EAAAA,qB;EAAAA;",
+"sources":["PlaceManager.java"],
+"names":["org.jboss.elemento.router.PlaceManager$DefaultNoData.<synthetic: ctor_js>","org.jboss.elemento.router.PlaceManager$DefaultNoData.<synthetic: ctor_create>","org.jboss.elemento.router.PlaceManager$DefaultNoData.<init>","place","parameter","data","org.jboss.elemento.router.PlaceManager$DefaultNoData.elements","error","org.jboss.elemento.router.PlaceManager$DefaultNoData.attach","org.jboss.elemento.router.PlaceManager$DefaultNoData.detach","org.jboss.elemento.router.PlaceManager$DefaultNoData.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PreviewHandler.js.map",
+"lineCount":23,
+"mappings":"A;;;;;;;;;;;MAmBiB,c;;CAER,4G,mBAAqBA,I,uBAAoBC,O;;QAFjC,M;EAAAC,yB;EAAAA,8B;;;QAAA,O;EAAAC,iC;EAAAA;",
+"sources":["PreviewHandler.java"],
+"names":["item","preview","org.patternfly.extension.finder.PreviewHandler.<synthetic: adapt_lambda>","org.patternfly.extension.finder.PreviewHandler.<clinit>"]
+}

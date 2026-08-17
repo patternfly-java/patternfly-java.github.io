@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CheckboxBody.js.map",
+"lineCount":98,
+"mappings":"A;;;;;;;;;;;;;;;;;;MA4Ba,Y;;CAAA,W;EAAAA,Q;;;QAKkB,0D;EAAAC,uB;EACvBA,oD;;;QAGuB,4E,gBAAoBC,I;EAApBD,uB;EACvBA,oD;;;QAQJ,yB,gBAAoBC,I;EAApBC,uB;EAAAA,mC;EAAAA,0F;EAAAA,iB;;;CAAA,yE,gBAAoBD,I;EAChBE,60B;EACAA;GACIA,gEADJA;G;;;CAQgB,kD;EAChBC,Y;;;;CA7BK,uC;EAAAA,iE;;;;CAAA,yD;EAAAC,uM;;;;CAAA,wB;EAAAA,0G;;;;CAAA,oE;EAAAA,uM;;;QAAA,O;EAAAC,+B;EAAAA,4B;EAAAA,+B;EAAAA,6B;;;;;;;;;;;;;;;;;;AAekB;aAAA,8DAAA,S;AACA;aAAA,gEAAA;",
+"sources":["CheckboxBody.java"],
+"names":["org.patternfly.component.form.CheckboxBody.<synthetic: ctor_js>","org.patternfly.component.form.CheckboxBody.checkboxBody","text","org.patternfly.component.form.CheckboxBody.<synthetic: ctor_create>","org.patternfly.component.form.CheckboxBody.<init>","org.patternfly.component.form.CheckboxBody.that","org.patternfly.component.form.CheckboxBody.text","org.patternfly.component.form.CheckboxBody.<clinit>"]
+}

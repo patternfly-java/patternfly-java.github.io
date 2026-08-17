@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TypeDescriptor.js.map",
+"lineCount":26,
+"mappings":"A;;;;;MAgBM,c;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,yB;EAAAA,qC;EAAAA,yD;EAAAA,iB;;;CAAA,4C;EAAAC,qC;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["TypeDescriptor.java"],
+"names":["java.lang.invoke.TypeDescriptor.<synthetic: ctor_js>","java.lang.invoke.TypeDescriptor.<synthetic: ctor_create>","java.lang.invoke.TypeDescriptor.<init>","java.lang.invoke.TypeDescriptor.<clinit>"]
+}

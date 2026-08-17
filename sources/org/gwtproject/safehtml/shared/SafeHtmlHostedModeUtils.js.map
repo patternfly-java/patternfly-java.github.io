@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SafeHtmlHostedModeUtils.js.map",
+"lineCount":67,
+"mappings":"A;;;;;;;MA2Ba,uB;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,kC;EAAAA,8C;EAAAA,gF;EAAAA,iB;;;CAAA,mE;EAAAC,qC;;;QA4CW,2C,gBAAsBC,I;EAAtBC,kC;EACpBA,iJ;;;QAwBiB,gD,gBAA8BD,I;EAA9BE,kC;EACjBA,+I;;;QASiB,0C,gBAAkCC,K;EAAlCC,kC;EACjBA,kH;;;QAciB,6C;EAAAC,kC;EACjBA,uP;;;QA/FS,O;EAAAC,0C;EAAAA,uC;EAAAA,qB;EASkBA,8G;EAI3BA,wE;;;;;;;;;;;;AAPyB;wBAAA,mFAAA,oD;AANhB;wBASkB,+DATlB,C;AAAA;wBAUY,iFAVZ;",
+"sources":["SafeHtmlHostedModeUtils.java"],
+"names":["org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.<synthetic: ctor_js>","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.<synthetic: ctor_create>","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.<init>","html","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.isCompleteHtml","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.maybeCheckCompleteHtml","check","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.setForceCheckCompleteHtml","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.setForceCheckCompleteHtmlFromProperty","org.gwtproject.safehtml.shared.SafeHtmlHostedModeUtils.<clinit>"]
+}

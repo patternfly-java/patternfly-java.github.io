@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DoubleStream$2.js.map",
+"lineCount":70,
+"mappings":"A;;;;;;;;;;;;;;MA4FQ,E;;CAAA,W;EAAAA,Q;EAAAA;OACuB,uCADvBA,C;EAAAA;OAAA,+DAAAA,C;;;QAA8D,yC;EAAAC,a;EAAAA,yB;EAAAA,gJ;EAAAA,iB;;;CAAA,8E;EAH9BC,sG;EAG8BC,qG;;;CAI7C,wD,uBAA0BC,M;EAEvCC;GAEEA;IACEA,YADFA;;IAIEA,oDAJFA;IAFFA;G;EASAA,a;;;CAGc,sE;EACdC;GACEA,uJACIC,CADJD;IACIE,IAAAD,GAAAC,wEADJF;IAEME;KACEA,kIADFA;KAFNF;;IAMEA,aANFA;IADFA;G;EAUAA,Y;;;;CA7BJ,uC;EAAAD,6J;;;QAAA,O;EAAAI,qB;EAAAA,kB;EAAAA;",
+"sources":["DoubleStream.java"],
+"names":["java.util.stream.DoubleStream$2.<synthetic: ctor_js>","java.util.stream.DoubleStream$2.<synthetic: ctor_create>","spliteratorOfStreams","java.util.stream.DoubleStream$2.<init>","action","java.util.stream.DoubleStream$2.tryAdvance","java.util.stream.DoubleStream$2.advanceToNextSpliterator","n","java.util.stream.DoubleStream$2.<lambda in advanceToNextSpliterator>","java.util.stream.DoubleStream$2.<clinit>"]
+}

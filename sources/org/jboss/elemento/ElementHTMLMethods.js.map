@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementHTMLMethods.js.map",
+"lineCount":36,
+"mappings":"A;;;;;;;;;;;;;;;;MAyBiB,kB;;CASH,gF,iBAAcA,I;;CAUP,+C;;QAVP,iI,4DAAcA,I;EAAdC,6B;EACNA,uK;EACAA,0D;;;QAQa,gG;EAAAA,6B;EACbA,+K;;;QApBS,O;EAAAC,qC;EAAAA;",
+"sources":["ElementHTMLMethods.java"],
+"names":["html","org.jboss.elemento.ElementHTMLMethods.html__$default","org.jboss.elemento.ElementHTMLMethods.<clinit>"]
+}

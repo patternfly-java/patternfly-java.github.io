@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Record.js.map",
+"lineCount":22,
+"mappings":"A;;;;;;;;MAoBsB,M;;CAAA,W;EAAAA,Q;;;CAAA,6B;EAAAC,gD;;;QAAA,O;EAAAC,yB;EAAAA,sB;EAAAA;",
+"sources":["Record.java"],
+"names":["java.lang.Record.<synthetic: ctor_js>","java.lang.Record.<init>","java.lang.Record.<clinit>"]
+}

@@ -1,0 +1,37 @@
+goog.module('org.patternfly.component.notification.NotificationDrawerItem');
+
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLHeadingElement.$Overlay');
+goog.require('elemental2.dom.HTMLLIElement.$Overlay');
+goog.require('elemental2.dom.MouseEvent.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.ArrayList');
+goog.require('java.util.HashMap');
+goog.require('java.util.List');
+goog.require('java.util.Map');
+goog.require('java.util.function.Consumer');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.EventType');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.jboss.elemento.Id');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.HasIdentifier');
+goog.require('org.patternfly.component.Severity');
+goog.require('org.patternfly.component.menu.Dropdown');
+goog.require('org.patternfly.component.notification.NotificationDrawerItemBody');
+goog.require('org.patternfly.component.notification.NotificationDrawerSubComponent');
+goog.require('org.patternfly.core.Attributes');
+goog.require('org.patternfly.core.ComponentContext');
+goog.require('org.patternfly.core.Dataset');
+goog.require('org.patternfly.handler.ComponentHandler');
+goog.require('org.patternfly.style.Classes');
+goog.require('org.patternfly.style.Modifiers');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const NotificationDrawerItem = goog.require('org.patternfly.component.notification.NotificationDrawerItem$impl');
+exports = NotificationDrawerItem;

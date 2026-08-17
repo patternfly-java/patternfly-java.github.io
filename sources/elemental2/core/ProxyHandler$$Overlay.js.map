@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ProxyHandler$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA4BiB,Q;;QAiX+C,sC;EAAAA,mB;EAC5DA,gM;;;QAlXa,O;EAAAC,2B;EAAAA;",
+"sources":["ProxyHandler.java"],
+"names":["elemental2.core.ProxyHandler$$Overlay.create","elemental2.core.ProxyHandler$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Resources.js.map",
+"lineCount":43,
+"mappings":"A;;;;;;;;;;;;;MAwBiB,S;;QAEC,8B;EAAAA,oB;EACVA,yR;;;CAIS,sE;;CAGA,sE;;CAGA,0E;;CAGA,0E;;CAGA,qE;;CAGA,uE;;CAGA,sE;;CAGA,oE;;CAGA,uE;;CAGA,qE;;QAlCA,O;EAAAC,4B;EAAAA;",
+"sources":["Resources.java"],
+"names":["org.patternfly.showcase.Resources.avatarData","org.patternfly.showcase.Resources.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Navigator$$Overlay.js.map",
+"lineCount":37,
+"mappings":"A;;;;;;;MA2Ba,Q;;QAsGO,wH,4CAA+BA,M,iBAAeC,G,iBAAYC,K;EAA1DC,mB;EAChBA,8H;;;QAKgB,0H,4CAA+BH,M,aAAYC,G,iBAAYC,K;EAAvDC,mB;EAChBA,8H;;;QAQyC,kK,4CAChCC,S,4CAAyCC,uB;EADTC,mB;EAEzCA,0L;;;QAoBgB,wG,4CAAiCN,M,iBAAeC,G;EAAhDM,mB;EAChBA,yH;;;QAKgB,0G,4CAAiCP,M,aAAYC,G;EAA7CM,mB;EAChBA,yH;;;QAlJS,O;EAAAC,2B;EAAAA;",
+"sources":["Navigator.java"],
+"names":["scheme","url","title","elemental2.dom.Navigator$$Overlay.registerProtocolHandler__$devirt","keySystem","supportedConfigurations","elemental2.dom.Navigator$$Overlay.requestMediaKeySystemAccess__$devirt","elemental2.dom.Navigator$$Overlay.unregisterProtocolHandler__$devirt","elemental2.dom.Navigator$$Overlay.<clinit>"]
+}

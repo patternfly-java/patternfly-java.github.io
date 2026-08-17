@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Retention.js.map",
+"lineCount":18,
+"mappings":"A;;;;;;;;;;;MAwBkB,S;;CACA,6C;;QADA,O;EAAAA,4B;EAAAA;",
+"sources":["Retention.java"],
+"names":["java.lang.annotation.Retention.<clinit>"]
+}

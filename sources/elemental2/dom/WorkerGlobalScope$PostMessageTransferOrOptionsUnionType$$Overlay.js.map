@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"WorkerGlobalScope$PostMessageTransferOrOptionsUnionType$$Overlay.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;MAqFmB,Q;;QAEgD,8F,UAAUA,C;EAAVC,mB;EAC7DA,yE;;;QAI4B,qH;EAAAC,mB;EAC5BA,gI;;;QAIiC,0J;EAAAC,mB;EACjCA,yG;;;QAIc,qG;EAAAC,mB;EACdA,8C;;;QAlBa,O;EAAAC,2B;EAAAA;",
+"sources":["WorkerGlobalScope.java"],
+"names":["o","elemental2.dom.WorkerGlobalScope$PostMessageTransferOrOptionsUnionType$$Overlay.of","elemental2.dom.WorkerGlobalScope$PostMessageTransferOrOptionsUnionType$$Overlay.asJsArray__$devirt","elemental2.dom.WorkerGlobalScope$PostMessageTransferOrOptionsUnionType$$Overlay.asStructuredSerializeOptions__$devirt","elemental2.dom.WorkerGlobalScope$PostMessageTransferOrOptionsUnionType$$Overlay.isJsArray__$devirt","elemental2.dom.WorkerGlobalScope$PostMessageTransferOrOptionsUnionType$$Overlay.<clinit>"]
+}

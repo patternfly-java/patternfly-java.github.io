@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Path.js.map",
+"lineCount":50,
+"mappings":"A;;;;;;;;;MAiBM,I;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,e;EAAAA,2B;EAAAA,wD;EAAAA,iB;;;CAAA,2C;EAAAC,qC;;;QAEY,+C,gBAAiBC,I;EAAjBC,e;EACVA;GACIA,IAAOC,UAAPD,iKADJA;GAEIA,4TAFJA;G;EAMAA,Y;;;QAGY,mD,gBAAaD,I;EAAbG,e;EACZA;GACIA,IAAOC,iBAAPD,kIADJA;GAEIA;IACIA,gHADJA;IAFJA;G;EAMAA,uE;;;QAnBF,O;EAAAE,uB;EAAAA,oB;EAAAA;",
+"sources":["Path.java"],
+"names":["org.jboss.elemento.router.Path.<synthetic: ctor_js>","org.jboss.elemento.router.Path.<synthetic: ctor_create>","org.jboss.elemento.router.Path.<init>","path","org.jboss.elemento.router.Path.normalize","normalized","org.jboss.elemento.router.Path.split","normalizedNoSlash","org.jboss.elemento.router.Path.<clinit>"]
+}

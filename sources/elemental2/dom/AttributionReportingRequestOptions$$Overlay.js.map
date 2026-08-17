@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AttributionReportingRequestOptions$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAE2B,2D;EAAAA,mB;EACxCA,8M;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["AttributionReportingRequestOptions.java"],
+"names":["elemental2.dom.AttributionReportingRequestOptions$$Overlay.create","elemental2.dom.AttributionReportingRequestOptions$$Overlay.<clinit>"]
+}

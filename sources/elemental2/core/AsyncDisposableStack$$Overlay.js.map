@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AsyncDisposableStack$$Overlay.js.map",
+"lineCount":22,
+"mappings":"A;;;;;;;MA0Ba,Q;;QA2D8C,wI,+DAAoBA,U;EAApBC,mB;EACvDA,yG;;;QAIuD,mI,0DAAeD,U;EAAfC,mB;EACvDA,yG;;;QAjES,O;EAAAC,2B;EAAAA;",
+"sources":["AsyncDisposableStack.java"],
+"names":["disposable","elemental2.core.AsyncDisposableStack$$Overlay.use__$devirt","elemental2.core.AsyncDisposableStack$$Overlay.<clinit>"]
+}

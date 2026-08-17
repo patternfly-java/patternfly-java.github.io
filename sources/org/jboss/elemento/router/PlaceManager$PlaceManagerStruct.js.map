@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PlaceManager$PlaceManagerStruct.js.map",
+"lineCount":50,
+"mappings":"A;;;;;;;;;;;;MAunByB,kB;;CAAA,W;EAAAA,Q;EAAAA;OAEH,mEAFGA,C;EAAAA;OAGC,uEAHDA,C;EAAAA;OAIE,kEAJFA,C;EAAAA;OAKJ,kEALIA,C;EAAAA;OAMC,uEANDA,C;;;QAQjB,S;EAAAC,6B;EAAAA,yC;EAAAA,mF;EAAAA,iB;;;CAAA,sE;EAAqBC,qC;EACjBA,sI;EACAA,kI;EACAA,sJ;;;CAGI,2C;EACJC,6K;;;QAfa,O;EAAAC,qC;EAAAA,kC;EAAAA;",
+"sources":["PlaceManager.java"],
+"names":["org.jboss.elemento.router.PlaceManager$PlaceManagerStruct.<synthetic: ctor_js>","org.jboss.elemento.router.PlaceManager$PlaceManagerStruct.<synthetic: ctor_create>","org.jboss.elemento.router.PlaceManager$PlaceManagerStruct.<init>","org.jboss.elemento.router.PlaceManager$PlaceManagerStruct.ok","org.jboss.elemento.router.PlaceManager$PlaceManagerStruct.<clinit>"]
+}

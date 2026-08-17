@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DoubleToIntFunction.js.map",
+"lineCount":21,
+"mappings":"A;;;;;;;;;MAuBiB,mB;;CAEX,yB,eAAkBA,K;;QAFP,M;EAAAC,8B;EAAAA,8B;;;QAAA,O;EAAAC,sC;EAAAA;",
+"sources":["DoubleToIntFunction.java"],
+"names":["value","java.util.function.DoubleToIntFunction.<synthetic: adapt_lambda>","java.util.function.DoubleToIntFunction.<clinit>"]
+}

@@ -1,0 +1,91 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.component;
+
+import org.jboss.elemento.ElementAttributeMethods;
+import org.jboss.elemento.ElementClassListMethods;
+import org.jboss.elemento.ElementConsumerMethods;
+import org.jboss.elemento.ElementContainerMethods;
+import org.jboss.elemento.ElementEventMethods;
+import org.jboss.elemento.ElementIdMethods;
+import org.jboss.elemento.ElementQueryMethods;
+import org.jboss.elemento.HTMLElementAttributeMethods;
+import org.jboss.elemento.HTMLElementDataMethods;
+import org.jboss.elemento.HTMLElementStyleMethods;
+import org.jboss.elemento.HTMLElementVisibilityMethods;
+import org.jboss.elemento.TypedBuilder;
+import org.patternfly.core.OuiaSupport;
+
+import elemental2.dom.HTMLElement;
+
+import static java.util.Objects.requireNonNull;
+
+/**
+ * Base class for components that delegate to a lazily assigned root element. Used when the actual DOM element is not
+ * known at construction time but is determined later via {@link #delegateTo(HTMLElement)}.
+ */
+public abstract class ComponentDelegate<E extends HTMLElement, B extends TypedBuilder<E, B>> implements
+        Component,
+        OuiaSupport<E, B>,
+        ElementAttributeMethods<E, B>,
+        ElementClassListMethods<E, B>,
+        ElementContainerMethods<E, B>,
+        ElementConsumerMethods<E, B>,
+        ElementEventMethods<E, B>,
+        ElementIdMethods<E, B>,
+        ElementQueryMethods<E>,
+        HTMLElementAttributeMethods<E, B>,
+        HTMLElementDataMethods<E, B>,
+        HTMLElementStyleMethods<E, B>,
+        HTMLElementVisibilityMethods<E, B> {
+
+    private final ComponentType componentType;
+    E delegate;
+
+    protected ComponentDelegate(ComponentType componentType) {
+        this.componentType = requireNonNull(componentType, "component type required");
+    }
+
+    protected void delegateTo(E delegate) {
+        this.delegate = delegate;
+        initOuia();
+    }
+
+    @Override
+    public String ouiaComponentType() {
+        return componentType.componentName;
+    }
+
+    @Override
+    public E element() {
+        if (delegate == null) {
+            throw new IllegalStateException(
+                    "No delegate defined for component " + componentType().componentName);
+        }
+        return delegate;
+    }
+
+    @Override
+    public ComponentType componentType() {
+        return componentType;
+    }
+
+    // ------------------------------------------------------ component store
+
+    protected void storeComponent() {
+        ComponentStore.storeComponentDelegate(this);
+    }
+}

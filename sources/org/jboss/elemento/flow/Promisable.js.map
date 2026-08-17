@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Promisable.js.map",
+"lineCount":25,
+"mappings":"A;;;;;;;;;;MAgCiB,U;;CAEE,0F,kCAAuDA,W;;CAEvD,iJ,kCAC2CA,W,oCACZC,U;;CAE/B,0F,mCAA8CA,U;;CAElD,6F,yBAAoCC,S;;CAKpC,qC;;QAfE,O;EAAAC,6B;EAAAA;",
+"sources":["Promisable.java"],
+"names":["onFulfilled","onRejected","onFinally","org.jboss.elemento.flow.Promisable.<clinit>"]
+}

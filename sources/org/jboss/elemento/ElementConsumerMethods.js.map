@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementConsumerMethods.js.map",
+"lineCount":35,
+"mappings":"A;;;;;;;;;;;;;;MAwBiB,sB;;CAIH,qE,oBAAkBA,Q;;CAMlB,mE,oBAAgBA,Q;;QANhB,0H,mEAAkBA,Q;EAAlBC,iC;EACNA,wF;EACAA,0D;;;QAIM,wH,mEAAgBD,Q;EAAhBE,iC;EACNA,8F;EACAA,0D;;;QAZS,O;EAAAC,yC;EAAAA;",
+"sources":["ElementConsumerMethods.java"],
+"names":["consumer","org.jboss.elemento.ElementConsumerMethods.apply__$default","org.jboss.elemento.ElementConsumerMethods.run__$default","org.jboss.elemento.ElementConsumerMethods.<clinit>"]
+}

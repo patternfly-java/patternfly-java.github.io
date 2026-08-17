@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LoadedData.js.map",
+"lineCount":64,
+"mappings":"A;;;;;;;MAoBa,U;;CAAA,W;EAAAA,Q;EAAAA;OAIY,6CAJZA,C;;;QAMT,yB,UAAkBC,I;EAAlBC,qB;EAAAA,iC;EAAAA,oF;EAAAA,iB;;;CAAA,mE,UAAkBD,I;EAAME,qC;EACpBA,0D;;;CAGW,kB;EACXC,kF;;;CAIS,uB;EACTC,4E;;;CAIS,kD,UAAeC,Y;EACxBC;GACIA,oBADJA;G;EAGAA,4E;;;YAtB2B,4C;EAAAC,6F;;;QAFtB,O;EAAAC,6B;EAAAA,0B;EAAAA,qB;EAEsBA,2G;;;;;;;;;;;;AAFtB;WAEsB,kDAFtB;",
+"sources":["LoadedData.java"],
+"names":["org.jboss.elemento.router.LoadedData.<synthetic: ctor_js>","data","org.jboss.elemento.router.LoadedData.<synthetic: ctor_create>","org.jboss.elemento.router.LoadedData.<init>","org.jboss.elemento.router.LoadedData.isEmpty","org.jboss.elemento.router.LoadedData.get","defaultValue","org.jboss.elemento.router.LoadedData.getOrDefault","org.jboss.elemento.router.LoadedData.<synthetic: getter>","org.jboss.elemento.router.LoadedData.<clinit>"]
+}

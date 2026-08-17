@@ -1,0 +1,129 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.component.menu;
+
+import org.jboss.elemento.Attachable;
+import org.jboss.elemento.ElementContainerDelegate;
+import org.jboss.elemento.logger.Logger;
+import org.patternfly.component.textinputgroup.SearchInput;
+import org.patternfly.style.Classes;
+
+import elemental2.dom.Element;
+import elemental2.dom.HTMLElement;
+import elemental2.dom.MutationRecord;
+
+import static org.jboss.elemento.Elements.div;
+import static org.patternfly.style.Classes.component;
+import static org.patternfly.style.Classes.input;
+import static org.patternfly.style.Classes.search;
+
+/** A search input area within a {@link Menu} component. */
+/** A menu search input within a {@link Menu} component. */
+public class MenuSearch extends MenuSubComponent<HTMLElement, MenuSearch> implements
+        Attachable, ElementContainerDelegate<HTMLElement, MenuSearch> {
+
+    // ------------------------------------------------------ factory
+
+    public static MenuSearch menuSearch() {
+        return new MenuSearch();
+    }
+
+
+    // ------------------------------------------------------ instance
+
+    private static final Logger logger = Logger.getLogger(MenuSearch.class.getName());
+    public static final String SUB_COMPONENT_ID = "ms";
+    public static final String SUB_COMPONENT_NAME = "MenuSearch";
+
+    private final HTMLElement inputContainer;
+    private SearchInput searchInput;
+    private SearchFilter searchFilter;
+    private NoResults noResults;
+
+    MenuSearch() {
+        super(SUB_COMPONENT_ID, SUB_COMPONENT_NAME, div().css(component(Classes.menu, search)).element());
+        this.searchFilter = SearchFilter.contains();
+        this.noResults = NoResults.noResults();
+        element().appendChild(inputContainer = div().css(component(Classes.menu, search, input)).element());
+        Attachable.register(this, this);
+    }
+
+    @Override
+    public Element containerDelegate() {
+        return inputContainer;
+    }
+
+    @Override
+    public void attach(MutationRecord mutationRecord) {
+        Menu menu = lookupComponent();
+        if (searchFilter != null) {
+            if (menu.content != null && !menu.content.groups.isEmpty()) {
+                logger.warn("Menu %o has a search filter and groups. Search filters are not supported for grouped menus.",
+                        menu);
+            }
+            if (searchInput == null) {
+                logger.warn("Menu %o has a search filter, but no search input was added.", menu);
+            } else {
+                searchInput
+                        .onKeyup((event, si, value) -> menu.search(searchFilter, noResults, value))
+                        .onClear((event, si) -> menu.clearSearch());
+            }
+        }
+    }
+
+    // ------------------------------------------------------ add
+
+    public MenuSearch addSearchInput(SearchInput searchInput) {
+        this.searchInput = searchInput;
+        return add(searchInput);
+    }
+
+    // ------------------------------------------------------ builder
+
+    @Override
+    public MenuSearch that() {
+        return this;
+    }
+
+    // ------------------------------------------------------ events
+
+    /**
+     * Configures the search behavior for the search input you have added with {@link #addSearchInput(SearchInput)}.
+     * <p>
+     * By default, the search filter will match items that contain the search query in their text.
+     *
+     * @param searchFilter a {@link SearchFilter} that defines the search logic. The first parameter is a {@link MenuItem}
+     *                     representing a menu item, and the second parameter is a {@link String} representing the search query.
+     *                     The predicate should return {@code true} for items matching the search.
+     * @return the {@link MenuSearch} instance for method chaining.
+     */
+    public MenuSearch onSearch(SearchFilter searchFilter) {
+        this.searchFilter = searchFilter;
+        return this;
+    }
+
+    /**
+     * Configures the behavior for handling the event when no results are found in the menu list for a given input.
+     *
+     * @param noResults a {@link NoResults} functional interface instance that defines the logic to generate a menu item when no
+     *                  results are found for the search query.
+     * @return the {@link MenuSearch} instance for method chaining.
+     */
+    public MenuSearch onNoResults(NoResults noResults) {
+        this.noResults = noResults;
+        return this;
+    }
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Rect$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAwBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["Rect.java"],
+"names":["org.patternfly.popper.Rect$$Overlay.<clinit>"]
+}

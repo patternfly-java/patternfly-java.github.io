@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CloseHandler.js.map",
+"lineCount":57,
+"mappings":"A;;;;;;;;;;;;;MA4BiB,Y;;QAMM,uF,YAAcA,S,iCAAiCC,Y,eAAoBC,K,iBAAeC,S;EAAlFC,uB;EACfA;GACIA,IAAQC,WAARD,QADJA;GAEIA;IAAAA,IAAqBE,EAArBF,2HAAAA;;KACIA,iHADJA;;IAFJA;GAKIA,mBALJA;G;EAOAA,Y;;;QAOY,kF,YAAYJ,S,iCAAiCC,Y,eAAoBC,K,iBAAeC,S;EAAhFI,uB;EACZA;GACIA,oGAAqBD,EAArBC;IAAqBC,IAAAF,IAAAE,yFAArBD;IAA2BC,+EAA3BD;OADJA;G;;;CAMY,8D,cAAkBL,K,WAASF,S;;CAKtC,uD,cAAcE,K,WAASF,S;;QAjCf,M;EAAAS,uB;EAAAA,gE;;;QA4BG,6G,gDAAkBP,K,WAASF,S;EAA3BU,uB;EACZA,Y;;;QA7BS,O;EAAAC,+B;EAAAA;",
+"sources":["CloseHandler.java"],
+"names":["component","closeHandler","event","fireEvent","org.patternfly.handler.CloseHandler.shouldClose","shouldClose","ch","org.patternfly.handler.CloseHandler.fireEvent","org.patternfly.handler.CloseHandler.<lambda in fireEvent>","org.patternfly.handler.CloseHandler.<synthetic: adapt_lambda>","org.patternfly.handler.CloseHandler.shouldClose__$default","org.patternfly.handler.CloseHandler.<clinit>"]
+}

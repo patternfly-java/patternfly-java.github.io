@@ -1,0 +1,32 @@
+goog.module('org.patternfly.component.jumplinks.JumpLinksItem');
+
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.Event.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLLIElement.$Overlay');
+goog.require('elemental2.dom.HTMLUListElement.$Overlay');
+goog.require('elemental2.dom.MouseEvent.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.HashMap');
+goog.require('java.util.Map');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.ElementTextDelegate');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.EventType');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.HasIdentifier');
+goog.require('org.patternfly.component.button.Button');
+goog.require('org.patternfly.component.jumplinks.JumpLinks');
+goog.require('org.patternfly.component.jumplinks.JumpLinksList');
+goog.require('org.patternfly.component.jumplinks.JumpLinksSubComponent');
+goog.require('org.patternfly.core.Aria');
+goog.require('org.patternfly.core.ComponentContext');
+goog.require('org.patternfly.core.Dataset');
+goog.require('org.patternfly.handler.ComponentHandler');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const JumpLinksItem = goog.require('org.patternfly.component.jumplinks.JumpLinksItem$impl');
+exports = JumpLinksItem;

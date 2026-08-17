@@ -1,0 +1,28 @@
+goog.module('org.patternfly.component.menu.PopperMultiMenuToggleMenu');
+
+goog.require('elemental2.dom.Event.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.Collections');
+goog.require('java.util.List');
+goog.require('java.util.Objects');
+goog.require('java.util.function.Function');
+goog.require('java.util.function.Predicate');
+goog.require('java.util.stream.Collector');
+goog.require('java.util.stream.Collectors');
+goog.require('java.util.stream.Stream');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.TypedBuilder');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.SelectionMode');
+goog.require('org.patternfly.component.menu.Menu');
+goog.require('org.patternfly.component.menu.MenuItem');
+goog.require('org.patternfly.component.menu.MenuToggle');
+goog.require('org.patternfly.component.menu.PopperMenuToggleMenu');
+goog.require('org.patternfly.handler.MultiSelectHandler');
+goog.require('org.patternfly.popper.TriggerAction');
+goog.require('vmbootstrap.Casts');
+
+const PopperMultiMenuToggleMenu = goog.require('org.patternfly.component.menu.PopperMultiMenuToggleMenu$impl');
+exports = PopperMultiMenuToggleMenu;

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"WritableStreamSink$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA4BiB,Q;;QAsBmD,2C;EAAAA,mB;EAChEA,qM;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["WritableStreamSink.java"],
+"names":["elemental2.dom.WritableStreamSink$$Overlay.create","elemental2.dom.WritableStreamSink$$Overlay.<clinit>"]
+}

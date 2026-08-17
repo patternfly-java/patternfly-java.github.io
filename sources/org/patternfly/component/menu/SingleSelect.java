@@ -1,0 +1,58 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.component.menu;
+
+import org.patternfly.component.ComponentType;
+
+/**
+ * A select component to select exactly one item from a list.
+ * <p>
+ * This implementation uses the Popover API and CSS anchor positioning instead of Popper.js. The select uses the browser's
+ * top-layer rendering for correct stacking, eliminating z-index issues. CSS {@code position-try-fallbacks} handles menu
+ * flipping when there is not enough space.
+ *
+ * @see <a href= "https://www.patternfly.org/components/menus/select">https://www.patternfly.org/components/menus/select</a>
+ */
+public class SingleSelect extends SingleMenuToggleMenu<SingleSelect> {
+
+    // ------------------------------------------------------ factory
+
+    public static SingleSelect singleSelect(String text) {
+        return new SingleSelect(MenuToggle.menuToggle(text));
+    }
+
+    public static SingleSelect singleSelect(MenuToggle menuToggle) {
+        return new SingleSelect(menuToggle);
+    }
+
+    // ------------------------------------------------------ instance
+
+    SingleSelect(MenuToggle menuToggle) {
+        super(ComponentType.SingleSelect, menuToggle);
+    }
+
+    @Override
+    void updateMenuToggle(MenuItem item) {
+        menuToggle.text(item.text());
+    }
+
+    // ------------------------------------------------------ builder
+
+    @Override
+    public SingleSelect that() {
+        return this;
+    }
+}

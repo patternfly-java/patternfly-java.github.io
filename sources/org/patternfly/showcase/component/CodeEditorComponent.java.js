@@ -1,0 +1,32 @@
+goog.module('org.patternfly.showcase.component.CodeEditorComponent');
+
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('java.lang.Class');
+goog.require('java.util.function.Supplier');
+goog.require('jsinterop.base.JsPropertyMap.$Overlay');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.button.Button');
+goog.require('org.patternfly.extension.codeeditor.CodeEditor');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorAction');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorActions');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorHeader');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorHeaderMain');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorLink');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorLinks');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorTab');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorTabIcon');
+goog.require('org.patternfly.extension.codeeditor.CodeEditorTabText');
+goog.require('org.patternfly.icon.IconSets.fas');
+goog.require('org.patternfly.showcase.ApiDoc.Type');
+goog.require('org.patternfly.showcase.Code');
+goog.require('org.patternfly.showcase.Data');
+goog.require('org.patternfly.showcase.Snippet');
+goog.require('org.patternfly.showcase.SnippetPage');
+goog.require('org.patternfly.showcase.component.Component.$Overlay');
+goog.require('vmbootstrap.Casts');
+
+const CodeEditorComponent = goog.require('org.patternfly.showcase.component.CodeEditorComponent$impl');
+exports = CodeEditorComponent;

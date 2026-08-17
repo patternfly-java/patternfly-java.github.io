@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DoubleStream$4.js.map",
+"lineCount":75,
+"mappings":"A;;;;;;;;;;;MA0JQ,E;;CAAA,W;EAAAA,Q;EAAAA;OAEiB,wCAFjBA,K;EAAAA;OAGkB,2CAHlBA,S;EAAAA;OAIkB,gDAJlBA,S;EAAAA;OAAA,+CAAAA,K;EAAAA;OAAA,4CAAAA,C;EAAAA;OAAA,kDAAAA,C;;;QACiE,sG;EAAAC,a;EAAAA,yB;EAAAA,6N;EAAAA,iB;;;CAAA,2I;EAHpCC,sE;EAAmDC,gE;EAA7BC,4E;EAGcC,qG;EAAAA,sD;;;CAMhD,wD,uBAA0BC,M;EACvCC;GACEA,aADFA;G;EAGAA;GACEA,iLADFA;G;EAGAA,yD;EAEAA;GACEA,6DADFA;GAEEA,aAFFA;G;EAIAA,6E;EACAA,Y;;;;CArBJ,uC;EAAAA,6J;;;CAAA,8C;EAEiBF,qG;EACCA,wD;EACAA,8D;;;QAJlB,O;EAAAG,qB;EAAAA,kB;EAAAA;",
+"sources":["DoubleStream.java"],
+"names":["java.util.stream.DoubleStream$4.<synthetic: ctor_js>","java.util.stream.DoubleStream$4.<synthetic: ctor_create>","seed","f","hasNext","java.util.stream.DoubleStream$4.<init>","action","java.util.stream.DoubleStream$4.tryAdvance","java.util.stream.DoubleStream$4.<clinit>"]
+}

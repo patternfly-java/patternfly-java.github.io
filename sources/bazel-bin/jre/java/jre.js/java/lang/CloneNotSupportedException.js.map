@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CloneNotSupportedException.js.map",
+"lineCount":43,
+"mappings":"A;;;;;MAqBa,0B;;CAAA,W;EAAAA,Q;;;;QAEJ,S;EAAAC,qC;EAAAA,iD;EAAAA,8D;EAAAA,kH;EAAAA,iB;;;;CAAA,iD;EAA6BC,wC;;;;QAE7B,yB,gBAAkCC,G;EAAlCF,qC;EAAAA,iD;EAAAA,mF;EAAAA,kH;EAAAA,iB;;;;CAAA,mE,gBAAkCE,G;EACvCD,6D;;;QALS,O;EAAAE,6C;EAAAA,0C;EAAAA;",
+"sources":["CloneNotSupportedException.java"],
+"names":["java.lang.CloneNotSupportedException.<synthetic: ctor_js>","java.lang.CloneNotSupportedException.<synthetic: ctor_create>","java.lang.CloneNotSupportedException.<init>","msg","java.lang.CloneNotSupportedException.<clinit>"]
+}

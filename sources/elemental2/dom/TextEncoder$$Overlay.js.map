@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TextEncoder$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MA0Ba,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["TextEncoder.java"],
+"names":["elemental2.dom.TextEncoder$$Overlay.<clinit>"]
+}

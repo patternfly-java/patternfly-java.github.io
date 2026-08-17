@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MastheadBrand.js.map",
+"lineCount":95,
+"mappings":"A;;;;;;;;;;;;;;;;;;;MA4Ba,a;;CAAA,W;EAAAA,Q;;;QAQmB,4D;EAAAC,wB;EACxBA,iC;;;QAQJ,S;EAAAC,wB;EAAAA,oC;EAAAA,qE;EAAAA,iB;;;CAAA,wD;EACIC,24B;;;CAKiB,kG,qBAAqBC,I;EACtCC,+I;;;CAMiB,mD;EACjBC,Y;;;;CA/BK,uC;EAAAA,kE;;;;CAAA,yD;EAAAC,yM;;;;CAAA,wB;EAAAA,0G;;;;CAAA,qE;EAAAA,yM;;;QAAA,O;EAAAC,gC;EAAAA,6B;EAAAA,+B;EAAAA,6B;;;;;;;;;;;;;;;;;;AAckB;cAAA,+DAAA,S;AACA;cAAA,iEAAA;",
+"sources":["MastheadBrand.java"],
+"names":["org.patternfly.component.page.MastheadBrand.<synthetic: ctor_js>","org.patternfly.component.page.MastheadBrand.mastheadBrand","org.patternfly.component.page.MastheadBrand.<synthetic: ctor_create>","org.patternfly.component.page.MastheadBrand.<init>","logo","org.patternfly.component.page.MastheadBrand.addLogo","org.patternfly.component.page.MastheadBrand.that","org.patternfly.component.page.MastheadBrand.text","org.patternfly.component.page.MastheadBrand.<clinit>"]
+}

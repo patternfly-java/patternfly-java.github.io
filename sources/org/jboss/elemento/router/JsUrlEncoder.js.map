@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"JsUrlEncoder.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;;MAwBM,Y;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,uB;EAAAA,mC;EAAAA,gE;EAAAA,iB;;;CAAA,mD;EAAAC,qC;;;CAGY,4C,gBAAcC,K;EACxBC,6C;;;CAIU,4C,gBAAcD,K;EACxBE,6C;;;QATF,O;EAAAC,+B;EAAAA,4B;EAAAA;",
+"sources":["JsUrlEncoder.java"],
+"names":["org.jboss.elemento.router.JsUrlEncoder.<synthetic: ctor_js>","org.jboss.elemento.router.JsUrlEncoder.<synthetic: ctor_create>","org.jboss.elemento.router.JsUrlEncoder.<init>","value","org.jboss.elemento.router.JsUrlEncoder.encode","org.jboss.elemento.router.JsUrlEncoder.decode","org.jboss.elemento.router.JsUrlEncoder.<clinit>"]
+}

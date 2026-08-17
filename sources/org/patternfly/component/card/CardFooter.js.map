@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CardFooter.js.map",
+"lineCount":90,
+"mappings":"A;;;;;;;;;;;;;;;;;;MA6Ba,U;;CAAA,W;EAAAA,Q;;;QAKgB,sD;EAAAC,qB;EACrBA,8B;;;QAQJ,S;EAAAC,qB;EAAAA,iC;EAAAA,kE;EAAAA,iB;;;CAAA,qD;EACIC,w3B;;;CAMc,gD;EACdC,Y;;;;CAtBK,uC;EAAAA,+D;;;;CAAA,yD;EAAAC,mM;;;;CAAA,wB;EAAAA,0G;;;;CAAA,kE;EAAAA,mM;;;QAAA,O;EAAAC,6B;EAAAA,0B;EAAAA,2B;EAAAA,6B;;;;;;;;;;;;;;;;;;AAWkB;WAAA,4DAAA,Q;AACA;WAAA,8DAAA;",
+"sources":["CardFooter.java"],
+"names":["org.patternfly.component.card.CardFooter.<synthetic: ctor_js>","org.patternfly.component.card.CardFooter.cardFooter","org.patternfly.component.card.CardFooter.<synthetic: ctor_create>","org.patternfly.component.card.CardFooter.<init>","org.patternfly.component.card.CardFooter.that","org.patternfly.component.card.CardFooter.text","org.patternfly.component.card.CardFooter.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Spliterators$EmptySpliterator$OfInt.js.map",
+"lineCount":53,
+"mappings":"A;;;;;;;;;;;;;;;;MAiR+B,K;;CAAA,W;EAAAA,Q;;;QAIzB,S;EAAAC,gB;EAAAA,4B;EAAAA,uE;EAAAA,iB;;;CAAA,0D;EAAQC,4D;;;;CAJiB,qD;EAAAC,2H;;;;CAAA,kD;EAAAC,+H;;;;CAAA,6C;EAAAC,wI;;;QAAA,O;EAAAC,wB;EAAAA,qB;EAAAA,2B;EAAAA;",
+"sources":["Spliterators.java"],
+"names":["java.util.Spliterators$EmptySpliterator$OfInt.<synthetic: ctor_js>","java.util.Spliterators$EmptySpliterator$OfInt.<synthetic: ctor_create>","java.util.Spliterators$EmptySpliterator$OfInt.<init>","java.util.Spliterators$EmptySpliterator$OfInt.forEachRemaining","java.util.Spliterators$EmptySpliterator$OfInt.tryAdvance","java.util.Spliterators$EmptySpliterator$OfInt.trySplit","java.util.Spliterators$EmptySpliterator$OfInt.<clinit>"]
+}

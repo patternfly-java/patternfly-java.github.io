@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Integer$BoxedValues.js.map",
+"lineCount":52,
+"mappings":"A;;;;;;;;MA+BuB,W;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,kC;EAAAA,uD;EAAAA,iB;;;CAAA,0C;EAAAC,qC;;;QAaI,6B,eAAQC,C;EAARC,sB;EACrBA,8E;;;QAdiB,O;EAAAC,8B;EAAAA,2B;EAAAA,qB;EAKjBA,IAAUC,MAAVD,kE;EACAA,SAASF,CAATE;GACEA,2DADFA;G;EAGAA,mE;;;;;;;;;;;;;AATiB;YACY,6CADZ;",
+"sources":["Integer.java"],
+"names":["java.lang.Integer$BoxedValues.<synthetic: ctor_js>","java.lang.Integer$BoxedValues.<synthetic: ctor_create>","java.lang.Integer$BoxedValues.<init>","i","java.lang.Integer$BoxedValues.get","java.lang.Integer$BoxedValues.<clinit>","values"]
+}

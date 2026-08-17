@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PerformanceMark$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAuBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["PerformanceMark.java"],
+"names":["elemental2.dom.PerformanceMark$$Overlay.<clinit>"]
+}

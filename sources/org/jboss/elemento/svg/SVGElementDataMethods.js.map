@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SVGElementDataMethods.js.map",
+"lineCount":30,
+"mappings":"A;;;;;;;;;;;;;;;;;MAuBiB,qB;;CASH,2E,gBAAYA,I,iBAAaC,K;;QAAzB,mI,8DAAYD,I,iBAAaC,K;EAAzBC,gC;EACNA,qV;EACAA,0D;;;QAXS,O;EAAAC,wC;EAAAA;",
+"sources":["SVGElementDataMethods.java"],
+"names":["name","value","org.jboss.elemento.svg.SVGElementDataMethods.data__$default","org.jboss.elemento.svg.SVGElementDataMethods.<clinit>"]
+}

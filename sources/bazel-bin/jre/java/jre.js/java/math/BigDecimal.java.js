@@ -1,0 +1,36 @@
+goog.module('java.math.BigDecimal');
+
+goog.require('java.io.Serializable');
+goog.require('java.lang.ArithmeticException');
+goog.require('java.lang.Comparable');
+goog.require('java.lang.Double');
+goog.require('java.lang.Float');
+goog.require('java.lang.Integer');
+goog.require('java.lang.Long');
+goog.require('java.lang.Math');
+goog.require('java.lang.Number');
+goog.require('java.lang.NumberFormatException');
+goog.require('java.lang.String');
+goog.require('java.lang.StringBuilder');
+goog.require('java.lang.StringIndexOutOfBoundsException');
+goog.require('java.math.BigInteger');
+goog.require('java.math.Conversion');
+goog.require('java.math.MathContext');
+goog.require('java.math.Multiplication');
+goog.require('java.math.RoundingMode');
+goog.require('javaemul.internal.Exceptions');
+goog.require('javaemul.internal.InternalPreconditions');
+goog.require('javaemul.internal.NativeRegExp.$Overlay');
+goog.require('javaemul.internal.Primitives');
+goog.require('javaemul.internal.primitives.$char');
+goog.require('javaemul.internal.primitives.$double');
+goog.require('javaemul.internal.primitives.$int');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Long');
+goog.require('nativebootstrap.Util');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+goog.require('vmbootstrap.LongUtils');
+
+const BigDecimal = goog.require('java.math.BigDecimal$impl');
+exports = BigDecimal;

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Enums.js.map",
+"lineCount":113,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;MA6BM,K;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,gB;EAAAA,4B;EAAAA,iD;EAAAA,iB;;;CAAA,oC;EAAAC,qC;;;QAamD,gF,iBAAwBC,M;EAAxBC,gB;EACrDA,IAAqBC,GAArBD,6C;EACAA,SAASE,CAATF;GACEA,IAAOG,IAAPH,8CADFA;GAEEA,yBAFFA;G;EAIAA,W;;;QAIkB,+F,gBAA8BG,I,yBAA2BF,G;EAAzDG,gB;EAClBA,uF;EACAA,IAAEC,SAAFD,iB;EACAA;GACEA,8HADFA;G;EAGAA,iB;;;QAIkC,8F,UAAME,K,qBAAmBC,I;EAAzBC,gB;EAClCA;GACEA,YADFA;G;EAGAA,yF;EACAA;GAAiDC,yEAAjDD;O;;;QAqB4C,kH,UAAgBF,K,qBAAmBC,I;EAAnCG,gB;EAC5CA;GACEA,YADFA;G;EAGAA,yF;EACAA;GAAiDC,6FAAjDD;O;;;QAmBmB,0E,UAAaE,M,qBAAoBL,I;EAAjCM,gB;EACnBA;GACEA,YADFA;G;EAGAA;GACEA;IACEA,sdADFA;IADFA;G;EAMAA,IAAkBC,SAAlBD,uE;EACAA,iE;;;QAGoB,wE,UAAoBE,Q,qBAAsBR,I;EAA1CS,gB;EACpBA,uJ;;;QAGoB,qD,UAA4BD,Q,WAA+BE,K;EAA3DC,gB;EACpBA,mF;EACAA,wC;;;QAGgB,oD,UAA+BH,Q,WAA+BE,K;EAA9DE,gB;EAGhBA,0K;;;QA7GE,O;EAAAC,wB;EAAAA,qB;EAAAA;",
+"sources":["Enums.java"],
+"names":["javaemul.internal.Enums.<synthetic: ctor_js>","javaemul.internal.Enums.<synthetic: ctor_create>","javaemul.internal.Enums.<init>","values","javaemul.internal.Enums.createMapFromValues","map","i","name","javaemul.internal.Enums.getValueFromNameAndMap","enumValue","value","ctor","javaemul.internal.Enums.box","javaemul.internal.Enums.<lambda in box>","javaemul.internal.Enums.boxComparable","javaemul.internal.Enums.<lambda in boxComparable>","object","javaemul.internal.Enums.unbox","boxedEnum","instance","javaemul.internal.Enums.isInstanceOf","other","javaemul.internal.Enums.equals","javaemul.internal.Enums.compareTo","javaemul.internal.Enums.<clinit>"]
+}

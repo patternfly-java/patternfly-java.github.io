@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MA4DmB,Q;;QAEqD,mG,UAAUA,C;EAAVC,mB;EAClEA,yE;;;QAIW,mH;EAAAC,mB;EACXA,8G;;;QAIa,kH;EAAAC,mB;EACbA,mE;;;QAIc,uG;EAAAC,mB;EACdA,2C;;;QAIc,yG;EAAAC,mB;EACdA,wC;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["HTMLElement.java"],
+"names":["o","elemental2.dom.HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.of","elemental2.dom.HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.asFile__$devirt","elemental2.dom.HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.asString__$devirt","elemental2.dom.HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.isFile__$devirt","elemental2.dom.HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.isString__$devirt","elemental2.dom.HTMLElement$FormStateRestoreCallbackStateArrayArrayUnionType$$Overlay.<clinit>"]
+}

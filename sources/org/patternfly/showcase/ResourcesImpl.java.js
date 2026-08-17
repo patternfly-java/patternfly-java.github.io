@@ -1,0 +1,33 @@
+goog.module('org.patternfly.showcase.ResourcesImpl');
+
+goog.require('java.lang.Object');
+goog.require('java.util.HashMap');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.patternfly.showcase.Resources');
+goog.require('org.patternfly.showcase.ResourcesImpl.$1');
+goog.require('org.patternfly.showcase.ResourcesImpl.$10');
+goog.require('org.patternfly.showcase.ResourcesImpl.$2');
+goog.require('org.patternfly.showcase.ResourcesImpl.$3');
+goog.require('org.patternfly.showcase.ResourcesImpl.$4');
+goog.require('org.patternfly.showcase.ResourcesImpl.$5');
+goog.require('org.patternfly.showcase.ResourcesImpl.$6');
+goog.require('org.patternfly.showcase.ResourcesImpl.$7');
+goog.require('org.patternfly.showcase.ResourcesImpl.$8');
+goog.require('org.patternfly.showcase.ResourcesImpl.$9');
+goog.require('org.patternfly.showcase.ResourcesImpl.avatarInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.chartsInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.componentsInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.extensionsInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.filesInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.layoutsInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.pfLogoInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.rhcpInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.serversInitializer');
+goog.require('org.patternfly.showcase.ResourcesImpl.usersInitializer');
+goog.require('org.treblereel.j2cl.processors.common.resources.ResourcePrototype');
+goog.require('org.treblereel.j2cl.processors.common.resources.TextResource');
+goog.require('vmbootstrap.Casts');
+
+const ResourcesImpl = goog.require('org.patternfly.showcase.ResourcesImpl$impl');
+exports = ResourcesImpl;

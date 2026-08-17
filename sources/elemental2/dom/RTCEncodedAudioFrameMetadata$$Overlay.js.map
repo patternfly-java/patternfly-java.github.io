@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCEncodedAudioFrameMetadata$$Overlay.js.map",
+"lineCount":15,
+"mappings":"A;;;;;MA0BiB,Q;;QAiBF,oG,qEAA2CA,mB;EAA3CC,mB;EACXA,yI;;;QAlBa,O;EAAAC,2B;EAAAA;",
+"sources":["RTCEncodedAudioFrameMetadata.java"],
+"names":["contributingSources","elemental2.dom.RTCEncodedAudioFrameMetadata$$Overlay.setContributingSources__$devirt","elemental2.dom.RTCEncodedAudioFrameMetadata$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HTMLMediaElement$$Overlay.js.map",
+"lineCount":82,
+"mappings":"A;;;;;MA0Ba,Q;;YA0Ha,6D;EAAAA,0G;;;YAGA,4D;EAAAA,yG;;;YAGA,4D;EAAAA,yG;;;YAEW,yD;EAAAA,sG;;;YACA,wD;EAAAA,qG;;;YACA,yD;EAAAA,sG;;;YACA,wD;EAAAA,qG;;;YACA,2D;EAAAA,wG;;;YAGX,6D;EAAAA,0G;;;QAzIb,O;EAAAC,2B;EAAAA,wB;EA0HaA,kH;EAGAA,gH;EAGAA,gH;EAEWA,0G;EACAA,wG;EACAA,0G;EACAA,wG;EACAA,8G;EAGXA,kH;;;;;;;;;;AAzIb;SA0Ha,mEA1Hb,K;AAAA;SA6Ha,kEA7Hb,K;AAAA;SAgIa,kEAhIb,K;AAAA;SAkIwB,+DAlIxB,K;AAAA;SAmIwB,8DAnIxB,K;AAAA;SAoIwB,+DApIxB,K;AAAA;SAqIwB,8DArIxB,K;AAAA;SAsIwB,iEAtIxB,K;AAAA;SAyIa,mEAzIb;",
+"sources":["HTMLMediaElement.java"],
+"names":["elemental2.dom.HTMLMediaElement$$Overlay.<synthetic: getter>","elemental2.dom.HTMLMediaElement$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"InputStream.js.map",
+"lineCount":126,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;MAmDsB,W;;CAAA,W;EAAAA,Q;;;CAMb,gC;EAAcC,qC;;;CAsCV,gB;EACTC,S;;;CAUU,a;;CAiBA,iB,eAASC,S;;CAYN,wB;EACbC,a;;;CAUkB,W;;CAGT,yB,sBAAYC,M;EAIrBC,iF;EACAA,0E;;;CAYS,mC,sBAAYD,M,gBAAYE,U,gBAAgBC,S;EACjDF,2F;EACAA,SAASG,CAATH;GACEA,kBAAII,CAAJJ,CADFA;GAEEA;IACEA;KACEA,uBADFA;KADFA;;IAIwBA,2GAJxBA;IAIwBA;KAAAA,IAAHK,CAAGL,qCAAAA;KACtBA;MACEA,SADFA;MADsBA;KAItBA,2FAJsBA;;KAAAA,gGAAAA;KAJxBA;IAFFA;GAYEA,oFAZFA;G;EAcAA,iB;;;CAaU,a;EACVM,iH;;;CAiBU,kB,eAAUJ,S;EACpBK;GACEA,wBADFA;G;EAGAA,IAAUC,KAAVD,sL;EACAA,IAAaE,CAAbF,iE;EACAA,IAAKG,OAALH,oB;EACAA;GACEA,IAAUI,MAAVJ,iKADFA;GAEEA,IAAUK,SAAVL,0DAFFA;GAGEA;IACEA,MADFA;IAHFA;GAMEA,sFANFA;GAOEA;IACEA,MADFA;IAPFA;G;EAWAA,e;;;QApLkB,O;EAAAM,8B;EAAAA,2B;EAAAA,qB;;;;;;;;;;;;;;;;;;;;;AAGK;YAAA,4CAAA;",
+"sources":["InputStream.java"],
+"names":["java.io.InputStream.<synthetic: ctor_js>","java.io.InputStream.<init>","java.io.InputStream.available","readlimit","java.io.InputStream.markSupported","buffer","java.io.InputStream.read","byteOffset","byteCount","i","c","e","java.io.InputStream.reset","java.io.InputStream.skip","bSize","b","skipped","toRead","readCount","java.io.InputStream.<clinit>"]
+}

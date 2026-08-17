@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ProxyHandler$DefinePropertyFn$$Overlay.js.map",
+"lineCount":20,
+"mappings":"A;;;;;MA6CmB,Q;;QA8BC,yJ,sFAAgBA,E,WAAWC,E,kCAA6BC,E;EAAxDC,mB;EACdA,qG;;;QAOc,yJ,sFAAgBH,E,iBAAWC,E,kCAA6BC,E;EAAxDC,mB;EACdA,qG;;;QAvCa,O;EAAAC,2B;EAAAA;",
+"sources":["ProxyHandler.java"],
+"names":["p0","p1","p2","elemental2.core.ProxyHandler$DefinePropertyFn$$Overlay.onInvoke__$devirt","elemental2.core.ProxyHandler$DefinePropertyFn$$Overlay.<clinit>"]
+}

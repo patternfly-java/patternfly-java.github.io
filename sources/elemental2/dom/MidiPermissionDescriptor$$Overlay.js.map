@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MidiPermissionDescriptor$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEiB,iD;EAAAA,mB;EAC9BA,oM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["MidiPermissionDescriptor.java"],
+"names":["elemental2.dom.MidiPermissionDescriptor$$Overlay.create","elemental2.dom.MidiPermissionDescriptor$$Overlay.<clinit>"]
+}

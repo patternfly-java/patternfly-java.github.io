@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Progress$1.js.map",
+"lineCount":49,
+"mappings":"A;;;;;;;;;MA4EoB,E;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,a;EAAAA,yB;EAAAA,4D;EAAAA,iB;;;CAAA,+C;EAAAC,qC;;;CAGA,a;;CAIA,oC,eAAUC,G,iBAAYC,K;;CAItB,8B,gBAAYA,K;;CAIZ,c;;;CAfA,kB;EAAAC,oF;;;;CAAA,Y;EAAAC,wE;;;QAAA,O;EAAAC,qB;EAAAA,kB;EAAAA,qB;EAAAA;",
+"sources":["Progress.java"],
+"names":["org.jboss.elemento.flow.Progress$1.<synthetic: ctor_js>","org.jboss.elemento.flow.Progress$1.<synthetic: ctor_create>","org.jboss.elemento.flow.Progress$1.<init>","max","label","org.jboss.elemento.flow.Progress$1.reset","org.jboss.elemento.flow.Progress$1.tick","org.jboss.elemento.flow.Progress$1.<clinit>"]
+}

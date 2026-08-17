@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.js.map",
+"lineCount":49,
+"mappings":"A;;;;;;;;;MA6BmB,Q;;QAE0D,wG,UAAUA,C;EAAVC,mB;EACvEA,yE;;;QAIW,wH;EAAAC,mB;EACXA,8G;;;QAIgC,kI;EAAAC,mB;EAChCA,uH;;;QAIa,uH;EAAAC,mB;EACbA,mE;;;QAIc,4G;EAAAC,mB;EACdA,2C;;;QAIc,+G;EAAAC,mB;EACdA,8C;;;QAIc,8G;EAAAC,mB;EACdA,wC;;;QAjCa,O;EAAAC,2B;EAAAA;",
+"sources":["ClipboardItem.java"],
+"names":["o","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.of","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.asBlob__$devirt","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.asPromise__$devirt","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.asString__$devirt","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.isBlob__$devirt","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.isPromise__$devirt","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.isString__$devirt","elemental2.dom.ClipboardItem$ConstructorItemsJsPropertyMapTypeParameterUnionType$$Overlay.<clinit>"]
+}

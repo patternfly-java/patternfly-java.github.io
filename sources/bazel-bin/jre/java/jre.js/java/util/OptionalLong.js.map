@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"OptionalLong.js.map",
+"lineCount":168,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;MA4BmB,Y;;CAAA,W;EAAAA,Q;EAAAA;OAYE,8BAZFA,oB;EAAAA;OAaK,kCAbLA,S;;;QAEU,+B;EAAAC,uB;EACzBA,qD;;;QAGyB,kC,eAAQC,K;EAARC,uB;EACzBA,yC;;;;QAQM,S;EAAAC,mC;EAAAA,gD;EAAAA,iB;;;;CAAA,mC;EAAeC,qC;EACrBA,uD;EACAA,gD;;;;QAGM,a,eAAkBH,K;EAAlBE,mC;EAAAA,2D;EAAAA,iB;;;;CAAA,yC,eAAkBF,K;EAAOG,qC;EAC/BA,4C;EACAA,+C;;;CAGa,oB;EACbC,+C;;;CAGa,kB;EACbC,gD;;;CAGU,iB;EACVC,qG;EACAA,2C;;;CAGU,kD,qBAAuBC,Q;EACjCC;GACEA,mEADFA;G;;;CAKU,4E,qBAA6BC,M,kBAAiBC,W;EACxDC;GACEA,iEADFA;;GAGEA,0BAHFA;G;;;CAOU,oB,eAAYC,K;EACtBC,6F;;;CAGU,kD,qBAAuBD,K;EACjCE,iH;;;CAGU,mB;EACVC,gC;;;CAGgC,gD,oBAAwBC,iB;EACxDD;GACEA,2CADFA;G;EAGAA,sL;;;CAGgB,qC;EAChBE;GACEA,+FADFA;;GAGEA,yDAHFA;G;;;CAQa,M,UAAcC,G;EAC3BC;GACEA,YADFA;G;EAGAA;GACEA,aADFA;G;EAGAA,IAAaP,KAAbO,6D;EACAA,8M;;;CAIS,Q;EACTC,qH;;;CAIY,Q;EACZC,4O;;;QAlGe,O;EAAAC,+B;EAAAA,4B;EAAAA,qB;EAUiBA,yE;;;;;;;;;;;;;;;;;;;AAVjB;aAUiB,gCAVjB;",
+"sources":["OptionalLong.java"],
+"names":["java.util.OptionalLong.<synthetic: ctor_js>","java.util.OptionalLong.empty","value","java.util.OptionalLong.of","java.util.OptionalLong.<synthetic: ctor_create>","java.util.OptionalLong.<init>","java.util.OptionalLong.isPresent","java.util.OptionalLong.isEmpty","java.util.OptionalLong.getAsLong","consumer","java.util.OptionalLong.ifPresent","action","emptyAction","java.util.OptionalLong.ifPresentOrElse","other","java.util.OptionalLong.orElse","java.util.OptionalLong.orElseGet","java.util.OptionalLong.orElseThrow","exceptionSupplier","java.util.OptionalLong.stream","obj","java.util.OptionalLong.equals","java.util.OptionalLong.hashCode","java.util.OptionalLong.toString","java.util.OptionalLong.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TemplateSubComponent.js.map",
+"lineCount":27,
+"mappings":"A;;;;;;;;;;;;;MAwBe,oB;;CAAA,W;EAAAA,Q;;;CAEX,mI,gBAA4BC,c,iBAAuBC,gB,WAAoBC,O;EACnEC,8Q;;;QAHO,O;EAAAC,uC;EAAAA,oC;EAAAA;",
+"sources":["TemplateSubComponent.java"],
+"names":["org.patternfly.component.template.TemplateSubComponent.<synthetic: ctor_js>","subComponentId","subComponentName","element","org.patternfly.component.template.TemplateSubComponent.<init>","org.patternfly.component.template.TemplateSubComponent.<clinit>"]
+}

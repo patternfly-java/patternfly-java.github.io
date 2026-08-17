@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"IdentityHashMap.js.map",
+"lineCount":125,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;MA0Ba,e;;CAAA,W;EAAAA,Q;EAAAA;OAQD,uCARCA,C;EAAAA;OAeD,yCAfCA,C;;;;QAiBJ,S;EAAAC,0B;EAAAA,sC;EAAAA,mD;EAAAA,iB;;;;CAAA,sC;EAAkBC,8C;;;;QAElB,Y,eAAoBC,O;EAApBF,0B;EAAAA,sC;EAAAA,+D;EAAAA,iB;;;;CAAA,2C,eAAoBE,O;EACzBD,0D;;;;QAGK,sB,kBAA8CE,U;EAA9CH,0B;EAAAA,sC;EAAAA,4E;EAAAA,iB;;;;CAAA,qD,kBAA8CG,U;EACnDF,uE;;;CAGY,yB;EACZG,0F;;;CAIa,M,UAAcC,G;EAC3BC;GACEA,YADFA;G;EAGAA;GACEA,aADFA;G;EAGAA,IAAUC,QAAVD,yE;EACAA;GACEA,aADFA;G;EAIAA;GAAAA,IAAiBE,KAAjBF,8GAAAA;;IACEA,IAAOG,QAAPH,kBADFA;IAEEA,IAAOI,UAAPJ,oBAFFA;IAGEA;KACEA,aADFA;KAHFA;IAMEA;KACEA,aADFA;KANFA;;G;EAUAA,Y;;;CAIS,Q;EACTK,IAAIC,QAAJD,K;EACAA;GAAAA,IAAiBH,KAAjBG,8GAAAA;;IACEA,2FADFA;IAEEA,6FAFFA;;G;EAIAA,gB;;;CAIM,mE,UAAcE,M,WAAeC,M;EACnCR,uC;;;CAIE,kD,UAAmBS,G;EACrBC,6D;;;QA1ES,O;EAAAC,kC;EAAAA,+B;EAAAA,0B;EAAAA;",
+"sources":["IdentityHashMap.java"],
+"names":["java.util.IdentityHashMap.<synthetic: ctor_js>","java.util.IdentityHashMap.<synthetic: ctor_create>","java.util.IdentityHashMap.<init>","ignored","toBeCopied","java.util.IdentityHashMap.clone","obj","java.util.IdentityHashMap.equals","otherMap","entry","otherKey","otherValue","java.util.IdentityHashMap.hashCode","hashCode","value1","value2","key","java.util.IdentityHashMap.getHashCode","java.util.IdentityHashMap.<clinit>"]
+}

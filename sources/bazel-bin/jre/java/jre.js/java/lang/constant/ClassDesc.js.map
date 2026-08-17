@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ClassDesc.js.map",
+"lineCount":20,
+"mappings":"A;;;;;;;;;;MAgBiB,S;;QACE,oD,gBAAUA,I;EAAVC,oB;EACfA,mI;;;QAFa,O;EAAAC,4B;EAAAA;",
+"sources":["ClassDesc.java"],
+"names":["name","java.lang.constant.ClassDesc.of","java.lang.constant.ClassDesc.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"FormData$AppendValueUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAgCmB,Q;;QAEgC,oE,UAAoBA,C;EAApBC,mB;EAC7CA,yE;;;QAIqB,oF;EAAAC,mB;EACrBA,8G;;;QAIuB,mF;EAAAC,mB;EACvBA,mE;;;QAIc,wE;EAAAC,mB;EACdA,2C;;;QAIc,0E;EAAAC,mB;EACdA,wC;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["FormData.java"],
+"names":["o","elemental2.dom.FormData$AppendValueUnionType$$Overlay.of","elemental2.dom.FormData$AppendValueUnionType$$Overlay.asBlob__$devirt","elemental2.dom.FormData$AppendValueUnionType$$Overlay.asString__$devirt","elemental2.dom.FormData$AppendValueUnionType$$Overlay.isBlob__$devirt","elemental2.dom.FormData$AppendValueUnionType$$Overlay.isString__$devirt","elemental2.dom.FormData$AppendValueUnionType$$Overlay.<clinit>"]
+}

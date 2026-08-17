@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ArrayIterator.js.map",
+"lineCount":67,
+"mappings":"A;;;;;;;;;;;;;;;;MAsBmB,a;;CAAA,W;EAAAA,Q;EAAAA;OAEC,yCAFDA,C;EAAAA;OAGL,qCAHKA,K;;;QAKV,iC,iBAAkBC,K;EAAlBC,wB;EAAAA,oC;EAAAA,wF;EAAAA,iB;;;CAAA,sE,iBAAkBD,K;EAAOE,qC;EAC9BA,uD;;;CAIa,kB;EACbC,0G;;;CAIO,wB;EACPC,+E;EADcA,yB;EAEdA,sN;;;CAIU,c;EACVC,mI;;;;CAtBe,I;EAAAC,8J;;;;CAAA,qD;EAAAC,yG;;;QAAA,O;EAAAC,gC;EAAAA,6B;EAAAA,qB;EAAAA;",
+"sources":["ArrayIterator.java"],
+"names":["javaemul.internal.ArrayIterator.<synthetic: ctor_js>","array","javaemul.internal.ArrayIterator.<synthetic: ctor_create>","javaemul.internal.ArrayIterator.<init>","javaemul.internal.ArrayIterator.hasNext","javaemul.internal.ArrayIterator.next","javaemul.internal.ArrayIterator.remove","javaemul.internal.ArrayIterator._private_jsNext__","javaemul.internal.ArrayIterator.forEachRemaining","javaemul.internal.ArrayIterator.<clinit>"]
+}

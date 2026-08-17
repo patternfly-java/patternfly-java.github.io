@@ -1,0 +1,32 @@
+goog.module('org.patternfly.component.textinputgroup.BaseTextInputGroup');
+
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLInputElement.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.function.Consumer');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.jboss.elemento.HTMLInputElementBuilder');
+goog.require('org.jboss.elemento.InputType');
+goog.require('org.patternfly.component.BaseComponent');
+goog.require('org.patternfly.component.ComponentIcon');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.HasValue');
+goog.require('org.patternfly.component.KicHandler');
+goog.require('org.patternfly.component.Validatable');
+goog.require('org.patternfly.component.ValidationStatus');
+goog.require('org.patternfly.component.textinputgroup.TextInputGroupUtilities');
+goog.require('org.patternfly.handler.ChangeHandler');
+goog.require('org.patternfly.icon.PredefinedIcon');
+goog.require('org.patternfly.style.Classes');
+goog.require('org.patternfly.style.Modifiers.Disabled');
+goog.require('org.patternfly.style.Modifiers.Plain');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const BaseTextInputGroup = goog.require('org.patternfly.component.textinputgroup.BaseTextInputGroup$impl');
+exports = BaseTextInputGroup;

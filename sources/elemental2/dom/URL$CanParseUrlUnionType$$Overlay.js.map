@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"URL$CanParseUrlUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAqDmB,Q;;QAEiB,+D,UAAUA,C;EAAVC,mB;EAC9BA,yE;;;QAIa,8E;EAAAC,mB;EACbA,mE;;;QAIU,6E;EAAAC,mB;EACVA,4G;;;QAIc,qE;EAAAC,mB;EACdA,wC;;;QAIc,kE;EAAAC,mB;EACdA,0C;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["URL.java"],
+"names":["o","elemental2.dom.URL$CanParseUrlUnionType$$Overlay.of","elemental2.dom.URL$CanParseUrlUnionType$$Overlay.asString__$devirt","elemental2.dom.URL$CanParseUrlUnionType$$Overlay.asURL__$devirt","elemental2.dom.URL$CanParseUrlUnionType$$Overlay.isString__$devirt","elemental2.dom.URL$CanParseUrlUnionType$$Overlay.isURL__$devirt","elemental2.dom.URL$CanParseUrlUnionType$$Overlay.<clinit>"]
+}

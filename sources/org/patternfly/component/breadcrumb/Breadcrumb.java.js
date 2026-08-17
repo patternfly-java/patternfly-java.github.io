@@ -1,0 +1,37 @@
+goog.module('org.patternfly.component.breadcrumb.Breadcrumb');
+
+goog.require('elemental2.dom.Event.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLOListElement.$Overlay');
+goog.require('java.lang.Iterable');
+goog.require('java.lang.String');
+goog.require('java.util.ArrayList');
+goog.require('java.util.Iterator');
+goog.require('java.util.LinkedHashMap');
+goog.require('java.util.List');
+goog.require('java.util.Map');
+goog.require('java.util.Spliterator');
+goog.require('java.util.function.BiConsumer');
+goog.require('java.util.function.Consumer');
+goog.require('java.util.function.Function');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.AddItemHandler');
+goog.require('org.patternfly.component.AurHandler');
+goog.require('org.patternfly.component.BaseComponent');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.HasItems');
+goog.require('org.patternfly.component.RemoveItemHandler');
+goog.require('org.patternfly.component.UpdateItemHandler');
+goog.require('org.patternfly.component.breadcrumb.BreadcrumbItem');
+goog.require('org.patternfly.core.Aria');
+goog.require('org.patternfly.core.Attributes');
+goog.require('org.patternfly.core.Roles');
+goog.require('org.patternfly.handler.SelectHandler');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const Breadcrumb = goog.require('org.patternfly.component.breadcrumb.Breadcrumb$impl');
+exports = Breadcrumb;

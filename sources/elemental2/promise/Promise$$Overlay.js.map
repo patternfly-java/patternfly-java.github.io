@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Promise$$Overlay.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;MAmDa,Q;;QAyE6C,uE,8BAA8BA,Q;EAA9BC,mB;EACtDA,gE;;;QAQoD,wE,8BAA+BD,Q;EAA/BE,mB;EACpDA,yD;;;QAU0D,mE,qBACjCC,K;EADiCC,mB;EAE1DA,kI;;;QAO0D,uD,WAAoBD,K;EAApBC,mB;EAC1DA,kI;;;QAvGS,O;EAAAC,2B;EAAAA;",
+"sources":["Promise.java"],
+"names":["promises","elemental2.promise.Promise$$Overlay.all","elemental2.promise.Promise$$Overlay.race","value","elemental2.promise.Promise$$Overlay.resolve","elemental2.promise.Promise$$Overlay.<clinit>"]
+}

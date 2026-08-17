@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"IsTrustedResourceUri.js.map",
+"lineCount":14,
+"mappings":"A;;;;;;;;;MAsBkB,oB;;QAAA,O;EAAAA,uC;EAAAA;",
+"sources":["IsTrustedResourceUri.java"],
+"names":["org.gwtproject.safehtml.shared.annotations.IsTrustedResourceUri.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"JsException.js.map",
+"lineCount":43,
+"mappings":"A;;;;;MAsBa,W;;CAAA,W;EAAAA,Q;;;;QAEX,yB,gBAAmBC,G;EAAnBC,sB;EAAAA,kC;EAAAA,oE;EAAAA,kH;EAAAA,iB;;;;CAAA,oD,gBAAmBD,G;EACjBE,oE;;;;QAGF,S;EAAAD,sB;EAAAA,kC;EAAAA,+C;EAAAA,kH;EAAAA,iB;;;;CAAA,kC;EACEC,+C;;;QAPS,O;EAAAC,8B;EAAAA,2B;EAAAA;",
+"sources":["JsException.java"],
+"names":["java.lang.JsException.<synthetic: ctor_js>","msg","java.lang.JsException.<synthetic: ctor_create>","java.lang.JsException.<init>","java.lang.JsException.<clinit>"]
+}

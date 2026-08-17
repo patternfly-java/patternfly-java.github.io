@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"JsIterableHelper$JsIterableAdapter.js.map",
+"lineCount":41,
+"mappings":"A;;;;;;;;;;;;;MAkD6B,iB;;CAAA,W;EAAAA,Q;EAAAA;OACC,iEADDA,C;;;QAGjB,2B,wBAA8BC,Q;EAA9BC,4B;EAAAA,wC;EAAAA,0G;EAAAA,iB;;;CAAA,qF,wBAA8BD,Q;EAAUE,qC;EAC9CA,kF;;;CAIwC,iB;EACxCC,8O;;;QATuB,O;EAAAC,oC;EAAAA,iC;EAAAA;",
+"sources":["JsIterableHelper.java"],
+"names":["javaemul.internal.JsIterableHelper$JsIterableAdapter.<synthetic: ctor_js>","delegate","javaemul.internal.JsIterableHelper$JsIterableAdapter.<synthetic: ctor_create>","javaemul.internal.JsIterableHelper$JsIterableAdapter.<init>","javaemul.internal.JsIterableHelper$JsIterableAdapter._private_jsIterator__","javaemul.internal.JsIterableHelper$JsIterableAdapter.<clinit>"]
+}

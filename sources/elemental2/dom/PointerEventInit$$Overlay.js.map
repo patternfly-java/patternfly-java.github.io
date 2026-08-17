@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PointerEventInit$$Overlay.js.map",
+"lineCount":26,
+"mappings":"A;;;;;;MA0BiB,Q;;QAES,yC;EAAAA,mB;EACtBA,4L;;;QAuDW,yG,+DAAkCC,e;EAAlCC,mB;EACXA,sI;;;QAmBW,yG,+DAAkCC,e;EAAlCC,mB;EACXA,sI;;;QA/Ea,O;EAAAC,2B;EAAAA;",
+"sources":["PointerEventInit.java"],
+"names":["elemental2.dom.PointerEventInit$$Overlay.create","coalescedEvents","elemental2.dom.PointerEventInit$$Overlay.setCoalescedEvents__$devirt","predictedEvents","elemental2.dom.PointerEventInit$$Overlay.setPredictedEvents__$devirt","elemental2.dom.PointerEventInit$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BoxModel.js.map",
+"lineCount":78,
+"mappings":"A;;;;;;;;;;;;;MAiBY,Q;;CAAA,W;EAAAA,Q;EAAAA;OAQK,oCARLA,C;;;QAUR,gD,8DAAgBC,K;EAAhBC,+B;EAAAA,oH;EAAAA,iB;;;CAAA,iF,8DAAgBD,K;EAAhBE,qC;EAAAA,2C;EAAuBA,yE;EACnBA,kD;;;QAXI,wD;EAAAC,mB;EAAAA;GAAAA,sPAAAA;G;EAAAA,sM;;;QAAA,6C;EAAAC,mB;EAAAA,6O;;;QAAA,O;EAAAC,2B;EAAAA,wB;EAAAA,e;;;;;;;;;;;;;;AAER;SAAA,gDAAA,K;AAEA;SAAA,+CAAA,K;AAEA;SAAA,2DAAA,K;AAJA;SAAA,yCAAA,kM;AAEA;SAAA,wCAAA,+L;AAEA;SAAA,oDAAA,qO;AANQ;SAAA,gDAAA;",
+"sources":["BoxModel.java"],
+"names":["org.jboss.elemento.BoxModel.<synthetic: ctor_js>","value","org.jboss.elemento.BoxModel.<synthetic: ctor_create>","org.jboss.elemento.BoxModel.<init>","org.jboss.elemento.BoxModel.valueOf","org.jboss.elemento.BoxModel.values","org.jboss.elemento.BoxModel.<clinit>"]
+}

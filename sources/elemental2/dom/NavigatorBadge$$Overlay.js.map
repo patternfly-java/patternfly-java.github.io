@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"NavigatorBadge$$Overlay.js.map",
+"lineCount":8,
+"mappings":"A;;;MAuBiB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["NavigatorBadge.java"],
+"names":["elemental2.dom.NavigatorBadge$$Overlay.<clinit>"]
+}

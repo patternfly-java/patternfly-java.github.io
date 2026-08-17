@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Collections$1.js.map",
+"lineCount":50,
+"mappings":"A;;;;;;;;;;;;MAmkCW,E;;CAAA,W;EAAAA,Q;EAAAA;OAAA,qCAAAA,C;;;QAAA,2B;EAAAC,a;EAAAA,yB;EAAAA,iF;EAAAA,iB;;;CAAA,wD;EADWC,0D;EACXC,qC;;;CAEU,0B;EACbC,uE;;;CAIO,+B;EACPC,6E;;;;CARG,gC;EAAAC,sH;;;QAAA,O;EAAAC,qB;EAAAA,kB;EAAAA,qB;EAAAA;",
+"sources":["Collections.java"],
+"names":["java.util.Collections$1.<synthetic: ctor_js>","java.util.Collections$1.<synthetic: ctor_create>","it","java.util.Collections$1.<init>","java.util.Collections$1.hasMoreElements","java.util.Collections$1.nextElement","java.util.Collections$1.asIterator","java.util.Collections$1.<clinit>"]
+}

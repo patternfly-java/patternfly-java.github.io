@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"XPathResult$$Overlay.js.map",
+"lineCount":89,
+"mappings":"A;;;;;MAuBa,Q;;YACwB,+C;EAAAA,4F;;;YAGX,8D;EAAAA,2G;;;YAEW,mD;EAAAA,gG;;;YAGX,8D;EAAAA,2G;;;YAEW,kD;EAAAA,+F;;;YAGX,iE;EAAAA,8G;;;YAIA,iE;EAAAA,8G;;;YAGW,kD;EAAAA,+F;;;YAGX,mE;EAAAA,gH;;;YAIA,mE;EAAAA,gH;;;QA5Bb,O;EAAAC,2B;EAAAA,wB;EACwBA,sF;EAGXA,oH;EAEWA,8F;EAGXA,oH;EAEWA,4F;EAGXA,0H;EAIAA,0H;EAGWA,4F;EAGXA,8H;EAIAA,8H;;;;;;;;;;AA5Bb;SACwB,qDADxB,K;AAAA;SAIa,oEAJb,K;AAAA;SAMwB,yDANxB,K;AAAA;SASa,oEATb,K;AAAA;SAWwB,wDAXxB,K;AAAA;SAca,uEAdb,K;AAAA;SAkBa,uEAlBb,K;AAAA;SAqBwB,wDArBxB,K;AAAA;SAwBa,yEAxBb,K;AAAA;SA4Ba,yEA5Bb;",
+"sources":["XPathResult.java"],
+"names":["elemental2.dom.XPathResult$$Overlay.<synthetic: getter>","elemental2.dom.XPathResult$$Overlay.<clinit>"]
+}

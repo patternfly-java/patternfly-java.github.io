@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HashChangeEvent$HashChangeEventEventInitDictType$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA4BmB,Q;;QAEyC,yE;EAAAA,mB;EACtDA,6K;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["HashChangeEvent.java"],
+"names":["elemental2.dom.HashChangeEvent$HashChangeEventEventInitDictType$$Overlay.create","elemental2.dom.HashChangeEvent$HashChangeEventEventInitDictType$$Overlay.<clinit>"]
+}
