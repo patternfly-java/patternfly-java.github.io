@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SkeletonComponent.js.map",
+"lineCount":62,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;MA0Ca,iB;;CAAA,W;EAAAA,Q;;;QAEF,S;EAAAC,4B;EAAAA,wC;EAAAA,6E;EAAAA,iB;;;CAAA,gE;EACHC,iT;EAEAA,6B;EACAA;GAGQC,ifAHRD;Q;EASAA;GAGQC,yhHAHRD;Q;EAmBAA;GAGQC,4vGAHRD;Q;EAcAA;GAGQC,83MAHRD;Q;EA4BAA;GAGQC,0jTAHRD;Q;EA6CAA,iE;EACAA,sJ;EACAA,0J;;;QA3HK,O;EAAAE,oC;EAAAA,iC;EAAAA;",
+"sources":["SkeletonComponent.java"],
+"names":["org.patternfly.showcase.component.SkeletonComponent.<synthetic: ctor_js>","org.patternfly.showcase.component.SkeletonComponent.<synthetic: ctor_create>","org.patternfly.showcase.component.SkeletonComponent.<init>","org.patternfly.showcase.component.SkeletonComponent.<lambda in <init>>","org.patternfly.showcase.component.SkeletonComponent.<clinit>"]
+}

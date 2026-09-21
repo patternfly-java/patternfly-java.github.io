@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Iterator.js.map",
+"lineCount":48,
+"mappings":"A;;;;;;;;;;;;;;;MA6BiB,Y;;CAEP,kB;;CAEN,wB;;CAEW,qD,oBAAqCA,Q;;CAOrC,c;;CAK+B,I;;QAZ/B,mF,sDAAqCA,Q;EAArCC,uB;EACXA,mF;EACAA;GACEA,+EADFA;G;;;QAKW,4C;EAAAC,uB;EACXA,mI;;;QAI0C,qG;EAAAC,uB;EAC1CA,+O;;;QAnBa,O;EAAAC,+B;EAAAA;",
+"sources":["Iterator.java"],
+"names":["consumer","java.util.Iterator.forEachRemaining__$default","java.util.Iterator.remove__$default","java.util.Iterator._private_jsNext____$default","java.util.Iterator.<clinit>"]
+}

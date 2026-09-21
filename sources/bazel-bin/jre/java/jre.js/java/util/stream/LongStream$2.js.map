@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LongStream$2.js.map",
+"lineCount":70,
+"mappings":"A;;;;;;;;;;;;;;MA+FQ,E;;CAAA,W;EAAAA,Q;EAAAA;OACqB,qCADrBA,C;EAAAA;OAAA,6DAAAA,C;;;QAA4D,yC;EAAAC,a;EAAAA,yB;EAAAA,8I;EAAAA,iB;;;CAAA,4E;EAH9BC,oG;EAG8BC,mG;;;CAI3C,sD,qBAAwBC,M;EAErCC;GAEEA;IACEA,YADFA;;IAIEA,kDAJFA;IAFFA;G;EASAA,a;;;CAGc,oE;EACdC;GACEA,qJACIC,CADJD;IACIE,IAAAD,GAAAC,sEADJF;IAEME;KACEA,4HADFA;KAFNF;;IAMEA,aANFA;IADFA;G;EAUAA,Y;;;;CA7BJ,uC;EAAAD,uJ;;;QAAA,O;EAAAI,qB;EAAAA,kB;EAAAA;",
+"sources":["LongStream.java"],
+"names":["java.util.stream.LongStream$2.<synthetic: ctor_js>","java.util.stream.LongStream$2.<synthetic: ctor_create>","spliteratorOfStreams","java.util.stream.LongStream$2.<init>","action","java.util.stream.LongStream$2.tryAdvance","java.util.stream.LongStream$2.advanceToNextSpliterator","n","java.util.stream.LongStream$2.<lambda in advanceToNextSpliterator>","java.util.stream.LongStream$2.<clinit>"]
+}

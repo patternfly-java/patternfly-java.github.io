@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HasIdentifier.js.map",
+"lineCount":19,
+"mappings":"A;;;;;;;;;;;;MAmCiB,a;;CAQN,8B;;QARM,O;EAAAA,gC;EAAAA;",
+"sources":["HasIdentifier.java"],
+"names":["org.patternfly.component.HasIdentifier.<clinit>"]
+}

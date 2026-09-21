@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"InputDeviceInfo$$Overlay.js.map",
+"lineCount":8,
+"mappings":"A;;;MAqBiB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["InputDeviceInfo.java"],
+"names":["elemental2.dom.InputDeviceInfo$$Overlay.<clinit>"]
+}

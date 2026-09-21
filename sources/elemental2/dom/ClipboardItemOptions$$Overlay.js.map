@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ClipboardItemOptions$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEa,6C;EAAAA,mB;EAC1BA,gM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["ClipboardItemOptions.java"],
+"names":["elemental2.dom.ClipboardItemOptions$$Overlay.create","elemental2.dom.ClipboardItemOptions$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"FlowCallback$$LambdaAdaptor.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;;;;;MA2BiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,yDAAAA,C;EAAAA,4H;;;CAAA,kH;EAAAC,qC;EAAAA,oE;;;CAAA,mD;;GAAAC,+E;GAAAA,gB;;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["FlowCallback.java"],
+"names":["org.jboss.elemento.flow.FlowCallback$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","org.jboss.elemento.flow.FlowCallback$$LambdaAdaptor.<init>","org.jboss.elemento.flow.FlowCallback$$LambdaAdaptor.finish","org.jboss.elemento.flow.FlowCallback$$LambdaAdaptor.<clinit>"]
+}

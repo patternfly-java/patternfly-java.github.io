@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"WizardSubComponent.js.map",
+"lineCount":27,
+"mappings":"A;;;;;;;;;;;;;MAwBe,kB;;CAAA,W;EAAAA,Q;;;CAEX,+H,gBAA0BC,c,iBAAuBC,gB,WAAoBC,O;EACjEC,2Q;;;QAHO,O;EAAAC,qC;EAAAA,kC;EAAAA;",
+"sources":["WizardSubComponent.java"],
+"names":["org.patternfly.component.wizard.WizardSubComponent.<synthetic: ctor_js>","subComponentId","subComponentName","element","org.patternfly.component.wizard.WizardSubComponent.<init>","org.patternfly.component.wizard.WizardSubComponent.<clinit>"]
+}

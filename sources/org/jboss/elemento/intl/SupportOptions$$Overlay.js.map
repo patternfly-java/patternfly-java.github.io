@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SupportOptions$$Overlay.js.map",
+"lineCount":23,
+"mappings":"A;;;;;;;MAoCiB,Q;;QAGoB,wD;EAAAA,mB;EAAmBA,0L;;;QAQ7B,yI,iDAAsBC,a;EAAtBC,mB;EACnBA,gF;EACAA,gB;;;QAbS,O;EAAAC,2B;EAAAA;",
+"sources":["SupportOptions.java"],
+"names":["org.jboss.elemento.intl.SupportOptions$$Overlay.supportOptions","localeMatcher","org.jboss.elemento.intl.SupportOptions$$Overlay.localeMatcher__$devirt","org.jboss.elemento.intl.SupportOptions$$Overlay.<clinit>"]
+}

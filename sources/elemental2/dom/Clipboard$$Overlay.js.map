@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Clipboard$$Overlay.js.map",
+"lineCount":17,
+"mappings":"A;;;;;;;MAyBa,Q;;QAMgB,4G,yDAAsBA,I;EAAtBC,mB;EACzBA,wH;;;QAPS,O;EAAAC,2B;EAAAA;",
+"sources":["Clipboard.java"],
+"names":["data","elemental2.dom.Clipboard$$Overlay.write__$devirt","elemental2.dom.Clipboard$$Overlay.<clinit>"]
+}

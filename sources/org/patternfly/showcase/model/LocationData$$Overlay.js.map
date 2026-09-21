@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LocationData$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAqBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["LocationData.java"],
+"names":["org.patternfly.showcase.model.LocationData$$Overlay.<clinit>"]
+}

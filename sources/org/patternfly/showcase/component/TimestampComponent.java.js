@@ -1,0 +1,30 @@
+goog.module('org.patternfly.showcase.component.TimestampComponent');
+
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('java.lang.Class');
+goog.require('java.util.Date');
+goog.require('java.util.function.Supplier');
+goog.require('jsinterop.base.JsPropertyMap.$Overlay');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.timestamp.CustomFormat.$Overlay');
+goog.require('org.patternfly.component.timestamp.DateTimeFormatOptions.Day');
+goog.require('org.patternfly.component.timestamp.DateTimeFormatOptions.Hour');
+goog.require('org.patternfly.component.timestamp.DateTimeFormatOptions.Month');
+goog.require('org.patternfly.component.timestamp.DateTimeFormatOptions.Weekday');
+goog.require('org.patternfly.component.timestamp.DateTimeFormatOptions.Year');
+goog.require('org.patternfly.component.timestamp.Timestamp');
+goog.require('org.patternfly.component.timestamp.TimestampFormat');
+goog.require('org.patternfly.showcase.ApiDoc.Type');
+goog.require('org.patternfly.showcase.Code');
+goog.require('org.patternfly.showcase.Data');
+goog.require('org.patternfly.showcase.Snippet');
+goog.require('org.patternfly.showcase.SnippetPage');
+goog.require('org.patternfly.showcase.component.Component.$Overlay');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Casts');
+
+const TimestampComponent = goog.require('org.patternfly.showcase.component.TimestampComponent$impl');
+exports = TimestampComponent;

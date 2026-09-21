@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AsyncDisposable$$Overlay.js.map",
+"lineCount":8,
+"mappings":"A;;;MAqBiB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["AsyncDisposable.java"],
+"names":["elemental2.core.AsyncDisposable$$Overlay.<clinit>"]
+}

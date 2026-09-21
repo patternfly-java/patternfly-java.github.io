@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Subscription$$LambdaAdaptor.js.map",
+"lineCount":39,
+"mappings":"A;;;;;;;;;;;;;MA6BiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,yDAAAA,C;EAAAA,4H;;;CAAA,kH;EAAAC,qC;EAAAA,oE;;;CAAA,uD;;GAAAC,+E;GAAAA,gB;;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["Subscription.java"],
+"names":["org.jboss.elemento.flow.Subscription$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","org.jboss.elemento.flow.Subscription$$LambdaAdaptor.<init>","org.jboss.elemento.flow.Subscription$$LambdaAdaptor.subscribe","org.jboss.elemento.flow.Subscription$$LambdaAdaptor.<clinit>"]
+}

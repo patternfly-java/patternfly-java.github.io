@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Duration$$Overlay.js.map",
+"lineCount":91,
+"mappings":"A;;;;;;MAqCiB,Q;;QAGc,4C;EAAAA,mB;EACvBA,oL;;;QAiBa,qI,0CAASC,K,gBAAWC,M,gBAAYC,K,gBAAWC,I,gBAAUC,K,gBAAWC,O,gBAAaC,O,gBAAaC,Y,gBAAkBC,Y,gBAAkBC,W;EAA9HC,mB;EACbA,uB;EACAA,yB;EACAA,uB;EACAA,qB;EACAA,uB;EACAA,2B;EACAA,2B;EACAA,qC;EACAA,qC;EACAA,mC;EACAA,gB;;;QAIa,yF,0CAAUV,K;EAAVW,mB;EACbA,uB;EACAA,gB;;;QAIa,0F,0CAAWV,M;EAAXW,mB;EACbA,yB;EACAA,gB;;;QAIa,yF,0CAAUV,K;EAAVW,mB;EACbA,uB;EACAA,gB;;;QAIa,wF,0CAASV,I;EAATW,mB;EACbA,qB;EACAA,gB;;;QAIa,yF,0CAAUV,K;EAAVW,mB;EACbA,uB;EACAA,gB;;;QAIa,2F,0CAAYV,O;EAAZW,mB;EACbA,2B;EACAA,gB;;;QAIa,2F,0CAAYV,O;EAAZW,mB;EACbA,2B;EACAA,gB;;;QAIa,gG,0CAAiBV,Y;EAAjBW,mB;EACbA,qC;EACAA,gB;;;QAIa,gG,0CAAiBV,Y;EAAjBW,mB;EACbA,qC;EACAA,gB;;;QAIa,+F,0CAAgBV,W;EAAhBW,mB;EACbA,mC;EACAA,gB;;;QA5FS,O;EAAAC,2B;EAAAA;",
+"sources":["Duration.java"],
+"names":["org.jboss.elemento.intl.Duration$$Overlay.duration","years","months","weeks","days","hours","minutes","seconds","milliSeconds","microSeconds","nanoSeconds","org.jboss.elemento.intl.Duration$$Overlay.from__$devirt","org.jboss.elemento.intl.Duration$$Overlay.years__$devirt","org.jboss.elemento.intl.Duration$$Overlay.months__$devirt","org.jboss.elemento.intl.Duration$$Overlay.weeks__$devirt","org.jboss.elemento.intl.Duration$$Overlay.days__$devirt","org.jboss.elemento.intl.Duration$$Overlay.hours__$devirt","org.jboss.elemento.intl.Duration$$Overlay.minutes__$devirt","org.jboss.elemento.intl.Duration$$Overlay.seconds__$devirt","org.jboss.elemento.intl.Duration$$Overlay.milliSeconds__$devirt","org.jboss.elemento.intl.Duration$$Overlay.microSeconds__$devirt","org.jboss.elemento.intl.Duration$$Overlay.nanoSeconds__$devirt","org.jboss.elemento.intl.Duration$$Overlay.<clinit>"]
+}

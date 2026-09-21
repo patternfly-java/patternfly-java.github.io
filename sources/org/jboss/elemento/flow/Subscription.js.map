@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Subscription.js.map",
+"lineCount":24,
+"mappings":"A;;;;;;;;;;;;MA6BiB,Y;;CAKR,uD,wBAA0BA,Q;;QALlB,M;EAAAC,uB;EAAAA,gE;;;QAAA,O;EAAAC,+B;EAAAA;",
+"sources":["Subscription.java"],
+"names":["callback","org.jboss.elemento.flow.Subscription.<synthetic: adapt_lambda>","org.jboss.elemento.flow.Subscription.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Places.js.map",
+"lineCount":107,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;;MA8Ba,M;;CAAA,W;EAAAA,Q;EAAAA;OAUwB,yCAVxBA,C;;;QAIY,0C;EAAAC,iB;EACjBA,0B;;;QAOJ,S;EAAAC,iB;EAAAA,6B;EAAAA,0D;EAAAA,iB;;;CAAA,6C;EAASC,qC;EACLA,sH;;;CAI8C,8B;EAC9CC,kG;;;CAQU,qG,cAAUC,K,wBAAsBC,I;EAC1CC,gE;EACAA,Y;;;CAMU,yE,eAAWC,M;EACrBD,wG;EACAA,Y;;;CAUU,gG,gBAAgBE,I,gBAAaD,M;EACvCE;GAAAA,IAAsCC,KAAtCD,+HAAAA;;IACIA,IAAME,KAANF,yTADJA;IAEIA,wJAFJA;;G;EAIAA,Y;;;CAMU,+G,cAAaL,K,qBAAmBQ,M;EAC1CC;GACIA;IAAAA,IAAWC,CAAXD,gFAAAA;;KACIA;MACIA,wFADJA;MAEIA,MAFJA;MADJA;;IADJA;G;EAQAA,Y;;;CAKW,wH,gBAAqBE,M,eAAcJ,K;EAC9CK,kR;;;;CAxEK,4C;EAAAC,gG;;;;CAAA,oC;EAAAC,kJ;;;QAAA,O;EAAAC,yB;EAAAA,sB;EAAAA,qB;EAAAA;",
+"sources":["Places.java"],
+"names":["org.jboss.elemento.router.Places.<synthetic: ctor_js>","org.jboss.elemento.router.Places.places","org.jboss.elemento.router.Places.<synthetic: ctor_create>","org.jboss.elemento.router.Places.<init>","org.jboss.elemento.router.Places.iterator","place","page","org.jboss.elemento.router.Places.add","places","path","org.jboss.elemento.router.Places.children","entry","child","loader","org.jboss.elemento.router.Places.loader","p","parent","org.jboss.elemento.router.Places.failSafeRoute","org.jboss.elemento.router.Places.forEach","org.jboss.elemento.router.Places.spliterator","org.jboss.elemento.router.Places.<clinit>"]
+}

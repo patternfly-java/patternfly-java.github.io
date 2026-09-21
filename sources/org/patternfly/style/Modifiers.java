@@ -1,0 +1,432 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.style;
+
+import org.jboss.elemento.IsElement;
+import org.jboss.elemento.TypedBuilder;
+
+import elemental2.dom.Element;
+
+import static org.patternfly.style.Classes.modifier;
+
+/** Contains modifier interfaces that toggle CSS modifier classes on component elements. */
+public interface Modifiers {
+
+    // ------------------------------------------------------ flags (a-z)
+
+    interface Bordered<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #bordered(boolean) bordered(true)} */
+        default B bordered() {
+            return bordered(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(bordered)} */
+        default B bordered(boolean bordered) {
+            return toggleModifier(that(), element(), Classes.bordered, bordered);
+        }
+    }
+
+    interface Box<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #box(boolean) box(true)} */
+        default B box() {
+            return box(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(box)} */
+        default B box(boolean box) {
+            return toggleModifier(that(), element(), Classes.box, box);
+        }
+    }
+
+    interface Center<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #center(boolean) center(true)} */
+        default B center() {
+            return center(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(center)} */
+        default B center(boolean center) {
+            return toggleModifier(that(), element(), Classes.center, center);
+        }
+    }
+
+    interface Circle<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #circle(boolean) circle(true)} */
+        default B circle() {
+            return circle(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(circle)} */
+        default B circle(boolean circle) {
+            return toggleModifier(that(), element(), Classes.circle, circle);
+        }
+    }
+
+    interface Compact<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #compact(boolean) compact(true)} */
+        default B compact() {
+            return compact(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(compact)} */
+        default B compact(boolean compact) {
+            return toggleModifier(that(), element(), Classes.compact, compact);
+        }
+    }
+
+    interface Disabled<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #disabled(boolean) disabled(true)} */
+        default B disabled() {
+            return disabled(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(disabled)} */
+        default B disabled(boolean disabled) {
+            return toggleModifier(that(), element(), Classes.disabled, disabled);
+        }
+
+        default boolean isDisabled() {
+            return element().classList.contains(modifier(Classes.disabled));
+        }
+    }
+
+    interface Fill<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #fill(boolean) fill(true)} */
+        default B fill() {
+            return fill(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(fill)} */
+        default B fill(boolean fill) {
+            return toggleModifier(that(), element(), Classes.fill, fill);
+        }
+    }
+
+    interface FullHeight<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #fullHeight(boolean) fullHeight(true)} */
+        default B fullHeight() {
+            return fullHeight(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(fullHeight)} */
+        default B fullHeight(boolean fullHeight) {
+            return toggleModifier(that(), element(), Classes.fullHeight, fullHeight);
+        }
+    }
+
+    interface FullWidth<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #fullWidth(boolean) fullWidth(true)} */
+        default B fullWidth() {
+            return fullWidth(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(fullWidth)} */
+        default B fullWidth(boolean fullWidth) {
+            return toggleModifier(that(), element(), Classes.fullWidth, fullWidth);
+        }
+    }
+
+    interface Glass<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #glass(boolean) glass(true)} */
+        default B glass() {
+            return glass(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(glass)} */
+        default B glass(boolean glass) {
+            return toggleModifier(that(), element(), Classes.glass, glass);
+        }
+    }
+
+    interface Gutter<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #gutter(boolean) gutter(true)} */
+        default B gutter() {
+            return gutter(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(gutter)} */
+        default B gutter(boolean gutter) {
+            return toggleModifier(that(), element(), Classes.gutter, gutter);
+        }
+    }
+
+    interface Horizontal<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #horizontal(boolean) horizontal(true)} */
+        default B horizontal() {
+            return horizontal(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(horizontal)} */
+        default B horizontal(boolean horizontal) {
+            return toggleModifier(that(), element(), Classes.horizontal, horizontal);
+        }
+    }
+
+    interface Inline<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #inline(boolean) inline(true)} */
+        default B inline() {
+            return inline(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(inline)} */
+        default B inline(boolean inline) {
+            return toggleModifier(that(), element(), Classes.inline, inline);
+        }
+    }
+
+    interface Invalid<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #invalid(boolean) invalid(true)} */
+        default B invalid() {
+            return invalid(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(error)} */
+        default B invalid(boolean invalid) {
+            return toggleModifier(that(), element(), Classes.error, invalid);
+        }
+    }
+
+    interface NoFill<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #noFill(boolean) noFill(true)} */
+        default B noFill() {
+            return noFill(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(noFill)} */
+        default B noFill(boolean noFill) {
+            return toggleModifier(that(), element(), Classes.noFill, noFill);
+        }
+    }
+
+    interface NoPadding<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #noPadding(boolean) noPadding(true)} */
+        default B noPadding() {
+            return noPadding(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(noPadding)} */
+        default B noPadding(boolean noPadding) {
+            return toggleModifier(that(), element(), Classes.noPadding, noPadding);
+        }
+    }
+
+    interface NoOffset<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #noOffset(boolean) noOffset(true)} */
+        default B noOffset() {
+            return noOffset(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(noOffset)} */
+        default B noOffset(boolean noOffset) {
+            return toggleModifier(that(), element(), Classes.noOffset, noOffset);
+        }
+    }
+
+    interface NoPlainOnGlass<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>,
+            IsElement<E> {
+
+        /** Same as {@linkplain #noPlainOnGlass(boolean) noPlainOnGlass(true)} */
+        default B noPlainOnGlass() {
+            return noPlainOnGlass(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(noPlainOnGlass)} */
+        default B noPlainOnGlass(boolean noPlainOnGlass) {
+            return toggleModifier(that(), element(), Classes.noPlainOnGlass, noPlainOnGlass);
+        }
+    }
+
+    interface Padding<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #padding(boolean) padding(true)} */
+        default B padding() {
+            return padding(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(padding)} */
+        default B padding(boolean padding) {
+            return toggleModifier(that(), element(), Classes.padding, padding);
+        }
+    }
+
+    interface PageInsets<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #pageInsets(boolean) pageInsets(true)} */
+        default B pageInsets() {
+            return pageInsets(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(pageInsets)} */
+        default B pageInsets(boolean pageInsets) {
+            return toggleModifier(that(), element(), Classes.pageInsets, pageInsets);
+        }
+    }
+
+    interface Pill<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #pill(boolean) pill(true)} */
+        default B pill() {
+            return pill(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(pill)} */
+        default B pill(boolean pill) {
+            return toggleModifier(that(), element(), Classes.pill, pill);
+        }
+    }
+
+    interface Plain<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #plain(boolean) plain(true)} */
+        default B plain() {
+            return plain(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(plain)} */
+        default B plain(boolean plain) {
+            return toggleModifier(that(), element(), Classes.plain, plain);
+        }
+    }
+
+    interface Primary<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #primary(boolean) primary(true)} */
+        default B primary() {
+            return primary(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(primary)} */
+        default B primary(boolean primary) {
+            return toggleModifier(that(), element(), Classes.primary, primary);
+        }
+    }
+
+    interface Readonly<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #readonly(boolean) readonly(true)} */
+        default B readonly() {
+            return readonly(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(readonly)} */
+        default B readonly(boolean readonly) {
+            return toggleModifier(that(), element(), Classes.readonly, readonly);
+        }
+    }
+
+    interface Readonly2<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #readonly(boolean) readonly(true)} */
+        default B readonly() {
+            return readonly(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(readOnly)} */
+        default B readonly(boolean readonly) {
+            return toggleModifier(that(), element(), Classes.readOnly, readonly);
+        }
+    }
+
+    interface Required<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #required(boolean) required(true)} */
+        default B required() {
+            return required(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(required)} */
+        default B required(boolean required) {
+            return toggleModifier(that(), element(), Classes.required, required);
+        }
+    }
+
+    interface Secondary<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #secondary(boolean) secondary(true)} */
+        default B secondary() {
+            return secondary(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(secondary)} */
+        default B secondary(boolean secondary) {
+            return toggleModifier(that(), element(), Classes.secondary, secondary);
+        }
+    }
+
+    interface Static<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #static_(boolean) static_(true)} */
+        default B static_() {
+            return static_(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(static_)} */
+        default B static_(boolean static_) {
+            return toggleModifier(that(), element(), Classes.static_, static_);
+        }
+    }
+
+    interface Sticky<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #sticky(boolean) sticky(true)} */
+        default B sticky() {
+            return sticky(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(sticky)} */
+        default B sticky(boolean sticky) {
+            return toggleModifier(that(), element(), Classes.sticky, sticky);
+        }
+    }
+
+    interface Vertical<E extends Element, B extends TypedBuilder<E, B>> extends TypedBuilder<E, B>, IsElement<E> {
+
+        /** Same as {@linkplain #vertical(boolean) vertical(true)} */
+        default B vertical() {
+            return vertical(true);
+        }
+
+        /** Adds/removes {@linkplain Classes#modifier(String) modifier(vertical)} */
+        default B vertical(boolean vertical) {
+            return toggleModifier(that(), element(), Classes.vertical, vertical);
+        }
+    }
+
+    // ------------------------------------------------------ helper methods
+
+    static <E extends Element, B extends TypedBuilder<E, B>> B toggleModifier(B builder, E element,
+            String pureModifier, boolean flag) {
+        element.classList.toggle(modifier(pureModifier), flag);
+        return builder;
+    }
+}

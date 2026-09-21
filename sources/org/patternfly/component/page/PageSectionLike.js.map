@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PageSectionLike.js.map",
+"lineCount":49,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAmCiB,e;;QAAA,O;EAAAA,kC;EAAAA,+B;EAAAA,kC;EAAAA,kC;EAAAA,kC;EAAAA,iC;EAAAA,8B;EAAAA,2B;EAAAA,8B;EAAAA,6B;EAAAA,sC;EAAAA,iC;EAAAA,kC;EAAAA;",
+"sources":["PageSectionLike.java"],
+"names":["org.patternfly.component.page.PageSectionLike.<clinit>"]
+}

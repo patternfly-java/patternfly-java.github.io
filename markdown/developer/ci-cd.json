@@ -1,0 +1,47 @@
+{
+  "id": "developer/ci-cd",
+  "title": "CI/CD",
+  "html": "<h1 id=\"cicd\" class=\"pf-v6-c-title pf-m-4xl\">CI/CD</h1>\n<p>PatternFly Java uses GitHub Actions for continuous integration, snapshot publishing, documentation updates, and releases. All workflow files are in <code>.github/workflows/</code>.</p>\n<h2 id=\"workflow-overview\" class=\"pf-v6-c-title pf-m-2xl\">Workflow Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Workflow</th>\n<th>Trigger</th>\n<th>Purpose</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"#verify\">verify.yml</a></td>\n<td>Push/PR to <code>main</code></td>\n<td>Validate the build</td>\n</tr>\n<tr>\n<td><a href=\"#snapshot\">snapshot.yml</a></td>\n<td>After verify succeeds</td>\n<td>Publish snapshot artifacts</td>\n</tr>\n<tr>\n<td><a href=\"#publish-docs\">publish-docs.yml</a></td>\n<td>Push to <code>showcase/markdown/**</code> or manual</td>\n<td>Update markdown documentation</td>\n</tr>\n<tr>\n<td><a href=\"#showcase\">showcase.yml</a></td>\n<td>Manual dispatch</td>\n<td>Publish showcase website</td>\n</tr>\n<tr>\n<td><a href=\"#apidocs\">apidocs.yml</a></td>\n<td>Manual dispatch</td>\n<td>Publish API documentation</td>\n</tr>\n<tr>\n<td><a href=\"#release\">release.yml</a></td>\n<td>Tag <code>v*</code></td>\n<td>Full release pipeline (see <a href=\"/releasing\">Releasing</a>)</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"verify\" class=\"pf-v6-c-title pf-m-2xl\">Verify</h2>\n<p><strong>File:</strong> <code>verify.yml</code>\n<strong>Trigger:</strong> Push to <code>main</code>, pull requests targeting <code>main</code></p>\n<p>Validates the codebase by building all modules including the showcase, but skipping J2CL compilation for speed:</p>\n<pre class=\"shiki shiki-themes github-light github-dark\" style=\"background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B392F0\">mvn</span><span style=\"color:#032F62;--shiki-dark:#9ECBFF\"> install</span><span style=\"color:#6A737D;--shiki-dark:#6A737D\">           # BOM (separate reactor)</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B392F0\">mvn</span><span style=\"color:#032F62;--shiki-dark:#9ECBFF\"> verify</span><span style=\"color:#005CC5;--shiki-dark:#79B8FF\"> -P</span><span style=\"color:#032F62;--shiki-dark:#9ECBFF\"> showcase</span><span style=\"color:#005CC5;--shiki-dark:#79B8FF\"> -DskipJ2CL</span></span></code></pre>\n<p>This runs tests, javadoc generation, and all validation checks. It's the gatekeeper for every change.</p>\n<h2 id=\"snapshot\" class=\"pf-v6-c-title pf-m-2xl\">Snapshot</h2>\n<p><strong>File:</strong> <code>snapshot.yml</code>\n<strong>Trigger:</strong> Automatically after the \"Verify Codebase\" workflow completes</p>\n<p>Publishes snapshot artifacts to Maven Central in two steps:</p>\n<ol>\n<li>Deploy the BOM</li>\n<li>Deploy all project modules</li>\n</ol>\n<p>Both steps skip tests (already validated by verify) and authenticate against Maven Central using <code>CENTRAL_USERNAME</code> and <code>CENTRAL_PASSWORD</code> secrets.</p>\n<h2 id=\"publish-docs\" class=\"pf-v6-c-title pf-m-2xl\">Publish Docs</h2>\n<p><strong>File:</strong> <code>publish-docs.yml</code>\n<strong>Trigger:</strong> Push to <code>showcase/markdown/**</code> or manual dispatch</p>\n<p>Updates the showcase documentation without a full build:</p>\n<ol>\n<li>Install Node dependencies in <code>showcase/</code></li>\n<li>Run <code>pnpm run markdown</code> to process markdown files into JSON</li>\n<li>Copy the JSON files to the <code>patternfly-java/patternfly-java.github.io</code> repository (gh-pages branch)</li>\n</ol>\n<p>This allows documentation changes to go live immediately, without rebuilding the entire showcase or waiting for a release.</p>\n<h2 id=\"showcase\" class=\"pf-v6-c-title pf-m-2xl\">Showcase</h2>\n<p><strong>File:</strong> <code>showcase.yml</code>\n<strong>Trigger:</strong> Manual dispatch only</p>\n<p>Builds and deploys the full showcase website:</p>\n<ol>\n<li>Install NPM dependencies for charts</li>\n<li>Build the showcase with production optimizations: <code>mvn -P showcase,prod package</code></li>\n<li>Deploy <code>showcase/target/showcase/</code> to <code>patternfly-java/patternfly-java.github.io</code> (gh-pages)</li>\n</ol>\n<p>Use this to manually update the showcase between releases.</p>\n<h2 id=\"api-docs\" class=\"pf-v6-c-title pf-m-2xl\">API Docs</h2>\n<p><strong>File:</strong> <code>apidocs.yml</code>\n<strong>Trigger:</strong> Manual dispatch only</p>\n<p>Generates and publishes API documentation:</p>\n<ol>\n<li>Install Graphviz (for dependency graphs)</li>\n<li>Build all modules</li>\n<li>Generate dependency graph, copy doc files, sources, and demos</li>\n<li>Run <code>javadoc:javadoc</code> in the <code>apidoc/</code> module</li>\n<li>Deploy to <code>patternfly-java/apidocs</code> (gh-pages)</li>\n</ol>\n<h2 id=\"release\" class=\"pf-v6-c-title pf-m-2xl\">Release</h2>\n<p><strong>File:</strong> <code>release.yml</code>\n<strong>Trigger:</strong> Git tags matching <code>v*</code></p>\n<p>Orchestrates the full release pipeline. This is covered in detail on the <a href=\"/releasing\">Releasing</a> page.</p>\n<h2 id=\"secrets\" class=\"pf-v6-c-title pf-m-2xl\">Secrets</h2>\n<p>The following GitHub secrets are required by the CI/CD workflows:</p>\n<table>\n<thead>\n<tr>\n<th>Secret</th>\n<th>Used by</th>\n<th>Purpose</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>CENTRAL_USERNAME</code></td>\n<td>snapshot, release</td>\n<td>Maven Central authentication</td>\n</tr>\n<tr>\n<td><code>CENTRAL_PASSWORD</code></td>\n<td>snapshot, release</td>\n<td>Maven Central authentication</td>\n</tr>\n<tr>\n<td><code>MAVEN_GPG_PRIVATE_KEY</code></td>\n<td>release</td>\n<td>GPG signing of release artifacts</td>\n</tr>\n<tr>\n<td><code>MAVEN_GPG_PASSPHRASE</code></td>\n<td>release</td>\n<td>GPG key passphrase</td>\n</tr>\n<tr>\n<td><code>PUBLISH_CONTENT</code></td>\n<td>publish-docs, showcase, apidocs, release</td>\n<td>GitHub token for pushing to <code>patternfly-java.github.io</code> and <code>patternfly-java/apidocs</code></td>\n</tr>\n<tr>\n<td><code>GITHUB_TOKEN</code></td>\n<td>release</td>\n<td>Create GitHub Release (provided automatically)</td>\n</tr>\n</tbody>\n</table>",
+  "toc": [
+    {
+      "id": "workflow-overview",
+      "text": "Workflow Overview",
+      "level": 2
+    },
+    {
+      "id": "verify",
+      "text": "Verify",
+      "level": 2
+    },
+    {
+      "id": "snapshot",
+      "text": "Snapshot",
+      "level": 2
+    },
+    {
+      "id": "publish-docs",
+      "text": "Publish Docs",
+      "level": 2
+    },
+    {
+      "id": "showcase",
+      "text": "Showcase",
+      "level": 2
+    },
+    {
+      "id": "api-docs",
+      "text": "API Docs",
+      "level": 2
+    },
+    {
+      "id": "release",
+      "text": "Release",
+      "level": 2
+    },
+    {
+      "id": "secrets",
+      "text": "Secrets",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TranslationKey.js.map",
+"lineCount":22,
+"mappings":"A;;;;;;;;;MAyBkB,c;;CAET,uB;;CAEA,gC;;CAEC,e;;CAEA,+B;;QARQ,O;EAAAA,iC;EAAAA;",
+"sources":["TranslationKey.java"],
+"names":["org.treblereel.j2cl.processors.annotations.TranslationKey.<clinit>"]
+}

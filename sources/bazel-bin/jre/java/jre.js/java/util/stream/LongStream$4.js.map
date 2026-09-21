@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LongStream$4.js.map",
+"lineCount":75,
+"mappings":"A;;;;;;;;;;;MA6JQ,E;;CAAA,W;EAAAA,Q;EAAAA;OAEe,sCAFfA,oB;EAAAA;OAGkB,yCAHlBA,S;EAAAA;OAIkB,8CAJlBA,S;EAAAA;OAAA,6CAAAA,oB;EAAAA;OAAA,0CAAAA,C;EAAAA;OAAA,gDAAAA,C;;;QACiE,gG;EAAAC,a;EAAAA,yB;EAAAA,qN;EAAAA,iB;;;CAAA,mI;EAHxCC,oE;EAA+CC,8D;EAA3BC,0E;EAGoBC,mG;EAAAA,oD;;;CAMhD,sD,qBAAwBC,M;EACrCC;GACEA,aADFA;G;EAGAA;GACEA,qKADFA;G;EAGAA,uD;EAEAA;GACEA,2DADFA;GAEEA,aAFFA;G;EAIAA,yE;EACAA,Y;;;;CArBJ,uC;EAAAA,uJ;;;CAAA,4C;EAEeF,iG;EACGA,sD;EACAA,4D;;;QAJlB,O;EAAAG,qB;EAAAA,kB;EAAAA;",
+"sources":["LongStream.java"],
+"names":["java.util.stream.LongStream$4.<synthetic: ctor_js>","java.util.stream.LongStream$4.<synthetic: ctor_create>","seed","f","hasNext","java.util.stream.LongStream$4.<init>","action","java.util.stream.LongStream$4.tryAdvance","java.util.stream.LongStream$4.<clinit>"]
+}

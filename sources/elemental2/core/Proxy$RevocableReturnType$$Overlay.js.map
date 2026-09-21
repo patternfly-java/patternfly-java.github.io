@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Proxy$RevocableReturnType$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA6BmB,Q;;QAO4D,mD;EAAAA,mB;EACzEA,6K;;;QARa,O;EAAAC,2B;EAAAA;",
+"sources":["Proxy.java"],
+"names":["elemental2.core.Proxy$RevocableReturnType$$Overlay.create","elemental2.core.Proxy$RevocableReturnType$$Overlay.<clinit>"]
+}

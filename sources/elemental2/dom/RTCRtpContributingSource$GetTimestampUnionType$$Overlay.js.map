@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCRtpContributingSource$GetTimestampUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MA4BmB,Q;;QAEiD,qF,UAAoBA,C;EAApBC,mB;EAC9DA,yE;;;QAIa,0F;EAAAC,mB;EACbA,yD;;;QAIuB,0G;EAAAC,mB;EACvBA,gH;;;QAIc,2F;EAAAC,mB;EACdA,oC;;;QAIc,2F;EAAAC,mB;EACdA,6C;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["RTCRtpContributingSource.java"],
+"names":["o","elemental2.dom.RTCRtpContributingSource$GetTimestampUnionType$$Overlay.of","elemental2.dom.RTCRtpContributingSource$GetTimestampUnionType$$Overlay.asDouble__$devirt","elemental2.dom.RTCRtpContributingSource$GetTimestampUnionType$$Overlay.asJsDate__$devirt","elemental2.dom.RTCRtpContributingSource$GetTimestampUnionType$$Overlay.isDouble__$devirt","elemental2.dom.RTCRtpContributingSource$GetTimestampUnionType$$Overlay.isJsDate__$devirt","elemental2.dom.RTCRtpContributingSource$GetTimestampUnionType$$Overlay.<clinit>"]
+}

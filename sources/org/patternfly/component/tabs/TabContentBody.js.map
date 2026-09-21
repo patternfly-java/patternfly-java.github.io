@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TabContentBody.js.map",
+"lineCount":113,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;MA6Ba,c;;CAAA,W;EAAAA,Q;;;QAMoB,8D;EAAAC,yB;EACzBA,kC;;;QAQJ,S;EAAAC,yB;EAAAA,qC;EAAAA,sE;EAAAA,iB;;;CAAA,yD;EACIC,24B;;;CAOkB,oD;EAClBC,Y;;;;CAxBK,uC;EAAAA,mE;;;;CAAA,yD;EAAAC,2M;;;;CAAA,wB;EAAAA,0G;;;;CAAA,0C;EAAAC,4K;;;;CAAA,mD;EAAAA,2L;;;;CAAA,sE;EAAAD,2M;;;;CAAA,uD;EAAAC,4K;;;;CAAA,gE;EAAAA,2L;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA,0B;EAAAA,6B;EAAAA,kB;;;;;;;;;;;;;;;;;;AAYkB;eAAA,gEAAA,S;AACA;eAAA,kEAAA;",
+"sources":["TabContentBody.java"],
+"names":["org.patternfly.component.tabs.TabContentBody.<synthetic: ctor_js>","org.patternfly.component.tabs.TabContentBody.tabContentBody","org.patternfly.component.tabs.TabContentBody.<synthetic: ctor_create>","org.patternfly.component.tabs.TabContentBody.<init>","org.patternfly.component.tabs.TabContentBody.that","org.patternfly.component.tabs.TabContentBody.text","org.patternfly.component.tabs.TabContentBody.padding","org.patternfly.component.tabs.TabContentBody.<clinit>"]
+}

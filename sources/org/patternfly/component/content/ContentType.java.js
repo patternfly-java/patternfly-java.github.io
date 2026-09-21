@@ -1,0 +1,33 @@
+goog.module('org.patternfly.component.content.ContentType');
+
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('java.lang.Enum');
+goog.require('javaemul.internal.Enums');
+goog.require('javaemul.internal.Enums.NativeMap.$Overlay');
+goog.require('javaemul.internal.J2clSealedTypeMarker');
+goog.require('javaemul.internal.J2clSealedTypeMarker.$Overlay');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.patternfly.component.content.ContentType.$1');
+goog.require('org.patternfly.component.content.ContentType.$10');
+goog.require('org.patternfly.component.content.ContentType.$11');
+goog.require('org.patternfly.component.content.ContentType.$12');
+goog.require('org.patternfly.component.content.ContentType.$13');
+goog.require('org.patternfly.component.content.ContentType.$14');
+goog.require('org.patternfly.component.content.ContentType.$15');
+goog.require('org.patternfly.component.content.ContentType.$16');
+goog.require('org.patternfly.component.content.ContentType.$17');
+goog.require('org.patternfly.component.content.ContentType.$18');
+goog.require('org.patternfly.component.content.ContentType.$19');
+goog.require('org.patternfly.component.content.ContentType.$2');
+goog.require('org.patternfly.component.content.ContentType.$3');
+goog.require('org.patternfly.component.content.ContentType.$4');
+goog.require('org.patternfly.component.content.ContentType.$5');
+goog.require('org.patternfly.component.content.ContentType.$6');
+goog.require('org.patternfly.component.content.ContentType.$7');
+goog.require('org.patternfly.component.content.ContentType.$8');
+goog.require('org.patternfly.component.content.ContentType.$9');
+goog.require('vmbootstrap.Arrays');
+
+const ContentType = goog.require('org.patternfly.component.content.ContentType$impl');
+exports = ContentType;

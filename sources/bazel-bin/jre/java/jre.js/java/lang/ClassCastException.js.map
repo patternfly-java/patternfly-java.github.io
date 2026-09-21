@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ClassCastException.js.map",
+"lineCount":43,
+"mappings":"A;;;;;MAkBa,kB;;CAAA,W;EAAAA,Q;;;;QAEJ,S;EAAAC,6B;EAAAA,yC;EAAAA,sD;EAAAA,kH;EAAAA,iB;;;;CAAA,yC;EAAqBC,+C;;;;QAErB,yB,gBAA0BC,O;EAA1BF,6B;EAAAA,yC;EAAAA,+E;EAAAA,kH;EAAAA,iB;;;;CAAA,2D,gBAA0BE,O;EAC/BD,wE;;;QALS,O;EAAAE,qC;EAAAA,kC;EAAAA;",
+"sources":["ClassCastException.java"],
+"names":["java.lang.ClassCastException.<synthetic: ctor_js>","java.lang.ClassCastException.<synthetic: ctor_create>","java.lang.ClassCastException.<init>","message","java.lang.ClassCastException.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HTMLElementStyleMethods.js.map",
+"lineCount":73,
+"mappings":"A;;;;;;;;;;;;;;;;MAsBiB,uB;;CAIH,0D,gBAAaA,K;;CAKb,mE,gBAAaA,K,iBAAeC,M;;CAU5B,+D,gBAAaC,Q,gBAAcC,K;;CAK3B,4E,gBAAaD,Q,iBAAiBC,K;;CAK9B,wE,gBAAaD,Q,gBAAcC,K,iBAAeC,S;;CAK1C,qF,gBAAaF,Q,iBAAiBC,K,iBAAeC,S;;QA9B7C,gH,gEAAaJ,K;EAAbK,kC;EACNA,iG;;;QAIM,yH,gEAAaL,K,iBAAeC,M;EAA5BI,kC;EACNA;;IACIA,wHADJA;IACIA,oKADJA;;;GAGIA,uHAHJA;G;EAKAA,0D;;;QAIM,qH,gEAAaH,Q,gBAAcC,K;EAA3BE,kC;EACNA,2K;;;QAIM,kI,gEAAaH,Q,iBAAiBC,K;EAA9BE,kC;EACNA,8H;;;QAIM,8H,gEAAaH,Q,gBAAcC,K,iBAAeC,S;EAA1CC,kC;EACNA,+K;;;QAIM,2I,gEAAaH,Q,iBAAiBC,K,iBAAeC,S;EAA7CC,kC;EACNA,IAAOC,QAAPD,gC;EACAA,8I;EACAA,0D;;;QArCS,O;EAAAE,0C;EAAAA;",
+"sources":["HTMLElementStyleMethods.java"],
+"names":["style","append","property","value","important","org.jboss.elemento.HTMLElementStyleMethods.style__$default","priority","org.jboss.elemento.HTMLElementStyleMethods.<clinit>"]
+}

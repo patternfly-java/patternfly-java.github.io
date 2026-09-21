@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Date$NativeDate$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MA6TuB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["Date.java"],
+"names":["java.util.Date$NativeDate$$Overlay.<clinit>"]
+}

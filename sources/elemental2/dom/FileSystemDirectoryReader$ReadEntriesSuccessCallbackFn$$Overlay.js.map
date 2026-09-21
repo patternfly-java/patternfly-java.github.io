@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"FileSystemDirectoryReader$ReadEntriesSuccessCallbackFn$$Overlay.js.map",
+"lineCount":15,
+"mappings":"A;;;;;MAiCmB,Q;;QAEU,oJ,mFAAqCA,E;EAArCC,mB;EACvBA,kH;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["FileSystemDirectoryReader.java"],
+"names":["p0","elemental2.dom.FileSystemDirectoryReader$ReadEntriesSuccessCallbackFn$$Overlay.onInvoke__$devirt","elemental2.dom.FileSystemDirectoryReader$ReadEntriesSuccessCallbackFn$$Overlay.<clinit>"]
+}

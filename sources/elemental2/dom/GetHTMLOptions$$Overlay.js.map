@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"GetHTMLOptions$$Overlay.js.map",
+"lineCount":21,
+"mappings":"A;;;;;;MA0BiB,Q;;QAEO,uC;EAAAA,mB;EACpBA,0L;;;QAgBW,iG,2DAA4BC,W;EAA5BC,mB;EACXA,4H;;;QApBa,O;EAAAC,2B;EAAAA;",
+"sources":["GetHTMLOptions.java"],
+"names":["elemental2.dom.GetHTMLOptions$$Overlay.create","shadowRoots","elemental2.dom.GetHTMLOptions$$Overlay.setShadowRoots__$devirt","elemental2.dom.GetHTMLOptions$$Overlay.<clinit>"]
+}

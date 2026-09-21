@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ProxyHandler$GetFn$P1UnionType$$Overlay.js.map",
+"lineCount":37,
+"mappings":"A;;;;;;;MAsIqB,Q;;QAEuB,sE,UAAUA,C;EAAVC,mB;EACpCA,yE;;;QAIa,qF;EAAAC,mB;EACbA,+D;;;QAIa,qF;EAAAC,mB;EACbA,mE;;;QAIc,4E;EAAAC,mB;EACdA,wC;;;QAIc,4E;EAAAC,mB;EACdA,wC;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["ProxyHandler.java"],
+"names":["o","elemental2.core.ProxyHandler$GetFn$P1UnionType$$Overlay.of","elemental2.core.ProxyHandler$GetFn$P1UnionType$$Overlay.asObject__$devirt","elemental2.core.ProxyHandler$GetFn$P1UnionType$$Overlay.asString__$devirt","elemental2.core.ProxyHandler$GetFn$P1UnionType$$Overlay.isObject__$devirt","elemental2.core.ProxyHandler$GetFn$P1UnionType$$Overlay.isString__$devirt","elemental2.core.ProxyHandler$GetFn$P1UnionType$$Overlay.<clinit>"]
+}

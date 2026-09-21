@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ToDoubleBiFunction$$LambdaAdaptor.js.map",
+"lineCount":34,
+"mappings":"A;;;;;;;;;;MA0BiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,0DAAAA,C;EAAAA,8H;;;CAAA,oH;EAAAC,qC;EAAAA,qE;;;CAAA,2D;EAAAC,4C;EAAAA,4G;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["ToDoubleBiFunction.java"],
+"names":["java.util.function.ToDoubleBiFunction$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","java.util.function.ToDoubleBiFunction$$LambdaAdaptor.<init>","java.util.function.ToDoubleBiFunction$$LambdaAdaptor.applyAsDouble","java.util.function.ToDoubleBiFunction$$LambdaAdaptor.<clinit>"]
+}

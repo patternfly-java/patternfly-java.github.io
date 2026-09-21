@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"UpdateItemHandler.js.map",
+"lineCount":25,
+"mappings":"A;;;;;;;;;;;;;MAwBiB,iB;;CASR,mI,UAAWA,S,WAAaC,O,WAAWC,O;;QAT3B,M;EAAAC,4B;EAAAA,mE;;;QAAA,O;EAAAC,oC;EAAAA;",
+"sources":["UpdateItemHandler.java"],
+"names":["component","oldItem","newItem","org.patternfly.component.UpdateItemHandler.<synthetic: adapt_lambda>","org.patternfly.component.UpdateItemHandler.<clinit>"]
+}

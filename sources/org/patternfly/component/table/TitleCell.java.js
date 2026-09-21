@@ -1,0 +1,32 @@
+goog.module('org.patternfly.component.table.TitleCell');
+
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.Event.$Overlay');
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLTableCellElement.$Overlay');
+goog.require('elemental2.dom.Node.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.ElementContainerDelegate');
+goog.require('org.jboss.elemento.ElementTextDelegate');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.jboss.elemento.Id');
+goog.require('org.patternfly.component.ComponentIcon');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.button.Button');
+goog.require('org.patternfly.component.table.Cell');
+goog.require('org.patternfly.component.table.Tr');
+goog.require('org.patternfly.core.Aria');
+goog.require('org.patternfly.handler.ComponentHandler');
+goog.require('org.patternfly.icon.IconSets.rhUi');
+goog.require('org.patternfly.icon.PredefinedIcon');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const TitleCell = goog.require('org.patternfly.component.table.TitleCell$impl');
+exports = TitleCell;

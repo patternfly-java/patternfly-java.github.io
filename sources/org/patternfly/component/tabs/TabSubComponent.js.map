@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TabSubComponent.js.map",
+"lineCount":27,
+"mappings":"A;;;;;;;;;;;;;MAwBe,e;;CAAA,W;EAAAA,Q;;;CAEX,0H,gBAAuBC,c,iBAAuBC,gB,WAAoBC,O;EAC9DC,yQ;;;QAHO,O;EAAAC,kC;EAAAA,+B;EAAAA;",
+"sources":["TabSubComponent.java"],
+"names":["org.patternfly.component.tabs.TabSubComponent.<synthetic: ctor_js>","subComponentId","subComponentName","element","org.patternfly.component.tabs.TabSubComponent.<init>","org.patternfly.component.tabs.TabSubComponent.<clinit>"]
+}

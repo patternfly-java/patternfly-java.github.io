@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PushPermissionDescriptor$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEiB,iD;EAAAA,mB;EAC9BA,oM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["PushPermissionDescriptor.java"],
+"names":["elemental2.dom.PushPermissionDescriptor$$Overlay.create","elemental2.dom.PushPermissionDescriptor$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"StylePropertyMap$AppendValuesUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MA0BmB,Q;;QAEyC,6E,UAAoBA,C;EAApBC,mB;EACtDA,yE;;;QAI8B,+G;EAAAC,mB;EAC9BA,gI;;;QAIuB,4F;EAAAC,mB;EACvBA,mE;;;QAIc,0F;EAAAC,mB;EACdA,oD;;;QAIc,mF;EAAAC,mB;EACdA,wC;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["StylePropertyMap.java"],
+"names":["o","elemental2.dom.StylePropertyMap$AppendValuesUnionType$$Overlay.of","elemental2.dom.StylePropertyMap$AppendValuesUnionType$$Overlay.asCSSStyleValue__$devirt","elemental2.dom.StylePropertyMap$AppendValuesUnionType$$Overlay.asString__$devirt","elemental2.dom.StylePropertyMap$AppendValuesUnionType$$Overlay.isCSSStyleValue__$devirt","elemental2.dom.StylePropertyMap$AppendValuesUnionType$$Overlay.isString__$devirt","elemental2.dom.StylePropertyMap$AppendValuesUnionType$$Overlay.<clinit>"]
+}

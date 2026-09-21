@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Panel.js.map",
+"lineCount":144,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;;;;MA4Ca,K;;CAAA,W;EAAAA,Q;;;QAIW,6C;EAAAC,gB;EAChBA,yB;;;QAKJ,S;EAAAC,gB;EAAAA,4B;EAAAA,8D;EAAAA,iB;;;CAAA,iD;EACIC,gvB;;;CAKS,mE,gBAAiBC,M;EAC1BC,mS;;;CAGS,6F,oBAAsBD,M;EAC/BC,4G;;;CAGS,uF,oBAAgBD,M;EACzBE,qK;EACAA,6L;EACAA,Y;;;CAGS,kD;EACTC,kU;EACAA,Y;;;CAGS,iE,gBAAeC,I;EACxBC,qR;;;CAGS,yF,kBAAkBD,I;EAC3BC,wG;;;CAGS,qF,kBAAcD,I;EACvBF,8J;;;CAGS,mE,gBAAiBI,M;EAC1BC,mS;;;CAGS,6F,oBAAsBD,M;EAC/BC,4G;;;CAGS,uF,oBAAgBD,M;EACzBJ,oN;;;CAKS,8C;EACTM,8R;;;CAGS,kD;EACTC,kS;;;CAGS,4D;EACTC,oX;;;CAGS,iD;EACTC,iS;;;CAGS,4C;EACTC,4R;;;CAIS,4C;EACTC,Y;;;;CAnFK,uC;EAAAA,2D;;;;CAAA,2C;EAAAC,6J;;;;CAAA,oD;EAAAA,4K;;;;CAAA,gD;EAAAA,6J;;;;CAAA,yD;EAAAA,4K;;;QAAA,O;EAAAC,wB;EAAAA,qB;EAAAA,wB;EAAAA;",
+"sources":["Panel.java"],
+"names":["org.patternfly.component.panel.Panel.<synthetic: ctor_js>","org.patternfly.component.panel.Panel.panel","org.patternfly.component.panel.Panel.<synthetic: ctor_create>","org.patternfly.component.panel.Panel.<init>","header","org.patternfly.component.panel.Panel.addHeader","org.patternfly.component.panel.Panel.add","org.patternfly.component.panel.Panel.addDivider","main","org.patternfly.component.panel.Panel.addMain","footer","org.patternfly.component.panel.Panel.addFooter","org.patternfly.component.panel.Panel.raised","org.patternfly.component.panel.Panel.scrollable","org.patternfly.component.panel.Panel.scrollableAutoHeight","org.patternfly.component.panel.Panel.secondary","org.patternfly.component.panel.Panel.pill","org.patternfly.component.panel.Panel.that","org.patternfly.component.panel.Panel.bordered","org.patternfly.component.panel.Panel.<clinit>"]
+}

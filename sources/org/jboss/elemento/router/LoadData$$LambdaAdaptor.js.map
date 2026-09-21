@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LoadData$$LambdaAdaptor.js.map",
+"lineCount":37,
+"mappings":"A;;;;;;;;;;;;;MAyBiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,uDAAAA,C;EAAAA,wH;;;CAAA,8G;EAAAC,qC;EAAAA,kE;;;CAAA,wG;EAAAC,4D;EAAAA,yG;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["LoadData.java"],
+"names":["org.jboss.elemento.router.LoadData$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","org.jboss.elemento.router.LoadData$$LambdaAdaptor.<init>","org.jboss.elemento.router.LoadData$$LambdaAdaptor.load","org.jboss.elemento.router.LoadData$$LambdaAdaptor.<clinit>"]
+}

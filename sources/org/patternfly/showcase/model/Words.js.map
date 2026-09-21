@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Words.js.map",
+"lineCount":56,
+"mappings":"A;;;;;;;;;;MAwBa,K;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,gB;EAAAA,4B;EAAAA,6D;EAAAA,iB;;;CAAA,gD;EAAAC,qC;;;YAEqB,2C;EAAAC,kF;;;YAAA,2C;EAAAC,mF;;;QAFrB,O;EAAAC,wB;EAAAA,qB;EAAAA,qB;EAKLA,6V;;;;;;;;;;;;;;;AALK;MAEqB,iDAFrB;",
+"sources":["Words.java"],
+"names":["org.patternfly.showcase.model.Words.<synthetic: ctor_js>","org.patternfly.showcase.model.Words.<synthetic: ctor_create>","org.patternfly.showcase.model.Words.<init>","org.patternfly.showcase.model.Words.<synthetic: getter>","org.patternfly.showcase.model.Words.<synthetic: setter>","org.patternfly.showcase.model.Words.<clinit>"]
+}

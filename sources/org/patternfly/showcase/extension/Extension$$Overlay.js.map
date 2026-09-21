@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Extension$$Overlay.js.map",
+"lineCount":31,
+"mappings":"A;;;;;;;;;;;MA2Ba,Q;;QASY,4E;EAAAA,mB;EACjBA,wF;;;QAIkB,wG;EAAAC,mB;EAClBA,sH;;;QAIgB,gF;EAAAC,mB;EAChBA,8S;;;QApBK,O;EAAAC,2B;EAAAA;",
+"sources":["Extension.java"],
+"names":["org.patternfly.showcase.extension.Extension$$Overlay.implemented__$devirt","org.patternfly.showcase.extension.Extension$$Overlay.summary__$devirt","org.patternfly.showcase.extension.Extension$$Overlay.apiDoc__$devirt","org.patternfly.showcase.extension.Extension$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Numbers.js.map",
+"lineCount":103,
+"mappings":"A;;;;;;;;;;MAmBM,Q;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,mB;EAAAA,+B;EAAAA,mD;EAAAA,iB;;;CAAA,sC;EAAAC,qC;;;QAKQ,mC,+BAAiBC,G;EAAjBC,mB;EACVA;GACEA,IAAOC,CAAPD,8BADFA;GAEEA,qDAFFA;SAGOA;GACLA,IAAKE,CAALF,4BADKA;GAELA,iDAFKA;G;EAIPA,+B;;;QAGY,uC,+BAAmBD,G;EAAnBI,mB;EACZA;GACEA,IAAOF,CAAPE,8BADFA;GAEEA,yDAFFA;SAGOA;GACLA,IAAKD,CAALC,4BADKA;GAELA,qDAFKA;G;EAIPA,mC;;;QAGW,qC,+BAAkBJ,G;EAAlBK,mB;EACXA;GACEA,IAAOH,CAAPG,8BADFA;GAEEA,uDAFFA;SAGOA;GACLA,IAAKF,CAALE,4BADKA;GAELA,mDAFKA;G;EAIPA,iC;;;QAGS,iC,+BAAgBL,G;EAAhBM,mB;EACTA;GACEA,IAAOJ,CAAPI,8BADFA;GAEEA,mDAFFA;SAGOA;GACLA,IAAKH,CAALG,4BADKA;GAELA,+CAFKA;G;EAIPA,6B;;;QAGU,mC,+BAAiBN,G;EAAjBO,mB;EACVA;GACEA,IAAOL,CAAPK,8BADFA;GAEEA,qDAFFA;SAGOA;GACLA,IAAKJ,CAALI,4BADKA;GAELA,iDAFKA;G;EAIPA,+B;;;QAGW,qC,+BAAkBP,G;EAAlBQ,mB;EACXA;GACEA,IAAON,CAAPM,8BADFA;GAEEA,uDAFFA;SAGOA;GACLA,IAAKL,CAALK,4BADKA;GAELA,mDAFKA;G;EAIPA,iC;;;QApEE,O;EAAAC,2B;EAAAA,wB;EAAAA;",
+"sources":["Numbers.java"],
+"names":["javaemul.internal.Numbers.<synthetic: ctor_js>","javaemul.internal.Numbers.<synthetic: ctor_create>","javaemul.internal.Numbers.<init>","obj","javaemul.internal.Numbers.byteValue","d","l","javaemul.internal.Numbers.doubleValue","javaemul.internal.Numbers.floatValue","javaemul.internal.Numbers.intValue","javaemul.internal.Numbers.longValue","javaemul.internal.Numbers.shortValue","javaemul.internal.Numbers.<clinit>"]
+}

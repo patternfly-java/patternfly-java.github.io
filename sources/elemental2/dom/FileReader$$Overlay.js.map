@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"FileReader$$Overlay.js.map",
+"lineCount":40,
+"mappings":"A;;;;;MA0Ba,Q;;YAqEwB,0C;EAAAA,uF;;;YACA,2C;EAAAA,wF;;;YACA,6C;EAAAA,0F;;;QAvExB,O;EAAAC,2B;EAAAA,wB;EAqEwBA,4E;EACAA,8E;EACAA,kF;;;;;;;;;;AAvExB;SAqEwB,gDArExB,K;AAAA;SAsEwB,iDAtExB,K;AAAA;SAuEwB,mDAvExB;",
+"sources":["FileReader.java"],
+"names":["elemental2.dom.FileReader$$Overlay.<synthetic: getter>","elemental2.dom.FileReader$$Overlay.<clinit>"]
+}

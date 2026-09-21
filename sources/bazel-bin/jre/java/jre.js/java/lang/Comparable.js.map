@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Comparable.js.map",
+"lineCount":35,
+"mappings":"A;;;;;;;;;;;;;;MAyBiB,U;;CACX,kC,UAAYA,K;;QAED,W,UAAoCC,Q;EAApCC,qB;EACbA,IAAOC,IAAPD,oB;EACAA;GAIEA,YAJFA;G;EAOAA,8F;;;QAZa,M;EAAAE,qB;EAAAA,gE;;;QAAA,O;EAAAC,6B;EAAAA;",
+"sources":["Comparable.java"],
+"names":["other","instance","java.lang.Comparable.$isInstance","type","java.lang.Comparable.<synthetic: adapt_lambda>","java.lang.Comparable.<clinit>"]
+}

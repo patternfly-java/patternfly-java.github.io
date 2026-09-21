@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Enums$BoxedComparableLightEnum.js.map",
+"lineCount":45,
+"mappings":"A;;;;;;;;;;;;;;;;;;;MAgGuB,wB;;CAGX,W,UAA2BA,K,qBAAmBC,I;EAA9CC,mC;EAAAA,mB;EAAAA,iI;;;CAAA,8G,UAA2BF,K,qBAAmBC,I;;CAK3C,kE,oCAAsCE,C;EAC/CC;GACEA,wHADFA;G;EAGAA,2K;;;;CAZiB,kC;EAAAA,sK;;;QAAA,O;EAAAC,2C;EAAAA,wC;EAAAA;",
+"sources":["Enums.java"],
+"names":["value","ctor","javaemul.internal.Enums$BoxedComparableLightEnum.<init>","o","javaemul.internal.Enums$BoxedComparableLightEnum.compareTo","javaemul.internal.Enums$BoxedComparableLightEnum.<clinit>"]
+}

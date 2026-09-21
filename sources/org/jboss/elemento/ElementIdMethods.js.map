@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementIdMethods.js.map",
+"lineCount":34,
+"mappings":"A;;;;;;;;;;;;;;MAsBiB,gB;;CAIH,2C;;CAKA,uD,gBAAUA,E;;QALV,0F;EAAAC,2B;EACNA,yG;;;QAIM,sG,yDAAUD,E;EAAVE,2B;EACNA,+E;EACAA,0D;;;QAXS,O;EAAAC,mC;EAAAA;",
+"sources":["ElementIdMethods.java"],
+"names":["id","org.jboss.elemento.ElementIdMethods.uniqueId__$default","org.jboss.elemento.ElementIdMethods.id__$default","org.jboss.elemento.ElementIdMethods.<clinit>"]
+}

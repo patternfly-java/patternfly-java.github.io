@@ -1,0 +1,109 @@
+/*
+ * Copyright 2018 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+package elemental2.dom;
+
+import elemental2.core.ArrayBuffer;
+import elemental2.core.ArrayBufferView;
+import elemental2.core.JsObject;
+import jsinterop.annotations.JsOverlay;
+import jsinterop.annotations.JsPackage;
+import jsinterop.annotations.JsType;
+import jsinterop.base.Js;
+import org.jspecify.annotations.Nullable;
+
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
+public class TextDecoder {
+  @JsType(isNative = true, name = "?", namespace = JsPackage.GLOBAL)
+  public interface DecodeInputUnionType {
+    @JsOverlay
+    static TextDecoder.DecodeInputUnionType of(Object o) {
+      return Js.cast(o);
+    }
+
+    @JsOverlay
+    default ArrayBuffer asArrayBuffer() {
+      return Js.cast(this);
+    }
+
+    @JsOverlay
+    default ArrayBufferView asArrayBufferView() {
+      return Js.cast(this);
+    }
+
+    @JsOverlay
+    default boolean isArrayBuffer() {
+      return (Object) this instanceof ArrayBuffer;
+    }
+
+    @JsOverlay
+    default boolean isArrayBufferView() {
+      return (Object) this instanceof ArrayBufferView;
+    }
+  }
+
+  public String encoding;
+  public boolean fatal;
+  public boolean ignoreBOM;
+
+  public TextDecoder() {}
+
+  public TextDecoder(String encoding, @Nullable JsObject options) {}
+
+  public TextDecoder(String encoding, @Nullable Object options) {}
+
+  public TextDecoder(String encoding) {}
+
+  public native String decode();
+
+  @JsOverlay
+  public final String decode(ArrayBuffer input, @Nullable JsObject options) {
+    return decode(Js.<TextDecoder.DecodeInputUnionType>uncheckedCast(input), options);
+  }
+
+  @JsOverlay
+  public final String decode(ArrayBuffer input, @Nullable Object options) {
+    return decode(input, Js.<@Nullable JsObject>uncheckedCast(options));
+  }
+
+  @JsOverlay
+  public final String decode(ArrayBuffer input) {
+    return decode(Js.<TextDecoder.DecodeInputUnionType>uncheckedCast(input));
+  }
+
+  @JsOverlay
+  public final String decode(ArrayBufferView input, @Nullable JsObject options) {
+    return decode(Js.<TextDecoder.DecodeInputUnionType>uncheckedCast(input), options);
+  }
+
+  @JsOverlay
+  public final String decode(ArrayBufferView input, @Nullable Object options) {
+    return decode(input, Js.<@Nullable JsObject>uncheckedCast(options));
+  }
+
+  @JsOverlay
+  public final String decode(ArrayBufferView input) {
+    return decode(Js.<TextDecoder.DecodeInputUnionType>uncheckedCast(input));
+  }
+
+  public native String decode(TextDecoder.DecodeInputUnionType input, @Nullable JsObject options);
+
+  @JsOverlay
+  public final String decode(TextDecoder.DecodeInputUnionType input, @Nullable Object options) {
+    return decode(input, Js.<@Nullable JsObject>uncheckedCast(options));
+  }
+
+  public native String decode(TextDecoder.DecodeInputUnionType input);
+}

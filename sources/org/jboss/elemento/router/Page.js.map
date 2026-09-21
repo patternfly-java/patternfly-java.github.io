@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Page.js.map",
+"lineCount":37,
+"mappings":"A;;;;;;;;;;;;;MA2BiB,I;;CAES,0I,cAAeA,K,mBAAiBC,S,oBAAsBC,I;;CAK/D,c;;CAOA,c;;QAdA,M;EAAAC,e;EAAAA,8B;;;QAOA,wD;EAAAC,e;;;QAOA,wD;EAAAC,e;;;QAdA,O;EAAAC,uB;EAAAA;",
+"sources":["Page.java"],
+"names":["place","parameter","data","org.jboss.elemento.router.Page.<synthetic: adapt_lambda>","org.jboss.elemento.router.Page.attach__$default","org.jboss.elemento.router.Page.detach__$default","org.jboss.elemento.router.Page.<clinit>"]
+}

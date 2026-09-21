@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Task.js.map",
+"lineCount":23,
+"mappings":"A;;;;;;;;;;;MAgCiB,I;;CAQF,wE,UAAQA,O;;QARN,M;EAAAC,e;EAAAA,gE;;;QAAA,O;EAAAC,uB;EAAAA;",
+"sources":["Task.java"],
+"names":["context","org.jboss.elemento.flow.Task.<synthetic: adapt_lambda>","org.jboss.elemento.flow.Task.<clinit>"]
+}

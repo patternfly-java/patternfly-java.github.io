@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ArrayListBase$1.js.map",
+"lineCount":76,
+"mappings":"A;;;;;;;;;;;;;;MA6DW,E;;CAAA,W;EAAAA,Q;EAAAA;OAAA,sCAAAA,C;EAAAA;OACD,8BADCA,K;EAAAA;OACM,iCADNA,K;;;QAAA,gC;EAAAC,a;EAAAA,yB;EAAAA,uF;EAAAA,iB;;;CAAA,+D;EAAAC,0D;EAAAA,qC;EAAAA,gD;;;CAIU,kB;EACbC,yH;;;CAIO,wB;EACPC,+E;EADcA,yB;EAGdA,mL;EACAA,4H;;;CAIU,c;EACVC,gG;EAEAA,gK;EACAA,4C;;;;CArBG,I;EAAAC,8J;;;;CAAA,qD;EAAAC,yG;;;CAAA,wC;EACDL,wC;EAAOA,4C;;;QADN,O;EAAAM,qB;EAAAA,kB;EAAAA,qB;EAAAA;",
+"sources":["ArrayListBase.java"],
+"names":["java.util.ArrayListBase$1.<synthetic: ctor_js>","java.util.ArrayListBase$1.<synthetic: ctor_create>","java.util.ArrayListBase$1.<init>","java.util.ArrayListBase$1.hasNext","java.util.ArrayListBase$1.next","java.util.ArrayListBase$1.remove","java.util.ArrayListBase$1._private_jsNext__","java.util.ArrayListBase$1.forEachRemaining","java.util.ArrayListBase$1.<clinit>"]
+}

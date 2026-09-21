@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementCSSInlineStyle$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA0BiB,Q;;QAEc,8C;EAAAA,mB;EAC3BA,iM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["ElementCSSInlineStyle.java"],
+"names":["elemental2.dom.ElementCSSInlineStyle$$Overlay.create","elemental2.dom.ElementCSSInlineStyle$$Overlay.<clinit>"]
+}

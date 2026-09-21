@@ -1,0 +1,37 @@
+goog.module('org.patternfly.component.BaseComponentSVG');
+
+goog.require('elemental2.dom.AddEventListenerOptions.$Overlay');
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.Event.$Overlay');
+goog.require('elemental2.dom.EventTarget.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.Node.$Overlay');
+goog.require('java.lang.Iterable');
+goog.require('java.lang.Object');
+goog.require('java.util.Objects');
+goog.require('java.util.function.Consumer');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.By');
+goog.require('org.jboss.elemento.ClassList');
+goog.require('org.jboss.elemento.ElementAttributeMethods');
+goog.require('org.jboss.elemento.ElementClassListMethods');
+goog.require('org.jboss.elemento.ElementConsumerMethods');
+goog.require('org.jboss.elemento.ElementContainerMethods');
+goog.require('org.jboss.elemento.ElementEventMethods');
+goog.require('org.jboss.elemento.ElementIdMethods');
+goog.require('org.jboss.elemento.ElementQueryMethods');
+goog.require('org.jboss.elemento.EventType');
+goog.require('org.jboss.elemento.IsElement');
+goog.require('org.jboss.elemento.Role');
+goog.require('org.jboss.elemento.TypedBuilder');
+goog.require('org.jboss.elemento.svg.SVGElement.$Overlay');
+goog.require('org.jboss.elemento.svg.SVGElementDataMethods');
+goog.require('org.jboss.elemento.svg.SVGElementStyleMethods');
+goog.require('org.patternfly.component.Component');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.core.Ouia');
+goog.require('vmbootstrap.Casts');
+
+const BaseComponentSVG = goog.require('org.patternfly.component.BaseComponentSVG$impl');
+exports = BaseComponentSVG;

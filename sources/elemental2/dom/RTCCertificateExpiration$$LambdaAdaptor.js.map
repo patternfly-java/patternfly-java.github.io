@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCCertificateExpiration$$LambdaAdaptor.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;;MAuBiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,4DAAAA,C;EAAAA,kI;;;CAAA,wH;EAAAC,qC;EAAAA,uE;;;KAAA,O;EAAAC,wC;EAAAA,oG;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["RTCCertificateExpiration.java"],
+"names":["elemental2.dom.RTCCertificateExpiration$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","elemental2.dom.RTCCertificateExpiration$$LambdaAdaptor.<init>","elemental2.dom.RTCCertificateExpiration$$LambdaAdaptor.getExpires","elemental2.dom.RTCCertificateExpiration$$LambdaAdaptor.<clinit>"]
+}

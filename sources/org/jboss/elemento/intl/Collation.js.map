@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Collation.js.map",
+"lineCount":106,
+"mappings":"A;;;;;;;;;;;;;MAiBY,S;;CAAA,W;EAAAA,Q;EAAAA;OAcY,0CAdZA,C;;;QAgBR,gD,8DAAiBC,K;EAAjBC,gC;EAAAA,0H;EAAAA,iB;;;CAAA,uF,8DAAiBD,K;EAAjBE,qC;EAAAA,2C;EAAwBA,yE;EACpBA,wD;;;QAjBI,8D;EAAAC,oB;EAAAA;GAAAA,qQAAAA;G;EAAAA,8M;;;QAAA,mD;EAAAC,oB;EAAAA,4mB;;;QAAA,O;EAAAC,4B;EAAAA,yB;EAAAA,e;;;;;;;;;;;;;;AAER;UAAA,kDAAA,K;AACA;UAAA,iDAAA,K;AACA;UAAA,+CAAA,K;AACA;UAAA,mDAAA,K;AACA;UAAA,kDAAA,K;AACA;UAAA,oDAAA,K;AACA;UAAA,kDAAA,K;AACA;UAAA,gDAAA,K;AACA;UAAA,kDAAA,K;AACA;UAAA,kDAAA,K;AATA;UAAA,2CAAA,6L;AACA;UAAA,0CAAA,0L;AACA;UAAA,wCAAA,oL;AACA;UAAA,4CAAA,gM;AACA;UAAA,2CAAA,6L;AACA;UAAA,6CAAA,mM;AACA;UAAA,2CAAA,6L;AACA;UAAA,yCAAA,uL;AACA;UAAA,2CAAA,6L;AACA;UAAA,2CAAA,6L;AAXQ;UAAA,sDAAA;",
+"sources":["Collation.java"],
+"names":["org.jboss.elemento.intl.Collation.<synthetic: ctor_js>","value","org.jboss.elemento.intl.Collation.<synthetic: ctor_create>","org.jboss.elemento.intl.Collation.<init>","org.jboss.elemento.intl.Collation.valueOf","org.jboss.elemento.intl.Collation.values","org.jboss.elemento.intl.Collation.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MediaStreamTrackProcessor$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA0BiB,Q;;QAEkD,kD;EAAAA,mB;EAC/DA,wM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["MediaStreamTrackProcessor.java"],
+"names":["elemental2.dom.MediaStreamTrackProcessor$$Overlay.create","elemental2.dom.MediaStreamTrackProcessor$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ProxyHandler$ConstructFn$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAmCmB,Q;;QAEE,mJ,qFAAgBA,E,eAAYC,E,kBAAaC,E;EAAzCC,mB;EACfA,uI;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["ProxyHandler.java"],
+"names":["p0","p1","p2","elemental2.core.ProxyHandler$ConstructFn$$Overlay.onInvoke__$devirt","elemental2.core.ProxyHandler$ConstructFn$$Overlay.<clinit>"]
+}

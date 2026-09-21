@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TouchEventInit$$Overlay.js.map",
+"lineCount":31,
+"mappings":"A;;;;;;MA2BiB,Q;;QAEO,uC;EAAAA,mB;EACpBA,0L;;;QAmBW,+F,sDAAoCC,c;EAApCC,mB;EACXA,6H;;;QAUW,8F,sDAAmCC,a;EAAnCC,mB;EACXA,2H;;;QAOW,wF,sDAA6BC,O;EAA7BC,mB;EACXA,+G;;;QA1Ca,O;EAAAC,2B;EAAAA;",
+"sources":["TouchEventInit.java"],
+"names":["elemental2.dom.TouchEventInit$$Overlay.create","changedTouches","elemental2.dom.TouchEventInit$$Overlay.setChangedTouches__$devirt","targetTouches","elemental2.dom.TouchEventInit$$Overlay.setTargetTouches__$devirt","touches","elemental2.dom.TouchEventInit$$Overlay.setTouches__$devirt","elemental2.dom.TouchEventInit$$Overlay.<clinit>"]
+}

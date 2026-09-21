@@ -1,0 +1,32 @@
+goog.module('org.patternfly.component.wizard.WizardNav');
+
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLOListElement.$Overlay');
+goog.require('java.lang.Iterable');
+goog.require('java.lang.String');
+goog.require('java.util.Iterator');
+goog.require('java.util.LinkedHashMap');
+goog.require('java.util.List');
+goog.require('java.util.Map');
+goog.require('java.util.Spliterator');
+goog.require('java.util.function.BiConsumer');
+goog.require('java.util.function.Consumer');
+goog.require('java.util.function.Function');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.AddItemHandler');
+goog.require('org.patternfly.component.AurHandler');
+goog.require('org.patternfly.component.HasItems');
+goog.require('org.patternfly.component.RemoveItemHandler');
+goog.require('org.patternfly.component.UpdateItemHandler');
+goog.require('org.patternfly.component.wizard.WizardNavItem');
+goog.require('org.patternfly.component.wizard.WizardSubComponent');
+goog.require('org.patternfly.core.Aria');
+goog.require('org.patternfly.core.Roles');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const WizardNav = goog.require('org.patternfly.component.wizard.WizardNav$impl');
+exports = WizardNav;

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"EmulatedCharset.js.map",
+"lineCount":76,
+"mappings":"A;;;;;;;;;;;MAoBsB,e;;CAAA,W;EAAAA,Q;;;CAwPb,gE,gBAAuBC,I;EAC5BC,mG;;;CAGkB,0C,gBAAgBC,Q;EAClCC,iF;;;CAGqB,mD,gBAAgBD,Q,iBAAgBE,c;;CAEnC,gD,sBAAgBC,M,gBAAYC,M,gBAAYC,K;EAC1DJ,oG;;;CAGqB,yD,sBAAgBE,M,gBAAYC,M,gBAAYC,K,iBAAeH,c;;CAE1D,oD,sBAAoBI,K,gBAAWC,G,gBAASC,G;EAC1DC,kG;;;CAGqB,6D,sBAAoBH,K,gBAAWC,G,gBAASC,G,iBAAaN,c;;YA1QxC,0C;EAAAQ,qG;;;YAEA,gD;EAAAA,2G;;;YAEA,+C;EAAAA,0G;;;QANhB,O;EAAAC,kC;EAAAA,+B;EAAAA,kB;EAEgBA,iH;EAEAA,+H;EAEAA,6H;;;;;;;;;;;;;AANhB;gBAEgB,gDAFhB,C;AAAA;gBAIgB,sDAJhB,C;AAAA;gBAMgB,qDANhB;",
+"sources":["EmulatedCharset.java"],
+"names":["javaemul.internal.EmulatedCharset.<synthetic: ctor_js>","name","javaemul.internal.EmulatedCharset.<init>","string","javaemul.internal.EmulatedCharset.getBytes","throwOnInvalid","buffer","offset","count","bytes","ofs","len","javaemul.internal.EmulatedCharset.decodeString","javaemul.internal.EmulatedCharset.<synthetic: getter>","javaemul.internal.EmulatedCharset.<clinit>"]
+}

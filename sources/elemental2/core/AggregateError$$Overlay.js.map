@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AggregateError$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAsBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["AggregateError.java"],
+"names":["elemental2.core.AggregateError$$Overlay.<clinit>"]
+}

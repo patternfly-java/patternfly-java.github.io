@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Skeleton.js.map",
+"lineCount":85,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;MAwCa,Q;;CAAA,W;EAAAA,Q;;;QAIc,sD;EAAAC,mB;EACnBA,4B;;;QAKJ,S;EAAAC,mB;EAAAA,+B;EAAAA,oE;EAAAA,iB;;;CAAA,uD;EACIC,svB;EACAA,sC;;;CAKY,iF,aAAcC,I;EAC1BC;GAAAA,IAAUC,CAAVD,kBAAAA;;IACIA,+RADJA;;G;EAGAA,mU;;;CAGY,sE,gBAAcE,M;EAC1BC,0rB;;;CAGY,4F,cAAYC,K;EACxBC,uP;;;CAGY,qE,gBAAaC,K;EACzBC,wrB;;;CAGY,gF,gBAAwBC,I;EACpCC,+jB;EACAA,Y;;;CAIY,kD;EACZC,Y;;;;CA3CK,uC;EAAAA,iE;;;QAAA,O;EAAAC,2B;EAAAA,wB;EAAAA;",
+"sources":["Skeleton.java"],
+"names":["org.patternfly.component.skeleton.Skeleton.<synthetic: ctor_js>","org.patternfly.component.skeleton.Skeleton.skeleton","org.patternfly.component.skeleton.Skeleton.<synthetic: ctor_create>","org.patternfly.component.skeleton.Skeleton.<init>","size","org.patternfly.component.skeleton.Skeleton.fontSize","s","height","org.patternfly.component.skeleton.Skeleton.height","shape","org.patternfly.component.skeleton.Skeleton.shape","width","org.patternfly.component.skeleton.Skeleton.width","text","org.patternfly.component.skeleton.Skeleton.screenReaderText","org.patternfly.component.skeleton.Skeleton.that","org.patternfly.component.skeleton.Skeleton.<clinit>"]
+}

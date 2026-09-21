@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LoadData.js.map",
+"lineCount":24,
+"mappings":"A;;;;;;;;;;;;MAyBiB,Q;;CASF,wG,cAAWA,K,mBAAiBC,S;;QAT1B,M;EAAAC,mB;EAAAA,gE;;;QAAA,O;EAAAC,2B;EAAAA;",
+"sources":["LoadData.java"],
+"names":["place","parameter","org.jboss.elemento.router.LoadData.<synthetic: adapt_lambda>","org.jboss.elemento.router.LoadData.<clinit>"]
+}

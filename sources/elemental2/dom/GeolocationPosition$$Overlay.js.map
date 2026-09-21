@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"GeolocationPosition$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA0BiB,Q;;QAEY,4C;EAAAA,mB;EACzBA,+L;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["GeolocationPosition.java"],
+"names":["elemental2.dom.GeolocationPosition$$Overlay.create","elemental2.dom.GeolocationPosition$$Overlay.<clinit>"]
+}

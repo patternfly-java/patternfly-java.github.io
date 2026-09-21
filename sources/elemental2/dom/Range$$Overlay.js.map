@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Range$$Overlay.js.map",
+"lineCount":61,
+"mappings":"A;;;;;;;MAwBa,Q;;QAsD6B,4G,wCAAgCA,E;EAAhCC,mB;EACtCA,sH;;;QAKsC,sH,4CAAqCD,E;EAArCC,mB;EACtCA,sH;;;YAhCiC,2C;EAAAC,wF;;;YACA,6C;EAAAA,0F;;;YACA,6C;EAAAA,0F;;;YACA,+C;EAAAA,4F;;;QAhCxB,O;EAAAC,2B;EAAAA,wB;EA6BwBA,8E;EACAA,kF;EACAA,kF;EACAA,sF;;;;;;;;;;;;AAhCxB;SA6BwB,iDA7BxB,K;AAAA;SA8BwB,mDA9BxB,K;AAAA;SA+BwB,mDA/BxB,K;AAAA;SAgCwB,qDAhCxB;",
+"sources":["Range.java"],
+"names":["p0","elemental2.dom.Range$$Overlay.createContextualFragment__$devirt","elemental2.dom.Range$$Overlay.<synthetic: getter>","elemental2.dom.Range$$Overlay.<clinit>"]
+}

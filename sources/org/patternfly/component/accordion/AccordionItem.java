@@ -1,0 +1,239 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.component.accordion;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.jboss.elemento.ButtonType;
+import org.jboss.elemento.ElementContainerDelegate;
+import org.jboss.elemento.ElementTextDelegate;
+import org.jboss.elemento.HTMLContainerBuilder;
+import org.jboss.elemento.Id;
+import org.patternfly.component.ComponentType;
+import org.patternfly.component.Expandable;
+import org.patternfly.component.HasIdentifier;
+import org.patternfly.core.ComponentContext;
+import org.patternfly.core.Roles;
+import org.patternfly.style.Classes;
+
+import elemental2.dom.Element;
+import elemental2.dom.HTMLElement;
+
+import static org.jboss.elemento.Elements.button;
+import static org.jboss.elemento.Elements.dd;
+import static org.jboss.elemento.Elements.div;
+import static org.jboss.elemento.Elements.dt;
+import static org.jboss.elemento.Elements.h;
+import static org.jboss.elemento.Elements.isAttached;
+import static org.jboss.elemento.Elements.span;
+import static org.jboss.elemento.EventType.click;
+import static org.patternfly.component.IconPosition.start;
+import static org.patternfly.core.Aria.labelledBy;
+import static org.patternfly.icon.IconSets.rhMicrons.caretDown;
+import static org.patternfly.style.Classes.accordion;
+import static org.patternfly.style.Classes.component;
+import static org.patternfly.style.Classes.expandableContent;
+import static org.patternfly.style.Classes.icon;
+import static org.patternfly.style.Classes.item;
+import static org.patternfly.style.Classes.modifier;
+import static org.patternfly.style.Classes.toggle;
+
+/**
+ * Represents an item within an accordion component.
+ * <p>
+ * All content added to this item is delegated to a default {@link AccordionItemBody}. If you want to have multiple bodies,
+ * please use {@link #addBody(AccordionItemBody)} and add the content to the specific {@link AccordionItemBody} instead of this
+ * item.
+ * <p>
+ * Text methods are delegated to the accordion toggle.
+ */
+public class AccordionItem extends AccordionSubComponent<HTMLElement, AccordionItem> implements
+        ComponentContext<HTMLElement, AccordionItem>,
+        ElementContainerDelegate<HTMLElement, AccordionItem>,
+        ElementTextDelegate<HTMLElement, AccordionItem>,
+        HasIdentifier<HTMLElement, AccordionItem> {
+
+    // ------------------------------------------------------ factory
+
+    public static AccordionItem accordionItem(String identifier) {
+        return new AccordionItem(identifier);
+    }
+
+    public static AccordionItem accordionItem(String identifier, String text) {
+        return new AccordionItem(identifier).text(text);
+    }
+
+    // ------------------------------------------------------ instance
+
+    public static final String SUB_COMPONENT_ID = "aci";
+    public static final String SUB_COMPONENT_NAME = "AccordionItem";
+    private final String identifier;
+    private final Map<String, Object> data;
+    private final HTMLElement textElement;
+    private final AccordionItemBody defaultBody;
+    private final List<AccordionItemBody> bodies;
+    private boolean expanded;
+    private HTMLElement toggleElement;
+    private HTMLElement contentElement;
+
+    AccordionItem(String identifier) {
+        super(SUB_COMPONENT_ID, SUB_COMPONENT_NAME, div().css(component(accordion, item)).element());
+        this.identifier = identifier;
+        this.data = new HashMap<>();
+        this.expanded = false;
+        this.textElement = span().css(component(accordion, toggle, Classes.text))
+                .id(Id.unique(ComponentType.Accordion.id, "text"))
+                .element();
+        this.defaultBody = new AccordionItemBody();
+        this.bodies = new ArrayList<>();
+        this.bodies.add(defaultBody);
+    }
+
+    /**
+     * Delegates to the default body.
+     */
+    @Override
+    public Element containerDelegate() {
+        return defaultBody.element();
+    }
+
+    /**
+     * Delegates to the text element of the accordion toggle.
+     */
+    @Override
+    public Element textDelegate() {
+        return textElement;
+    }
+
+    // ------------------------------------------------------ add
+
+    public AccordionItem addBody(AccordionItemBody body) {
+        return add(body);
+    }
+
+    public AccordionItem add(AccordionItemBody body) {
+        bodies.add(body);
+        if (isAttached(this) && contentElement != null) {
+            contentElement.appendChild(body.element());
+        }
+        return this;
+    }
+
+    // ------------------------------------------------------ builder
+
+    public AccordionItem expanded() {
+        this.expanded = true;
+        return this;
+    }
+
+    @Override
+    public <T> AccordionItem store(String key, T value) {
+        data.put(key, value);
+        return this;
+    }
+
+    @Override
+    public AccordionItem that() {
+        return this;
+    }
+
+    // ------------------------------------------------------ api
+
+    @Override
+    public String identifier() {
+        return identifier;
+    }
+
+    @Override
+    public boolean has(String key) {
+        return data.containsKey(key);
+    }
+
+    @SuppressWarnings("unchecked")
+    public <T> T get(String key) {
+        if (data.containsKey(key)) {
+            return (T) data.get(key);
+        }
+        return null;
+    }
+
+    // ------------------------------------------------------ internal
+
+    void appendTo(Accordion accordion) {
+        HTMLContainerBuilder<? extends HTMLElement> toggleWrapper = accordion.dl ? dt() : h(accordion.headingLevel);
+        toggleWrapper
+                .add(toggleElement = button(ButtonType.button).css(component(Classes.accordion, Classes.toggle))
+                        .on(click, e -> toggle(accordion))
+                        .run(toggleButton -> {
+                            if (accordion.iconPosition == start) {
+                                toggleButton
+                                        .add(span().css(component(Classes.accordion, Classes.toggle, icon))
+                                                .add(caretDown().element()))
+                                        .add(textElement);
+                            } else {
+                                toggleButton
+                                        .add(textElement)
+                                        .add(span().css(component(Classes.accordion, Classes.toggle, icon))
+                                                .add(caretDown().element()));
+                            }
+                        })
+                        .element());
+
+        HTMLContainerBuilder<? extends HTMLElement> content = accordion.dl ? dd() : div();
+        content.css(component(Classes.accordion, expandableContent))
+                .aria(labelledBy, textElement.id);
+        if (accordion.fixed) {
+            content.css(modifier(Classes.fixed));
+            content.attr("role", Roles.region);
+            content.attr("tabindex", "0");
+        }
+        content.addAll(bodies);
+        contentElement = content.element();
+
+        if (expanded) {
+            Expandable.expand(element(), toggleElement, contentElement, true);
+        } else {
+            Expandable.collapse(element(), toggleElement, contentElement, true);
+        }
+
+        element().appendChild(toggleWrapper.element());
+        element().appendChild(contentElement);
+        accordion.element().appendChild(this.element());
+    }
+
+    private void toggle(Accordion accordion) {
+        if (Expandable.expanded(element())) {
+            accordion.collapseItem(this, true);
+        } else {
+            accordion.expandItem(this, true);
+        }
+    }
+
+    void collapse() {
+        if (contentElement != null && toggleElement != null) {
+            Expandable.collapse(element(), toggleElement, contentElement);
+        }
+    }
+
+    void expand() {
+        if (contentElement != null && toggleElement != null) {
+            Expandable.expand(element(), toggleElement, contentElement);
+        }
+    }
+}

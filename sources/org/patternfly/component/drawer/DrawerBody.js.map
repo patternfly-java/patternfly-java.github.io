@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DrawerBody.js.map",
+"lineCount":136,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;;MA+Ba,U;;CAAA,W;EAAAA,Q;;;QAOgB,wD;EAAAC,qB;EACrBA,8B;;;QAQJ,S;EAAAC,qB;EAAAA,iC;EAAAA,oE;EAAAA,iB;;;CAAA,uD;EACIC,g4B;;;CAMc,kD;EACdC,Y;;;;CAxBK,uC;EAAAA,iE;;;;CAAA,yD;EAAAC,mM;;;;CAAA,wB;EAAAA,0G;;;;CAAA,0C;EAAAC,oK;;;;CAAA,mD;EAAAA,mL;;;;CAAA,4C;EAAAC,0K;;;;CAAA,qD;EAAAA,yL;;;;CAAA,oE;EAAAF,mM;;;;CAAA,qD;EAAAC,oK;;;;CAAA,8D;EAAAA,mL;;;;CAAA,uD;EAAAC,0K;;;;CAAA,gE;EAAAA,yL;;;QAAA,O;EAAAC,6B;EAAAA,0B;EAAAA,6B;EAAAA,6B;EAAAA,kB;EAAAA,oB;;;;;;;;;;;;;;;;;;AAakB;WAAA,8DAAA,Q;AACA;WAAA,gEAAA;",
+"sources":["DrawerBody.java"],
+"names":["org.patternfly.component.drawer.DrawerBody.<synthetic: ctor_js>","org.patternfly.component.drawer.DrawerBody.drawerBody","org.patternfly.component.drawer.DrawerBody.<synthetic: ctor_create>","org.patternfly.component.drawer.DrawerBody.<init>","org.patternfly.component.drawer.DrawerBody.that","org.patternfly.component.drawer.DrawerBody.text","org.patternfly.component.drawer.DrawerBody.padding","org.patternfly.component.drawer.DrawerBody.noPadding","org.patternfly.component.drawer.DrawerBody.<clinit>"]
+}

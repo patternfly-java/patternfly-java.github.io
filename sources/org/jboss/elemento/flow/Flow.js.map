@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Flow.js.map",
+"lineCount":36,
+"mappings":"A;;;;;;;;;;;;;;;;MA8BiB,I;;QAY8B,iG,UAAWA,O,uBAAuBC,K;EAAlCC,e;EACvCA,wO;;;QAauC,mG,UAAaF,O,uBAAuBC,K;EAApCE,e;EACvCA,0O;;;QAaqC,2G,UAASH,O,iBAAiBI,I;EAA1BC,e;EACrCA,0I;;;QAzCS,O;EAAAC,uB;EAAAA;",
+"sources":["Flow.java"],
+"names":["context","tasks","org.jboss.elemento.flow.Flow.parallel","org.jboss.elemento.flow.Flow.sequential","task","org.jboss.elemento.flow.Flow.repeat","org.jboss.elemento.flow.Flow.<clinit>"]
+}

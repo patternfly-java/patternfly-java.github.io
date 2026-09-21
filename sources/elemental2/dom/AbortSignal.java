@@ -1,0 +1,56 @@
+/*
+ * Copyright 2018 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+package elemental2.dom;
+
+import elemental2.core.JsIterable;
+import jsinterop.annotations.JsFunction;
+import jsinterop.annotations.JsPackage;
+import jsinterop.annotations.JsType;
+import org.jspecify.annotations.Nullable;
+
+@JsType(isNative = true, namespace = JsPackage.GLOBAL)
+public class AbortSignal implements EventTarget {
+  @JsFunction
+  public interface OnabortFn {
+    @Nullable Object onInvoke(Event p0);
+  }
+
+  public static native AbortSignal abort();
+
+  public static native AbortSignal abort(@Nullable Object reason);
+
+  public static native AbortSignal any(JsIterable signals);
+
+  public static native AbortSignal timeout(double milliseconds);
+
+  public boolean aborted;
+  public AbortSignal.@Nullable OnabortFn onabort;
+  public @Nullable Object reason;
+
+  public native void addEventListener(
+      String type, EventListener listener, EventTarget.AddEventListenerOptionsUnionType options);
+
+  public native void addEventListener(String type, EventListener listener);
+
+  public native boolean dispatchEvent(Event evt);
+
+  public native void removeEventListener(
+      String type, EventListener listener, EventTarget.RemoveEventListenerOptionsUnionType options);
+
+  public native void removeEventListener(String type, EventListener listener);
+
+  public native void throwIfAborted();
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ResourcesImpl$avatarInitializer.js.map",
+"lineCount":34,
+"mappings":"A;;;;;;;;MA6ByB,iB;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,wC;EAAAA,iF;EAAAA,iB;;;CAAA,oE;EAAAC,qC;;;QAImD,mE;EAAAC,4B;EAChEA,sE;;;QALa,O;EAAAC,oC;EAAAA,iC;EAAAA,qB;EAEbA;",
+"sources":["ResourcesImpl.java"],
+"names":["org.patternfly.showcase.ResourcesImpl$avatarInitializer.<synthetic: ctor_js>","org.patternfly.showcase.ResourcesImpl$avatarInitializer.<synthetic: ctor_create>","org.patternfly.showcase.ResourcesImpl$avatarInitializer.<init>","org.patternfly.showcase.ResourcesImpl$avatarInitializer.get","org.patternfly.showcase.ResourcesImpl$avatarInitializer.<clinit>"]
+}

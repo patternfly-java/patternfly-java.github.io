@@ -1,0 +1,35 @@
+goog.module('org.patternfly.componentgroup.pageheader.PageHeader');
+
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.Node.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.ElementContainerDelegate');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.patternfly.component.BaseComponent');
+goog.require('org.patternfly.component.ComponentIcon');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.content.Content');
+goog.require('org.patternfly.component.content.ContentType');
+goog.require('org.patternfly.component.divider.Divider');
+goog.require('org.patternfly.component.divider.DividerType');
+goog.require('org.patternfly.component.icon.Icon');
+goog.require('org.patternfly.component.icon.IconSize');
+goog.require('org.patternfly.component.label.Label');
+goog.require('org.patternfly.icon.PredefinedIcon');
+goog.require('org.patternfly.layout.flex.AlignSelf');
+goog.require('org.patternfly.layout.flex.Flex');
+goog.require('org.patternfly.layout.flex.FlexItem');
+goog.require('org.patternfly.layout.flex.FlexShorthand');
+goog.require('org.patternfly.layout.split.Split');
+goog.require('org.patternfly.layout.split.SplitItem');
+goog.require('org.patternfly.style.Classes');
+goog.require('org.patternfly.style.Orientation');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const PageHeader = goog.require('org.patternfly.componentgroup.pageheader.PageHeader$impl');
+exports = PageHeader;

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DOMError$$Overlay.js.map",
+"lineCount":40,
+"mappings":"A;;;;;MAwBa,Q;;YACwB,kD;EAAAA,+F;;;YAGX,wD;EAAAA,qG;;;YAEW,oD;EAAAA,iG;;;QANxB,O;EAAAC,2B;EAAAA,wB;EACwBA,4F;EAGXA,wG;EAEWA,gG;;;;;;;;;;AANxB;SACwB,wDADxB,K;AAAA;SAIa,8DAJb,K;AAAA;SAMwB,0DANxB;",
+"sources":["DOMError.java"],
+"names":["elemental2.dom.DOMError$$Overlay.<synthetic: getter>","elemental2.dom.DOMError$$Overlay.<clinit>"]
+}

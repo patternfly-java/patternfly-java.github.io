@@ -1,0 +1,200 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.component.table;
+
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.function.Function;
+
+import org.jboss.elemento.Elements;
+import org.jboss.elemento.Id;
+import org.patternfly.component.AddItemHandler;
+import org.patternfly.component.AurHandler;
+import org.patternfly.component.HasIdentifier;
+import org.patternfly.component.Ordered;
+import org.patternfly.component.RemoveItemHandler;
+import org.patternfly.component.UpdateItemHandler;
+import org.patternfly.component.emptystate.EmptyState;
+
+import elemental2.dom.HTMLTableSectionElement;
+
+import static org.jboss.elemento.Elements.failSafeRemoveFromParent;
+import static org.jboss.elemento.Elements.removeChildrenFrom;
+import static org.patternfly.component.table.Td.td;
+import static org.patternfly.component.table.Tr.tr;
+import static org.patternfly.core.Attributes.role;
+import static org.patternfly.core.Roles.rowgroup;
+import static org.patternfly.layout.bullseye.Bullseye.bullseye;
+import static org.patternfly.style.Classes.component;
+import static org.patternfly.style.Classes.table;
+import static org.patternfly.style.Classes.tbody;
+
+/** A table body section within a {@link Table} component. */
+/** A table body within a {@link Table} component. */
+public class Tbody extends TableSubComponent<HTMLTableSectionElement, Tbody> implements
+        Ordered<HTMLTableSectionElement, Tbody, Tr> {
+
+    // ------------------------------------------------------ factory
+
+    /**
+     * Factory method to create a new instance of this component.
+     */
+    public static Tbody tbody() {
+        return new Tbody();
+    }
+
+    // ------------------------------------------------------ instance
+
+    public static final String SUB_COMPONENT_ID = "tbd";
+    public static final String SUB_COMPONENT_NAME = "Tbody";
+    final Map<String, Tr> items;
+    private final AurHandler<Tbody, Tr> aur;
+    private Tr emptyRow;
+    private Comparator<Tr> comparator;
+
+    Tbody() {
+        super(SUB_COMPONENT_ID, SUB_COMPONENT_NAME, Elements.tbody().css(component(table, tbody))
+                .attr(role, rowgroup)
+                .element());
+        this.items = new LinkedHashMap<>();
+        this.aur = new AurHandler<>(this);
+    }
+
+    // ------------------------------------------------------ add
+
+    /** Same as {@link #addItems(Iterable, Function)} */
+    public <T> Tbody addRows(Iterable<T> items, Function<T, Tr> display) {
+        return addItems(items, display);
+    }
+
+    /** Same as {@link #addItem(HasIdentifier)} */
+    public Tbody addRow(Tr row) {
+        return addItem(row);
+    }
+
+    public Tbody add(Tr row) {
+        addOrdered(this, row);
+        row.tbody = this;
+        items.put(row.identifier(), row);
+        return aur.added(row);
+    }
+
+    // ------------------------------------------------------ builder
+
+    @Override
+    public Tbody ordered(Comparator<Tr> comparator) {
+        this.comparator = comparator;
+        return this;
+    }
+
+    @Override
+    public Tbody that() {
+        return this;
+    }
+
+    // ------------------------------------------------------ events
+
+    @Override
+    public Tbody onAdd(AddItemHandler<Tbody, Tr> onAdd) {
+        return aur.onAdd(onAdd);
+    }
+
+    @Override
+    public Tbody onUpdate(UpdateItemHandler<Tbody, Tr> onUpdate) {
+        return aur.onUpdate(onUpdate);
+    }
+
+    @Override
+    public Tbody onRemove(RemoveItemHandler<Tbody, Tr> onRemove) {
+        return aur.onRemove(onRemove);
+    }
+
+    // ------------------------------------------------------ api
+
+    @Override
+    public Comparator<Tr> comparator() {
+        return comparator;
+    }
+
+    public Tbody empty(int colSpan, EmptyState emptyState) {
+        failSafeRemoveFromParent(emptyRow);
+        emptyRow = tr(Id.unique("table-empty-row"))
+                .addItem(td().colSpan(colSpan)
+                        .add(bullseye()
+                                .add(emptyState)));
+        // Don't use `addItem(emptyRow)`, the empty row should not be part of the item map
+        emptyRow.tbody = this;
+        add(emptyRow.element());
+        return this;
+    }
+
+    public void clearEmpty() {
+        failSafeRemoveFromParent(emptyRow);
+    }
+
+    @Override
+    public Iterator<Tr> iterator() {
+        return items.values().iterator();
+    }
+
+    @Override
+    public int size() {
+        return items.size();
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return items.isEmpty();
+    }
+
+    @Override
+    public boolean contains(String identifier) {
+        return items.containsKey(identifier);
+    }
+
+    @Override
+    public Tr item(String identifier) {
+        return items.get(identifier);
+    }
+
+    @Override
+    public void updateItem(Tr item) {
+        replaceItemElement(item, (oldItem, newItem) -> {
+            items.put(newItem.identifier(), newItem);
+            aur.updated(oldItem, newItem);
+        });
+    }
+
+    @Override
+    public void removeItem(String identifier) {
+        Tr item = items.remove(identifier);
+        failSafeRemoveFromParent(item);
+        aur.removed(item);
+    }
+
+    @Override
+    public void clear() {
+        removeChildrenFrom(element());
+        Iterator<Tr> iterator = items.values().iterator();
+        while (iterator.hasNext()) {
+            Tr item = iterator.next();
+            iterator.remove();
+            aur.removed(item);
+        }
+    }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "type": "page",
+    "id": "home",
+    "route": "/",
+    "title": "PatternFly Java",
+    "order": 0
+  },
+  {
+    "type": "page",
+    "id": "get-involved",
+    "route": "/get-involved",
+    "title": "Get involved",
+    "order": 0
+  },
+  {
+    "type": "page",
+    "id": "get-started",
+    "route": "/get-started",
+    "title": "Get started",
+    "order": 0
+  },
+  {
+    "type": "group",
+    "id": "concepts",
+    "route": "/concepts",
+    "title": "Concepts",
+    "order": 2,
+    "children": [
+      {
+        "type": "page",
+        "id": "concepts/api-design",
+        "route": "/concepts/api-design",
+        "title": "API design",
+        "order": 0
+      },
+      {
+        "type": "page",
+        "id": "concepts/icons",
+        "route": "/concepts/icons",
+        "title": "Icons",
+        "order": 0
+      },
+      {
+        "type": "page",
+        "id": "concepts/tokens",
+        "route": "/concepts/tokens",
+        "title": "Tokens",
+        "order": 0
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "id": "developer",
+    "route": "/developer",
+    "title": "Developer",
+    "order": 5,
+    "children": [
+      {
+        "type": "page",
+        "id": "developer/building",
+        "route": "/developer/building",
+        "title": "Building",
+        "order": 0
+      },
+      {
+        "type": "page",
+        "id": "developer/ci-cd",
+        "route": "/developer/ci-cd",
+        "title": "CI/CD",
+        "order": 0
+      },
+      {
+        "type": "page",
+        "id": "developer/releasing",
+        "route": "/developer/releasing",
+        "title": "Releasing",
+        "order": 0
+      },
+      {
+        "type": "page",
+        "id": "developer/skills",
+        "route": "/developer/skills",
+        "title": "Skills",
+        "order": 4
+      },
+      {
+        "type": "page",
+        "id": "developer/documentation",
+        "route": "/developer/documentation",
+        "title": "Documentation",
+        "order": 5
+      }
+    ]
+  }
+]

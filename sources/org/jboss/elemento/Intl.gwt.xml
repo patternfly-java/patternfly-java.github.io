@@ -1,0 +1,4 @@
+<module>
+  <source path="intl"/>
+  <inherits name="com.google.gwt.core.Core"/>
+</module>

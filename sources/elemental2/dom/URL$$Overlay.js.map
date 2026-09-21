@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"URL$$Overlay.js.map",
+"lineCount":87,
+"mappings":"A;;;;;;;MAuBa,Q;;QAuLiB,8E,UAAkCA,G,iBAAYC,I;EAA9CC,mB;EAC1BA,wG;;;QAI0B,gF,UAAkCF,G,aAASC,I;EAA3CC,mB;EAC1BA,wG;;;QAM0B,+E,gBAAgBF,G,WAA+BC,I;EAA/CC,mB;EAC1BA,wG;;;QAI0B,uD,gBAAgBF,G,iBAAYC,I;EAA5BC,mB;EAC1BA,iL;;;QAM0B,yD,gBAAgBF,G,aAASC,I;EAAzBC,mB;EAC1BA,iL;;;QAM0B,qC,gBAAgBF,G;EAAhBE,mB;EAC1BA,kG;;;QAI0B,iF,YAAaF,G,WAA+BC,I;EAA5CC,mB;EAC1BA,wG;;;QAI0B,yD,YAAaF,G,iBAAYC,I;EAAzBC,mB;EAC1BA,iL;;;QAM0B,2D,YAAaF,G,aAASC,I;EAAtBC,mB;EAC1BA,iL;;;QAM0B,uC,YAAaF,G;EAAbE,mB;EAC1BA,kG;;;QAIyB,wD,aAAqBC,G;EAArBC,mB;EACzBA,yG;;;QAMyB,+D,oBAA4BD,G;EAA5BC,mB;EACzBA,yG;;;QAIyB,+D,oBAA4BD,G;EAA5BC,mB;EACzBA,yG;;;QAUuB,yC,gBAAuBJ,G;EAAvBK,mB;EACvBA,kG;;;QAIuB,2C,YAAoBL,G;EAApBK,mB;EACvBA,kG;;;QAhRS,O;EAAAC,2B;EAAAA;",
+"sources":["URL.java"],
+"names":["url","base","elemental2.dom.URL$$Overlay.canParse","obj","elemental2.dom.URL$$Overlay.createObjectURL","elemental2.dom.URL$$Overlay.revokeObjectURL","elemental2.dom.URL$$Overlay.<clinit>"]
+}

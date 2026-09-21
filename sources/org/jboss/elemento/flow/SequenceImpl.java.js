@@ -1,0 +1,30 @@
+goog.module('org.jboss.elemento.flow.SequenceImpl');
+
+goog.require('elemental2.dom.DomGlobal.$Overlay');
+goog.require('elemental2.promise.IThenable.$Overlay');
+goog.require('elemental2.promise.Promise.$Overlay');
+goog.require('elemental2.promise.Promise.PromiseExecutorCallbackFn.ResolveCallbackFn.$Overlay');
+goog.require('elemental2.promise.Promise.PromiseExecutorCallbackFn.ResolveCallbackFn.ResolveUnionType.$Overlay');
+goog.require('java.lang.IllegalStateException');
+goog.require('java.lang.Object');
+goog.require('java.lang.String');
+goog.require('java.util.Iterator');
+goog.require('java.util.List');
+goog.require('java.util.function.Function');
+goog.require('java.util.function.IntFunction');
+goog.require('java.util.stream.Stream');
+goog.require('javaemul.internal.Exceptions');
+goog.require('javaemul.internal.Primitives');
+goog.require('nativebootstrap.Long');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.flow.FlowContext');
+goog.require('org.jboss.elemento.flow.FlowRunner');
+goog.require('org.jboss.elemento.flow.Sequence');
+goog.require('org.jboss.elemento.flow.SequenceImpl.Mode');
+goog.require('org.jboss.elemento.flow.Task');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+goog.require('vmbootstrap.LongUtils');
+
+const SequenceImpl = goog.require('org.jboss.elemento.flow.SequenceImpl$impl');
+exports = SequenceImpl;

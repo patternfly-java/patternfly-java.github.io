@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PromiseRejectionEvent$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAuBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["PromiseRejectionEvent.java"],
+"names":["elemental2.dom.PromiseRejectionEvent$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Modifiers$FullWidth.js.map",
+"lineCount":34,
+"mappings":"A;;;;;;;;;;;;;;;MAyIc,S;;CAGI,4C;;CAKA,qD,gBAAkBA,S;;QALlB,gG;EAAAC,oB;EACNA,4E;;;QAIM,yG,kDAAkBD,S;EAAlBC,oB;EACNA,uT;;;QATE,O;EAAAC,4B;EAAAA;",
+"sources":["Modifiers.java"],
+"names":["fullWidth","org.patternfly.style.Modifiers$FullWidth.fullWidth__$default","org.patternfly.style.Modifiers$FullWidth.<clinit>"]
+}

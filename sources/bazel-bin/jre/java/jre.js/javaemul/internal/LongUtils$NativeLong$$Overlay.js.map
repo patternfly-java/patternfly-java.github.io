@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LongUtils$NativeLong$$Overlay.js.map",
+"lineCount":13,
+"mappings":"A;;;;;;;;MA2Je,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["LongUtils.java"],
+"names":["javaemul.internal.LongUtils$NativeLong$$Overlay.<clinit>"]
+}

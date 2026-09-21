@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAgQmB,Q;;QAE6C,2F,UAAUA,C;EAAVC,mB;EAC1DA,yE;;;QAIa,gG;EAAAC,mB;EACbA,yD;;;QAIa,+G;EAAAC,mB;EACbA,kH;;;QAIc,iG;EAAAC,mB;EACdA,oC;;;QAIc,iG;EAAAC,mB;EACdA,6C;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["BaseRenderingContext2D.java"],
+"names":["o","elemental2.dom.BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.of","elemental2.dom.BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.asDouble__$devirt","elemental2.dom.BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.asPath2D__$devirt","elemental2.dom.BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.isDouble__$devirt","elemental2.dom.BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.isPath2D__$devirt","elemental2.dom.BaseRenderingContext2D$IsPointInPathPathOrXUnionType$$Overlay.<clinit>"]
+}

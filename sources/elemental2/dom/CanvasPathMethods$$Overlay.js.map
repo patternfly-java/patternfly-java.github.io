@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CanvasPathMethods$$Overlay.js.map",
+"lineCount":30,
+"mappings":"A;;;;;MAwBiB,Q;;QA6EF,yH,mDAAiBA,C,gBAAUC,C,gBAAUC,C,gBAAUC,C,sBAAgBC,K;EAA/DC,mB;EACXA,+G;;;QAIW,qH,mDACFL,C,gBACAC,C,gBACAC,C,gBACAC,C,kBACiDC,K;EAL/CC,mB;EAMXA,+G;;;QAIW,mK,mDACFL,C,gBACAC,C,gBACAC,C,gBACAC,C,kBAC0CC,K;EALxCC,mB;EAMXA,4O;;;QAYW,oG,mDAAiBL,C,gBAAUC,C,gBAAUC,C,gBAAUC,C,gBAAUC,K;EAAzDC,mB;EACXA,+G;;;QA/Ga,O;EAAAC,2B;EAAAA;",
+"sources":["CanvasPathMethods.java"],
+"names":["x","y","w","h","radii","elemental2.dom.CanvasPathMethods$$Overlay.roundRect__$devirt","elemental2.dom.CanvasPathMethods$$Overlay.<clinit>"]
+}
