@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Attributes.js.map",
+"lineCount":39,
+"mappings":"A;;;;;;;MAkBiB,U;;QAAA,O;EAAAA,6B;EAAAA,0B;;;;;;;;;;;;;;AAEN;WAAA,wCAAA,Y;AACA;WAAA,0CAAA,c;AACA;WAAA,yCAAA,a;AACA;WAAA,sCAAA,U;AACA;WAAA,0CAAA,c;AACA;WAAA,uCAAA,W;AACA;WAAA,sCAAA;",
+"sources":["Attributes.java"],
+"names":["org.patternfly.core.Attributes.<clinit>"]
+}

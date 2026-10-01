@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TextDecoder$DecodeInputUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MA6BmB,Q;;QAEyB,uE,UAAUA,C;EAAVC,mB;EACtCA,yE;;;QAIkB,sG;EAAAC,mB;EAClBA,4H;;;QAIsB,8G;EAAAC,mB;EACtBA,oI;;;QAIc,kF;EAAAC,mB;EACdA,kD;;;QAIc,sF;EAAAC,mB;EACdA,sD;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["TextDecoder.java"],
+"names":["o","elemental2.dom.TextDecoder$DecodeInputUnionType$$Overlay.of","elemental2.dom.TextDecoder$DecodeInputUnionType$$Overlay.asArrayBuffer__$devirt","elemental2.dom.TextDecoder$DecodeInputUnionType$$Overlay.asArrayBufferView__$devirt","elemental2.dom.TextDecoder$DecodeInputUnionType$$Overlay.isArrayBuffer__$devirt","elemental2.dom.TextDecoder$DecodeInputUnionType$$Overlay.isArrayBufferView__$devirt","elemental2.dom.TextDecoder$DecodeInputUnionType$$Overlay.<clinit>"]
+}

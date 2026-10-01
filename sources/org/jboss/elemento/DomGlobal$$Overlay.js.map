@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DomGlobal$$Overlay.js.map",
+"lineCount":33,
+"mappings":"A;;;;;MAsBa,Q;;YAGkB,+C;EAAAA,4F;;;YAGA,+C;EAAAA,4F;;;QANlB,O;EAAAC,2B;EAAAA,wB;EAGkBA,oF;EAGAA,oF;;;;;;;;;;AANlB;SAGkB,qDAHlB,C;AAAA;SAMkB,qDANlB;",
+"sources":["DomGlobal.java"],
+"names":["org.jboss.elemento.DomGlobal$$Overlay.<synthetic: getter>","org.jboss.elemento.DomGlobal$$Overlay.<clinit>"]
+}

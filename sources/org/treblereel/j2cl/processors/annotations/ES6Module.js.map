@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ES6Module.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;;;;MA0BkB,S;;CAET,yB;;QAFS,O;EAAAA,4B;EAAAA;",
+"sources":["ES6Module.java"],
+"names":["org.treblereel.j2cl.processors.annotations.ES6Module.<clinit>"]
+}

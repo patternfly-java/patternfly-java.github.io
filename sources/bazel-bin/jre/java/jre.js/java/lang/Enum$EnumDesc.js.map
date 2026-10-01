@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Enum$EnumDesc.js.map",
+"lineCount":39,
+"mappings":"A;;;;;;;;;;;;;MA2B4B,Q;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,mB;EAAAA,+B;EAAAA,iD;EAAAA,iB;;;CAAA,oC;EAAAC,qC;;;QAC2B,uD,iBAAaC,I;EAAbC,mB;EACjDA,mI;;;QAFsB,O;EAAAC,2B;EAAAA,wB;EAAAA;",
+"sources":["Enum.java"],
+"names":["java.lang.Enum$EnumDesc.<synthetic: ctor_js>","java.lang.Enum$EnumDesc.<synthetic: ctor_create>","java.lang.Enum$EnumDesc.<init>","args","java.lang.Enum$EnumDesc.of","java.lang.Enum$EnumDesc.<clinit>"]
+}

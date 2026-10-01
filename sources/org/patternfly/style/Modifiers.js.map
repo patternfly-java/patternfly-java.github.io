@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Modifiers.js.map",
+"lineCount":21,
+"mappings":"A;;;;;;;;;;MAyBiB,S;;QAiZ8C,qI,UAAiBA,O,WAAWC,O,iBACxEC,Y,iBAAsBC,I;EADsBC,oB;EAEvDA,+H;EACAA,e;;;QApZS,O;EAAAC,4B;EAAAA;",
+"sources":["Modifiers.java"],
+"names":["builder","element","pureModifier","flag","org.patternfly.style.Modifiers.toggleModifier","org.patternfly.style.Modifiers.<clinit>"]
+}

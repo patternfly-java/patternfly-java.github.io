@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RemoveItemHandler.js.map",
+"lineCount":25,
+"mappings":"A;;;;;;;;;;;;;MAyBiB,iB;;CASR,2F,UAAWA,S,WAAaC,I;;QAThB,M;EAAAC,4B;EAAAA,mE;;;QAAA,O;EAAAC,oC;EAAAA;",
+"sources":["RemoveItemHandler.java"],
+"names":["component","item","org.patternfly.component.RemoveItemHandler.<synthetic: adapt_lambda>","org.patternfly.component.RemoveItemHandler.<clinit>"]
+}

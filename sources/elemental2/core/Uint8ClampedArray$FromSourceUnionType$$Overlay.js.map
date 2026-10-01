@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Uint8ClampedArray$FromSourceUnionType$$Overlay.js.map",
+"lineCount":36,
+"mappings":"A;;;;;;MA2FmB,Q;;QAE8B,6E,UAAUA,C;EAAVC,mB;EAC3CA,yE;;;QAI0B,2G;EAAAC,mB;EAC1BA,kG;;;QAI6D,0G;EAAAC,mB;EAC7DA,sG;;;QAIa,4F;EAAAC,mB;EACbA,mE;;;QAIc,mF;EAAAC,mB;EACdA,wC;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["Uint8ClampedArray.java"],
+"names":["o","elemental2.core.Uint8ClampedArray$FromSourceUnionType$$Overlay.of","elemental2.core.Uint8ClampedArray$FromSourceUnionType$$Overlay.asJsArrayLike__$devirt","elemental2.core.Uint8ClampedArray$FromSourceUnionType$$Overlay.asJsIterable__$devirt","elemental2.core.Uint8ClampedArray$FromSourceUnionType$$Overlay.asString__$devirt","elemental2.core.Uint8ClampedArray$FromSourceUnionType$$Overlay.isString__$devirt","elemental2.core.Uint8ClampedArray$FromSourceUnionType$$Overlay.<clinit>"]
+}

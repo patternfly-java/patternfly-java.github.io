@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementTextDelegate.js.map",
+"lineCount":35,
+"mappings":"A;;;;;;;;;;;;MAsBiB,mB;;CAIL,sC;;CAGE,yD,gBAAYA,I;;CAMP,wB;;QANL,2G,4DAAYA,I;EAAZC,8B;EACNA,qE;EACAA,0D;;;QAIW,0E;EAAAA,8B;EACXA,qE;;;QAdS,O;EAAAC,sC;EAAAA,mC;EAAAA;",
+"sources":["ElementTextDelegate.java"],
+"names":["text","org.jboss.elemento.ElementTextDelegate.text__$default","org.jboss.elemento.ElementTextDelegate.<clinit>"]
+}

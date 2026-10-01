@@ -1,0 +1,59 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.style;
+
+/** Defines the severity status variants for alerts, icons, and other status-aware components. */
+public enum Status implements TypedModifier {
+
+    danger("danger"),
+
+    warning("warning"),
+
+    success("success"),
+
+    info("info"),
+
+    custom("custom");
+
+    public static Status of(String status) {
+        return switch (status) {
+            case "danger" -> danger;
+            case "warning" -> warning;
+            case "success" -> success;
+            case "info" -> info;
+            case "custom" -> custom;
+            default -> throw new IllegalArgumentException("Invalid status: " + status);
+        };
+    }
+
+    private final String value;
+    private final String modifier;
+
+    Status(String value) {
+        this.value = value;
+        this.modifier = Classes.modifier(value);
+    }
+
+    @Override
+    public String value() {
+        return value;
+    }
+
+    @Override
+    public String modifier() {
+        return modifier;
+    }
+}

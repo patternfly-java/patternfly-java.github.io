@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TouchInitDict$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEM,sC;EAAAA,mB;EACnBA,yL;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["TouchInitDict.java"],
+"names":["elemental2.dom.TouchInitDict$$Overlay.create","elemental2.dom.TouchInitDict$$Overlay.<clinit>"]
+}

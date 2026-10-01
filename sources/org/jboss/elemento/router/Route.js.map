@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Route.js.map",
+"lineCount":22,
+"mappings":"A;;;;;;;;;MAqDkB,K;;CAEP,yB;;CAEA,yB;;CAEA,4B;;CAEA,0B;;QARO,O;EAAAA,wB;EAAAA;",
+"sources":["Route.java"],
+"names":["org.jboss.elemento.router.Route.<clinit>"]
+}

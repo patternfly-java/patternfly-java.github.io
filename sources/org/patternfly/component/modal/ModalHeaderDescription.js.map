@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ModalHeaderDescription.js.map",
+"lineCount":90,
+"mappings":"A;;;;;;;;;;;;;;;;;;MA4Ba,sB;;CAAA,W;EAAAA,Q;;;QAK4B,+E;EAAAC,iC;EACjCA,0C;;;QAQJ,S;EAAAC,iC;EAAAA,6C;EAAAA,+E;EAAAA,iB;;;CAAA,kE;EACIC,q7B;;;CAM0B,6D;EAC1BC,Y;;;;CAtBK,uC;EAAAA,4E;;;;CAAA,yD;EAAAC,2N;;;;CAAA,wB;EAAAA,0G;;;;CAAA,+E;EAAAA,2N;;;QAAA,O;EAAAC,yC;EAAAA,sC;EAAAA,4B;EAAAA,6B;;;;;;;;;;;;;;;;;;AAWkB;uBAAA,yEAAA,S;AACA;uBAAA,2EAAA;",
+"sources":["ModalHeaderDescription.java"],
+"names":["org.patternfly.component.modal.ModalHeaderDescription.<synthetic: ctor_js>","org.patternfly.component.modal.ModalHeaderDescription.modalHeaderDescription","org.patternfly.component.modal.ModalHeaderDescription.<synthetic: ctor_create>","org.patternfly.component.modal.ModalHeaderDescription.<init>","org.patternfly.component.modal.ModalHeaderDescription.that","org.patternfly.component.modal.ModalHeaderDescription.text","org.patternfly.component.modal.ModalHeaderDescription.<clinit>"]
+}

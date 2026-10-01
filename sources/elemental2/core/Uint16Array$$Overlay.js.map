@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Uint16Array$$Overlay.js.map",
+"lineCount":90,
+"mappings":"A;;;;;;;MA0Ba,Q;;QAuGkD,wH,4BACrCA,M,qCAA8BC,K,WAASC,O;EADFC,mB;EAE3DA,yH;;;QAI8B,sG,4BAAyBH,M,qCAA8BC,K;EAAvDE,mB;EAC9BA,gH;;;QAI8B,+D,4BAAyBH,M;EAAzBG,mB;EAC9BA,yG;;;QAI2D,wH,gCACFH,M,qCACjCC,K,WACpBC,O;EAHuDC,mB;EAI3DA,yH;;;QAI8B,sG,gCAC2BH,M,qCAA8BC,K;EADzDE,mB;EAE9BA,gH;;;QAI8B,+D,gCAC2BH,M;EAD3BG,mB;EAE9BA,yG;;;QAI2D,8G,gBAClDH,M,qCAA8BC,K,WAASC,O;EADWC,mB;EAE3DA,yH;;;QAI8B,4F,gBAAYH,M,qCAA8BC,K;EAA1CE,mB;EAC9BA,gH;;;QAI8B,qD,gBAAYH,M;EAAZG,mB;EAC9BA,yG;;;QAI2D,4G,sBAChDH,M,qCAA8BC,K,WAASC,O;EADSC,mB;EAE3DA,4P;;;QAI8B,0F,sBAAcH,M,qCAA8BC,K;EAA5CE,mB;EAC9BA,iO;;;QAI8B,mD,sBAAcH,M;EAAdG,mB;EAC9BA,mL;;;YA3EiC,yD;EAAAC,sG;;;QA5FxB,O;EAAAC,2B;EAAAA,wB;EA4FwBA,yG;;;;;;;;;;;;AA5FxB;SA4FwB,+DA5FxB;",
+"sources":["Uint16Array.java"],
+"names":["source","mapFn","thisArg","elemental2.core.Uint16Array$$Overlay.from","elemental2.core.Uint16Array$$Overlay.<synthetic: getter>","elemental2.core.Uint16Array$$Overlay.<clinit>"]
+}

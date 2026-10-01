@@ -1,0 +1,37 @@
+goog.module('org.patternfly.component.list.DataListItem');
+
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLLIElement.$Overlay');
+goog.require('elemental2.dom.MouseEvent.$Overlay');
+goog.require('java.lang.Iterable');
+goog.require('java.lang.String');
+goog.require('java.util.HashMap');
+goog.require('java.util.Map');
+goog.require('java.util.function.Function');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.EventType');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.jboss.elemento.Id');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.Expandable');
+goog.require('org.patternfly.component.HasIdentifier');
+goog.require('org.patternfly.component.button.Button');
+goog.require('org.patternfly.component.list.DataListAction');
+goog.require('org.patternfly.component.list.DataListCell');
+goog.require('org.patternfly.component.list.DataListExpandableContent');
+goog.require('org.patternfly.component.list.DataListSubComponent');
+goog.require('org.patternfly.core.Aria');
+goog.require('org.patternfly.core.ComponentContext');
+goog.require('org.patternfly.core.Dataset');
+goog.require('org.patternfly.handler.ToggleHandler');
+goog.require('org.patternfly.icon.IconSets.rhMicrons');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const DataListItem = goog.require('org.patternfly.component.list.DataListItem$impl');
+exports = DataListItem;

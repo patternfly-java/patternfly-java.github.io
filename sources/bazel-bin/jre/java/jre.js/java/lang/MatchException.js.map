@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MatchException.js.map",
+"lineCount":45,
+"mappings":"A;;;;;;;MAsBa,c;;CAAA,W;EAAAA,Q;;;;QAEJ,S;EAAAC,yB;EAAAA,qC;EAAAA,kD;EAAAA,kH;EAAAA,iB;;;;CAAA,qC;EACLC,4F;;;;QAGK,8C,gBAAsBC,O,mBAAmBC,K;EAAzCH,yB;EAAAA,qC;EAAAA,uG;EAAAA,kH;EAAAA,iB;;;;CAAA,4E,gBAAsBE,O,mBAAmBC,K;EAC9CF,oG;;;QAPS,O;EAAAG,iC;EAAAA,8B;EAAAA;",
+"sources":["MatchException.java"],
+"names":["java.lang.MatchException.<synthetic: ctor_js>","java.lang.MatchException.<synthetic: ctor_create>","java.lang.MatchException.<init>","message","cause","java.lang.MatchException.<clinit>"]
+}

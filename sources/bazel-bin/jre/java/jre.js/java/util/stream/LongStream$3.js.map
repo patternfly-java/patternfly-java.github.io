@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LongStream$3.js.map",
+"lineCount":44,
+"mappings":"A;;;;;;;;;;MA2IQ,E;;CAAA,W;EAAAA,Q;EAAAA;OAAA,0CAAAA,C;;;QACiE,mD;EAAAC,a;EAAAA,yB;EAAAA,qI;EAAAA,iB;;;CAAA,sF;EAH/BC,8D;EAG+BC,mG;;;CAEhD,sD,qBAAwBC,M;EACrCC,iG;EACAA,Y;;;;CALJ,uC;EAAAA,uJ;;;QAAA,O;EAAAC,qB;EAAAA,kB;EAAAA;",
+"sources":["LongStream.java"],
+"names":["java.util.stream.LongStream$3.<synthetic: ctor_js>","java.util.stream.LongStream$3.<synthetic: ctor_create>","s","java.util.stream.LongStream$3.<init>","action","java.util.stream.LongStream$3.tryAdvance","java.util.stream.LongStream$3.<clinit>"]
+}

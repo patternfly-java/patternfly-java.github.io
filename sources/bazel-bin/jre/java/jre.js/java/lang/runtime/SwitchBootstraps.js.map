@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SwitchBootstraps.js.map",
+"lineCount":40,
+"mappings":"A;;;;;;;;;MAkBa,gB;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,2B;EAAAA,uC;EAAAA,4D;EAAAA,iB;;;CAAA,+C;EAAAC,qC;;;QACY,iE,iBAAqBC,I;EAArBC,2B;EACrBA,mI;;;QAGqB,iE,iBAAqBD,I;EAArBE,2B;EACrBA,mI;;;QANS,O;EAAAC,mC;EAAAA,gC;EAAAA;",
+"sources":["SwitchBootstraps.java"],
+"names":["java.lang.runtime.SwitchBootstraps.<synthetic: ctor_js>","java.lang.runtime.SwitchBootstraps.<synthetic: ctor_create>","java.lang.runtime.SwitchBootstraps.<init>","args","java.lang.runtime.SwitchBootstraps.typeSwitch","java.lang.runtime.SwitchBootstraps.enumSwitch","java.lang.runtime.SwitchBootstraps.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MediaTrackConstraintSet$GetAspectRatioUnionType$$Overlay.js.map",
+"lineCount":31,
+"mappings":"A;;;;;;MA6BmB,Q;;QAEkD,sF,UAAoBA,C;EAApBC,mB;EAC/DA,yE;;;QAIqC,sI;EAAAC,mB;EACrCA,mG;;;QAIa,2F;EAAAC,mB;EACbA,yD;;;QAIc,4F;EAAAC,mB;EACdA,oC;;;QAlBa,O;EAAAC,2B;EAAAA;",
+"sources":["MediaTrackConstraintSet.java"],
+"names":["o","elemental2.dom.MediaTrackConstraintSet$GetAspectRatioUnionType$$Overlay.of","elemental2.dom.MediaTrackConstraintSet$GetAspectRatioUnionType$$Overlay.asConstrainDoubleRange__$devirt","elemental2.dom.MediaTrackConstraintSet$GetAspectRatioUnionType$$Overlay.asDouble__$devirt","elemental2.dom.MediaTrackConstraintSet$GetAspectRatioUnionType$$Overlay.isDouble__$devirt","elemental2.dom.MediaTrackConstraintSet$GetAspectRatioUnionType$$Overlay.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementEventMethods.js.map",
+"lineCount":43,
+"mappings":"A;;;;;;;;;;;;;;MA0BiB,mB;;CAQe,uG,wBAAmBA,I,2BAAyBC,Q;;CAK5C,gH,wBAAmBD,I,iBAAcE,U,2BAA+BD,Q;;CAKhE,+I,wBAAmBD,I,iCAA8BG,O,2BAA4BF,Q;;QAV7E,yJ,oEAAmBD,I,2BAAyBC,Q;EAA5CG,8B;EACxBA,yP;EACAA,0D;;;QAGwB,kK,oEAAmBJ,I,iBAAcE,U,2BAA+BD,Q;EAAhEG,8B;EACxBA,8Q;EACAA,0D;;;QAGwB,iM,oEAAmBJ,I,iCAA8BG,O,2BAA4BF,Q;EAA7EG,8B;EACxBA,0S;EACAA,0D;;;QApBS,O;EAAAC,sC;EAAAA;",
+"sources":["ElementEventMethods.java"],
+"names":["type","callback","useCapture","options","org.jboss.elemento.ElementEventMethods.on__$default","org.jboss.elemento.ElementEventMethods.<clinit>"]
+}

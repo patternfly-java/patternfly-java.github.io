@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Worker$PostMessageTransferOrOptionsUnionType$$Overlay.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;MAkFmB,Q;;QAE+C,mF,UAAoBA,C;EAApBC,mB;EAC5DA,yE;;;QAIsC,0G;EAAAC,mB;EACtCA,gI;;;QAI2C,+I;EAAAC,mB;EAC3CA,yG;;;QAIc,0F;EAAAC,mB;EACdA,8C;;;QAlBa,O;EAAAC,2B;EAAAA;",
+"sources":["Worker.java"],
+"names":["o","elemental2.dom.Worker$PostMessageTransferOrOptionsUnionType$$Overlay.of","elemental2.dom.Worker$PostMessageTransferOrOptionsUnionType$$Overlay.asJsArray__$devirt","elemental2.dom.Worker$PostMessageTransferOrOptionsUnionType$$Overlay.asStructuredSerializeOptions__$devirt","elemental2.dom.Worker$PostMessageTransferOrOptionsUnionType$$Overlay.isJsArray__$devirt","elemental2.dom.Worker$PostMessageTransferOrOptionsUnionType$$Overlay.<clinit>"]
+}

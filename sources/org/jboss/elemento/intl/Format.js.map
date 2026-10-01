@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Format.js.map",
+"lineCount":114,
+"mappings":"A;;;;;;;;;;;;;MAiBY,M;;CAAA,W;EAAAA,Q;EAAAA;OAgBY,uCAhBZA,C;;;QAkBR,gD,8DAAcC,K;EAAdC,6B;EAAAA,uH;EAAAA,iB;;;CAAA,oF,8DAAcD,K;EAAdE,qC;EAAAA,2C;EAAqBA,yE;EACjBA,qD;;;QAnBI,2D;EAAAC,iB;EAAAA;GAAAA,sPAAAA;G;EAAAA,qM;;;QAAA,gD;EAAAC,iB;EAAAA,ipB;;;QAAA,O;EAAAC,yB;EAAAA,sB;EAAAA,e;;;;;;;;;;;;;;AAER;OAAA,gDAAA,K;AACA;OAAA,iDAAA,K;AACA;OAAA,gDAAA,K;AACA;OAAA,gDAAA,K;AACA;OAAA,6CAAA,K;AACA;OAAA,8CAAA,K;AACA;OAAA,+CAAA,K;AACA;OAAA,+CAAA,K;AACA;OAAA,gDAAA,K;AACA;OAAA,gDAAA,K;AACA;OAAA,+CAAA,M;AACA;OAAA,6CAAA,M;AAXA;OAAA,yCAAA,uL;AACA;OAAA,0CAAA,0L;AACA;OAAA,yCAAA,uL;AACA;OAAA,yCAAA,uL;AACA;OAAA,sCAAA,8K;AACA;OAAA,uCAAA,gL;AACA;OAAA,wCAAA,oL;AACA;OAAA,wCAAA,oL;AACA;OAAA,yCAAA,uL;AACA;OAAA,yCAAA,uL;AACA;OAAA,wCAAA,mL;AACA;OAAA,sCAAA,8K;AAbQ;OAAA,mDAAA;",
+"sources":["Format.java"],
+"names":["org.jboss.elemento.intl.Format.<synthetic: ctor_js>","value","org.jboss.elemento.intl.Format.<synthetic: ctor_create>","org.jboss.elemento.intl.Format.<init>","org.jboss.elemento.intl.Format.valueOf","org.jboss.elemento.intl.Format.values","org.jboss.elemento.intl.Format.<clinit>"]
+}

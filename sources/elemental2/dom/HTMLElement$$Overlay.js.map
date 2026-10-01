@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HTMLElement$$Overlay.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;MA4Ba,Q;;QAsJmB,wH,2CAA8BA,K,iBAAcC,M;EAA5CC,mB;EAC5BA,iI;;;QAM4B,gM,sDACuCF,K,iBAAcC,M;EADrDC,mB;EAE5BA,6P;;;QAW4B,4H,sDACqDF,K,iBACxEC,M;EAFmBC,mB;EAG5BA,iI;;;QAM4B,qH,8CAAgCF,K,iBAAcC,M;EAA9CC,mB;EAC5BA,iI;;;QApLS,O;EAAAC,2B;EAAAA;",
+"sources":["HTMLElement.java"],
+"names":["state","reason","elemental2.dom.HTMLElement$$Overlay.formStateRestoreCallback__$devirt","elemental2.dom.HTMLElement$$Overlay.<clinit>"]
+}

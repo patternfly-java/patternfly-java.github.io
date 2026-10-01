@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"FlowCallback.js.map",
+"lineCount":23,
+"mappings":"A;;;;;;;;;;;MA2BiB,Y;;CAWR,mD,UAASA,O;;QAXD,M;EAAAC,uB;EAAAA,gE;;;QAAA,O;EAAAC,+B;EAAAA;",
+"sources":["FlowCallback.java"],
+"names":["context","org.jboss.elemento.flow.FlowCallback.<synthetic: adapt_lambda>","org.jboss.elemento.flow.FlowCallback.<clinit>"]
+}

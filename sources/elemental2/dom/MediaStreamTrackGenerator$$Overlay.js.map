@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MediaStreamTrackGenerator$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAuBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["MediaStreamTrackGenerator.java"],
+"names":["elemental2.dom.MediaStreamTrackGenerator$$Overlay.<clinit>"]
+}

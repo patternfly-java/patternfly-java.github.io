@@ -1,0 +1,31 @@
+goog.module('org.patternfly.showcase.component.DataListComponent');
+
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLUListElement.$Overlay');
+goog.require('java.lang.Class');
+goog.require('java.lang.String');
+goog.require('java.util.function.Supplier');
+goog.require('jsinterop.base.JsPropertyMap.$Overlay');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.list.DataList');
+goog.require('org.patternfly.component.list.DataListAction');
+goog.require('org.patternfly.component.list.DataListCell');
+goog.require('org.patternfly.component.list.DataListExpandableContent');
+goog.require('org.patternfly.component.list.DataListItem');
+goog.require('org.patternfly.icon.IconSets.fas');
+goog.require('org.patternfly.showcase.ApiDoc.Type');
+goog.require('org.patternfly.showcase.BuildingBlocks');
+goog.require('org.patternfly.showcase.Code');
+goog.require('org.patternfly.showcase.Data');
+goog.require('org.patternfly.showcase.LoremIpsum');
+goog.require('org.patternfly.showcase.Snippet');
+goog.require('org.patternfly.showcase.SnippetPage');
+goog.require('org.patternfly.showcase.component.Component.$Overlay');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Casts');
+
+const DataListComponent = goog.require('org.patternfly.showcase.component.DataListComponent$impl');
+exports = DataListComponent;

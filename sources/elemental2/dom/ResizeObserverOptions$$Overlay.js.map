@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ResizeObserverOptions$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEc,8C;EAAAA,mB;EAC3BA,iM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["ResizeObserverOptions.java"],
+"names":["elemental2.dom.ResizeObserverOptions$$Overlay.create","elemental2.dom.ResizeObserverOptions$$Overlay.<clinit>"]
+}

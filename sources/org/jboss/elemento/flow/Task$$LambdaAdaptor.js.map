@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Task$$LambdaAdaptor.js.map",
+"lineCount":36,
+"mappings":"A;;;;;;;;;;;;MAgCiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,iDAAAA,C;EAAAA,4G;;;CAAA,kG;EAAAC,qC;EAAAA,4D;;;CAAA,wE;EAAAC,6C;EAAAA,6F;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["Task.java"],
+"names":["org.jboss.elemento.flow.Task$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","org.jboss.elemento.flow.Task$$LambdaAdaptor.<init>","org.jboss.elemento.flow.Task$$LambdaAdaptor.apply","org.jboss.elemento.flow.Task$$LambdaAdaptor.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BulletData$$Overlay.js.map",
+"lineCount":18,
+"mappings":"A;;;;;MAsBa,Q;;QAGgB,8E,gBAAkBA,I,gBAAaC,C;EAA/BC,mB;EACrBA,IAAWC,IAAXD,gB;EACAA,iB;EACAA,W;EACAA,Y;;;QAPK,O;EAAAE,2B;EAAAA;",
+"sources":["BulletData.java"],
+"names":["name","y","org.patternfly.chart.bullet.BulletData$$Overlay.bulletData","data","org.patternfly.chart.bullet.BulletData$$Overlay.<clinit>"]
+}

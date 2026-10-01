@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Collections$UnmodifiableSortedSet.js.map",
+"lineCount":77,
+"mappings":"A;;;;;;;;;;;;;;;MA0xBe,qB;;CAAA,W;EAAAA,Q;EAAAA;OACU,yDADVA,C;;;QAIJ,4B,qBAA6CC,S;EAA7CC,gC;EAAAA,4C;EAAAA,mG;EAAAA,iB;;;CAAA,6E,qBAA6CD,S;EAClDE,kF;EACAA,yG;;;CAI2B,kC;EAC3BC,2G;;;CAIa,M,UAAcC,C;EAC3BC,yI;;;CAIO,yB;EACPC,kG;;;CAIS,Q;EACTC,kH;;;CAIkB,gD,UAAUC,S;EAC5BC,+N;;;CAIO,wB;EACPC,iG;;;CAIkB,iE,UAASC,W,WAAeH,S;EAC1CI,6P;;;CAIkB,gD,UAAUD,W;EAC5BE,iO;;;;CA9CS,oC;EAAAC,yH;;;QAAA,O;EAAAC,wC;EAAAA,qC;EAAAA,0B;EAAAA;",
+"sources":["Collections.java"],
+"names":["java.util.Collections$UnmodifiableSortedSet.<synthetic: ctor_js>","sortedSet","java.util.Collections$UnmodifiableSortedSet.<synthetic: ctor_create>","java.util.Collections$UnmodifiableSortedSet.<init>","java.util.Collections$UnmodifiableSortedSet.comparator","o","java.util.Collections$UnmodifiableSortedSet.equals","java.util.Collections$UnmodifiableSortedSet.first","java.util.Collections$UnmodifiableSortedSet.hashCode","toElement","java.util.Collections$UnmodifiableSortedSet.headSet","java.util.Collections$UnmodifiableSortedSet.last","fromElement","java.util.Collections$UnmodifiableSortedSet.subSet","java.util.Collections$UnmodifiableSortedSet.tailSet","java.util.Collections$UnmodifiableSortedSet.spliterator","java.util.Collections$UnmodifiableSortedSet.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Dataset.js.map",
+"lineCount":33,
+"mappings":"A;;;;;;;MAkBiB,O;;QAAA,O;EAAAA,0B;EAAAA,uB;;;;;;;;;;;;;;AAEN;QAAA,yCAAA,gB;AACA;QAAA,oCAAA,W;AACA;QAAA,0CAAA,iB;AACA;QAAA,8CAAA;",
+"sources":["Dataset.java"],
+"names":["org.patternfly.core.Dataset.<clinit>"]
+}

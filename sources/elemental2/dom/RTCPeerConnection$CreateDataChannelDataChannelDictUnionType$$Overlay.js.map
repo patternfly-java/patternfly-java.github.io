@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RTCPeerConnection$CreateDataChannelDataChannelDictUnionType$$Overlay.js.map",
+"lineCount":30,
+"mappings":"A;;;;;MA+DmB,Q;;QAE8D,kG,UACxDA,C;EADwDC,mB;EAE3EA,yE;;;QAI8C,oK;EAAAC,mB;EAC9CA,4G;;;QAI6C,kK;EAAAC,mB;EAC7CA,2G;;;QAI0C,4J;EAAAC,mB;EAC1CA,wG;;;QAnBa,O;EAAAC,2B;EAAAA;",
+"sources":["RTCPeerConnection.java"],
+"names":["o","elemental2.dom.RTCPeerConnection$CreateDataChannelDataChannelDictUnionType$$Overlay.of","elemental2.dom.RTCPeerConnection$CreateDataChannelDataChannelDictUnionType$$Overlay.asRTCDataChannelInitDictionary___$devirt","elemental2.dom.RTCPeerConnection$CreateDataChannelDataChannelDictUnionType$$Overlay.asRTCDataChannelInitInterface___$devirt","elemental2.dom.RTCPeerConnection$CreateDataChannelDataChannelDictUnionType$$Overlay.asRTCDataChannelInitRecord___$devirt","elemental2.dom.RTCPeerConnection$CreateDataChannelDataChannelDictUnionType$$Overlay.<clinit>"]
+}

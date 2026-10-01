@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementTextMethods.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;;;;;;MAsBiB,kB;;CASH,yD,gBAAYA,I;;CAYP,wB;;QAZL,0G,2DAAYA,I;EAAZC,6B;EACNA,uF;EACAA,0D;;;QAUW,yE;EAAAA,6B;EACXA,uF;;;QAtBS,O;EAAAC,qC;EAAAA;",
+"sources":["ElementTextMethods.java"],
+"names":["text","org.jboss.elemento.ElementTextMethods.text__$default","org.jboss.elemento.ElementTextMethods.<clinit>"]
+}

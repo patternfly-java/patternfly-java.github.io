@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"HTMLElementDataMethods.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;;;;;;;;;;MAsBiB,sB;;CASH,yD,gBAAYA,I;;CAYZ,2E,gBAAYA,I,iBAAaC,K;;QAZzB,8G,+DAAYD,I;EAAZE,iC;EACNA,mV;EACAA,0D;;;QAUM,gI,+DAAYF,I,iBAAaC,K;EAAzBC,iC;EACNA,sV;EACAA,0D;;;QAvBS,O;EAAAC,yC;EAAAA;",
+"sources":["HTMLElementDataMethods.java"],
+"names":["name","value","org.jboss.elemento.HTMLElementDataMethods.data__$default","org.jboss.elemento.HTMLElementDataMethods.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Progress.js.map",
+"lineCount":58,
+"mappings":"A;;;;;;;;;MA2BiB,Q;;CAMR,a;;CAQQ,kB,eAAUA,G;;CAWlB,oC,eAAUA,G,iBAAYC,K;;CAKd,Y;;CASR,8B,gBAAYA,K;;CAKZ,c;;QA9BQ,8D,0CAAUD,G;EAAVE,mB;EACTA,yD;;;QAeS,wD;EAAAC,mB;EACTA,8C;;;YAkBK,wC;EAAAC,qF;;;QAjDI,O;EAAAC,2B;EAAAA,wB;EAiDJA,yE;;;;;;;;;;;;;;;;AAjDI;SAiDJ,8CAjDI;",
+"sources":["Progress.java"],
+"names":["max","label","org.jboss.elemento.flow.Progress.reset__$default","org.jboss.elemento.flow.Progress.tick__$default","org.jboss.elemento.flow.Progress.<synthetic: getter>","org.jboss.elemento.flow.Progress.<clinit>"]
+}

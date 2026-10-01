@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MA6BmB,Q;;QAEuD,qG,UAAUA,C;EAAVC,mB;EACpEA,yE;;;QAIkB,oI;EAAAC,mB;EAClBA,4H;;;QAIsB,4I;EAAAC,mB;EACtBA,oI;;;QAIc,gH;EAAAC,mB;EACdA,kD;;;QAIc,oH;EAAAC,mB;EACdA,sD;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["TextDecoderStream.java"],
+"names":["o","elemental2.dom.TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.of","elemental2.dom.TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.asArrayBuffer__$devirt","elemental2.dom.TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.asArrayBufferView__$devirt","elemental2.dom.TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.isArrayBuffer__$devirt","elemental2.dom.TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.isArrayBufferView__$devirt","elemental2.dom.TextDecoderStream$WritableWritableStreamTypeParameterUnionType$$Overlay.<clinit>"]
+}

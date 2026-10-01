@@ -1,0 +1,32 @@
+goog.module('org.patternfly.component.toolbar.Toolbar');
+
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('java.lang.String');
+goog.require('java.util.ArrayList');
+goog.require('java.util.List');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.patternfly.component.BaseComponent');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.toolbar.ToolbarColor');
+goog.require('org.patternfly.component.toolbar.ToolbarContent');
+goog.require('org.patternfly.component.toolbar.ToolbarFilterContent');
+goog.require('org.patternfly.handler.ComponentHandler');
+goog.require('org.patternfly.style.Breakpoint');
+goog.require('org.patternfly.style.Breakpoints');
+goog.require('org.patternfly.style.Classes');
+goog.require('org.patternfly.style.Inset');
+goog.require('org.patternfly.style.Modifiers.FullHeight');
+goog.require('org.patternfly.style.Modifiers.NoPadding');
+goog.require('org.patternfly.style.Modifiers.Static');
+goog.require('org.patternfly.style.Modifiers.Sticky');
+goog.require('org.patternfly.style.TypedModifier');
+goog.require('org.patternfly.style.Variable');
+goog.require('org.patternfly.style.VariableAssignments.HTMLBuilder');
+goog.require('org.patternfly.style.Variables');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const Toolbar = goog.require('org.patternfly.component.toolbar.Toolbar$impl');
+exports = Toolbar;

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Range$CreateContextualFragmentP0UnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MA0BmB,Q;;QAEkC,gF,UAAUA,C;EAAVC,mB;EAC/CA,yE;;;QAIa,+F;EAAAC,mB;EACbA,mE;;;QAIkB,8G;EAAAC,mB;EAClBA,4H;;;QAIc,sF;EAAAC,mB;EACdA,wC;;;QAIc,2F;EAAAC,mB;EACdA,kD;;;QAvBa,O;EAAAC,2B;EAAAA;",
+"sources":["Range.java"],
+"names":["o","elemental2.dom.Range$CreateContextualFragmentP0UnionType$$Overlay.of","elemental2.dom.Range$CreateContextualFragmentP0UnionType$$Overlay.asString__$devirt","elemental2.dom.Range$CreateContextualFragmentP0UnionType$$Overlay.asTrustedHTML__$devirt","elemental2.dom.Range$CreateContextualFragmentP0UnionType$$Overlay.isString__$devirt","elemental2.dom.Range$CreateContextualFragmentP0UnionType$$Overlay.isTrustedHTML__$devirt","elemental2.dom.Range$CreateContextualFragmentP0UnionType$$Overlay.<clinit>"]
+}

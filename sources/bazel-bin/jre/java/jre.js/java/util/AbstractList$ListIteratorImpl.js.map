@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AbstractList$ListIteratorImpl.js.map",
+"lineCount":86,
+"mappings":"A;;;;;;;;;;;;;;;;MAkEsB,gB;;CAAA,W;EAAAA,Q;EAAAA;OAAA,oDAAAA,C;;;;QAOV,+B;EAAAC,uC;EAAAA,oG;EAAAA,iB;;;;CAAA,4E;EAPUC,wE;EAOSA,2F;;;;QAInB,oC,oDAAqBC,K;EAArBF,2B;EAAAA,uC;EAAAA,gH;EAAAA,iB;;;;CAAA,iF,oDAAqBE,K;EAXXD,wE;EAWkBA,2F;EAClCA,sF;EAEAA,sD;;;CAIU,6B,UAAME,C;EAChBC,uH;EACAA,sG;EACAA,sD;;;CAIa,sB;EACbC,yD;;;CAIS,gB;EACTC,qD;;;CAIO,4B;EACPC,mF;EAEAA,sO;;;CAIS,oB;EACTC,6D;;;CAIU,6B,UAAML,C;EAChBM,0G;EAEAA,0H;;;QAlDgB,O;EAAAC,mC;EAAAA,gC;EAAAA,uB;EAAAA;",
+"sources":["AbstractList.java"],
+"names":["java.util.AbstractList$ListIteratorImpl.<synthetic: ctor_js>","java.util.AbstractList$ListIteratorImpl.<synthetic: ctor_create>","java.util.AbstractList$ListIteratorImpl.<init>","start","o","java.util.AbstractList$ListIteratorImpl.add","java.util.AbstractList$ListIteratorImpl.hasPrevious","java.util.AbstractList$ListIteratorImpl.nextIndex","java.util.AbstractList$ListIteratorImpl.previous","java.util.AbstractList$ListIteratorImpl.previousIndex","java.util.AbstractList$ListIteratorImpl.set","java.util.AbstractList$ListIteratorImpl.<clinit>"]
+}

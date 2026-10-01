@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RemoveItemHandler$$LambdaAdaptor.js.map",
+"lineCount":40,
+"mappings":"A;;;;;;;;;;;;;;MAyBiB,c;;CAAA,W;EAAAA,yB;EAAAA,Q;EAAAA;OAAA,+DAAAA,C;EAAAA,wI;;;CAAA,8H;EAAAC,qC;EAAAA,0E;;;CAAA,2F;;GAAAC,qF;GAAAA,sB;;;;QAAA,O;EAAAC,iC;EAAAA,8B;EAAAA;",
+"sources":["RemoveItemHandler.java"],
+"names":["org.patternfly.component.RemoveItemHandler$$LambdaAdaptor.<synthetic: lambda_adaptor_ctor>","org.patternfly.component.RemoveItemHandler$$LambdaAdaptor.<init>","org.patternfly.component.RemoveItemHandler$$LambdaAdaptor.onRemove","org.patternfly.component.RemoveItemHandler$$LambdaAdaptor.<clinit>"]
+}

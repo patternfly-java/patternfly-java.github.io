@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LevelOverrides$1.js.map",
+"lineCount":35,
+"mappings":"A;;;;;;;;;;;MA2BiB,E;;CAAA,W;EAAAA,Q;EAAAA;OAAA,uDAAAA,C;;;QAA6B,iD;EAAAC,a;EAAAA,yB;EAAAA,yH;EAAAA,iB;;;CAAA,iG;EAA7BC,2E;EAA6BA,sC;;;QAA7B,O;EAAAC,qB;EAAAA,kB;EAAAA;",
+"sources":["LevelOverrides.java"],
+"names":["org.jboss.elemento.logger.LevelOverrides$1.<synthetic: ctor_js>","org.jboss.elemento.logger.LevelOverrides$1.<synthetic: ctor_create>","org.jboss.elemento.logger.LevelOverrides$1.<init>","org.jboss.elemento.logger.LevelOverrides$1.<clinit>"]
+}

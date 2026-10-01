@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"IncompatibleClassChangeError.js.map",
+"lineCount":27,
+"mappings":"A;;;;;MAkBa,4B;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,uC;EAAAA,mD;EAAAA,gE;EAAAA,kH;EAAAA,iB;;;CAAA,mD;EAAAC,oC;;;QAAA,O;EAAAC,+C;EAAAA,4C;EAAAA;",
+"sources":["IncompatibleClassChangeError.java"],
+"names":["java.lang.IncompatibleClassChangeError.<synthetic: ctor_js>","java.lang.IncompatibleClassChangeError.<synthetic: ctor_create>","java.lang.IncompatibleClassChangeError.<init>","java.lang.IncompatibleClassChangeError.<clinit>"]
+}

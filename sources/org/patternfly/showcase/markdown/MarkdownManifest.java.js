@@ -1,0 +1,31 @@
+goog.module('org.patternfly.showcase.markdown.MarkdownManifest');
+
+goog.require('elemental2.dom.DomGlobal.$Overlay');
+goog.require('elemental2.dom.Response.$Overlay');
+goog.require('elemental2.promise.IThenable.$Overlay');
+goog.require('elemental2.promise.Promise.$Overlay');
+goog.require('java.lang.IllegalArgumentException');
+goog.require('java.lang.Object');
+goog.require('java.lang.String');
+goog.require('java.util.function.Supplier');
+goog.require('javaemul.internal.Exceptions');
+goog.require('jsinterop.base.Js');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.router.LoadData');
+goog.require('org.jboss.elemento.router.Page');
+goog.require('org.jboss.elemento.router.Parameter');
+goog.require('org.jboss.elemento.router.Place');
+goog.require('org.jboss.elemento.router.PlaceManager');
+goog.require('org.jboss.elemento.router.Places');
+goog.require('org.patternfly.component.navigation.ExpandableNavigationGroup');
+goog.require('org.patternfly.component.navigation.NavigationItem');
+goog.require('org.patternfly.showcase.markdown.ManifestItem.$Overlay');
+goog.require('org.patternfly.showcase.markdown.Markdown');
+goog.require('org.patternfly.showcase.markdown.MarkdownData.$Overlay');
+goog.require('org.patternfly.showcase.markdown.MarkdownPage');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const MarkdownManifest = goog.require('org.patternfly.showcase.markdown.MarkdownManifest$impl');
+exports = MarkdownManifest;

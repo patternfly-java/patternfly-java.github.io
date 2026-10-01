@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PermissionDescriptor$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEa,6C;EAAAA,mB;EAC1BA,gM;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["PermissionDescriptor.java"],
+"names":["elemental2.dom.PermissionDescriptor$$Overlay.create","elemental2.dom.PermissionDescriptor$$Overlay.<clinit>"]
+}

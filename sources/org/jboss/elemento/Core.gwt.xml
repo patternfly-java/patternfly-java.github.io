@@ -1,0 +1,9 @@
+<module>
+  <inherits name="org.jboss.elemento.Logger"/>
+  <inherits name="org.gwtproject.safehtml.SafeHtml"/>
+  <inherits name="org.gwtproject.event.Event"/>
+  <inherits name="org.gwtproject.safehtml.SafeHtml"/>
+  <inherits name="elemental2.dom.Dom"/>
+  <inherits name="elemental2.webstorage.WebStorage"/>
+  <source path=""/>
+</module>

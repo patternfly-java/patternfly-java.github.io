@@ -1,0 +1,30 @@
+goog.module('org.patternfly.showcase.markdown.MarkdownPage');
+
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.MutationRecord.$Overlay');
+goog.require('java.lang.Iterable');
+goog.require('java.lang.Object');
+goog.require('java.lang.String');
+goog.require('java.util.Collections');
+goog.require('java.util.List');
+goog.require('nativebootstrap.Util');
+goog.require('org.gwtproject.safehtml.shared.SafeHtmlUtils');
+goog.require('org.jboss.elemento.Attachable');
+goog.require('org.jboss.elemento.By');
+goog.require('org.jboss.elemento.By.AttributeOperator');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.IsElement');
+goog.require('org.jboss.elemento.router.LoadedData');
+goog.require('org.jboss.elemento.router.Page');
+goog.require('org.jboss.elemento.router.Parameter');
+goog.require('org.jboss.elemento.router.Place');
+goog.require('org.patternfly.component.content.Content');
+goog.require('org.patternfly.component.page.PageSection');
+goog.require('org.patternfly.showcase.ApiDoc');
+goog.require('org.patternfly.showcase.markdown.MarkdownData.$Overlay');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const MarkdownPage = goog.require('org.patternfly.showcase.markdown.MarkdownPage$impl');
+exports = MarkdownPage;

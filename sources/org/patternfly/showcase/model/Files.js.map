@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Files.js.map",
+"lineCount":56,
+"mappings":"A;;;;;;;;;;MAwBa,K;;CAAA,W;EAAAA,Q;;;QAAA,S;EAAAC,gB;EAAAA,4B;EAAAA,6D;EAAAA,iB;;;CAAA,gD;EAAAC,qC;;;YAEuB,2C;EAAAC,kF;;;YAAA,2C;EAAAC,mF;;;QAFvB,O;EAAAC,wB;EAAAA,qB;EAAAA,qB;EAKLA,4V;;;;;;;;;;;;;;;AALK;MAEuB,iDAFvB;",
+"sources":["Files.java"],
+"names":["org.patternfly.showcase.model.Files.<synthetic: ctor_js>","org.patternfly.showcase.model.Files.<synthetic: ctor_create>","org.patternfly.showcase.model.Files.<init>","org.patternfly.showcase.model.Files.<synthetic: getter>","org.patternfly.showcase.model.Files.<synthetic: setter>","org.patternfly.showcase.model.Files.<clinit>"]
+}

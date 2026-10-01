@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DonutUtilizationElement$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MA0Ba,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["DonutUtilizationElement.java"],
+"names":["org.patternfly.chart.utilization.DonutUtilizationElement$$Overlay.<clinit>"]
+}

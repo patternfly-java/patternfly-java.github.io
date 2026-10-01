@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ThrowableUtils$NativeError$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MA8CsB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["ThrowableUtils.java"],
+"names":["javaemul.internal.ThrowableUtils$NativeError$$Overlay.<clinit>"]
+}

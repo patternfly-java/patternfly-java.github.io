@@ -1,0 +1,245 @@
+/*
+ *  Copyright 2023 Red Hat
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+package org.patternfly.component.togglegroup;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.jboss.elemento.ButtonType;
+import org.jboss.elemento.ElementContainerDelegate;
+import org.jboss.elemento.ElementTextMethods;
+import org.jboss.elemento.HTMLContainerBuilder;
+import org.patternfly.component.ComponentIcon;
+import org.patternfly.component.ComponentIconAndText;
+import org.patternfly.component.HasIdentifier;
+import org.patternfly.component.IconPosition;
+import org.patternfly.component.SelectionMode;
+import org.patternfly.core.ComponentContext;
+import org.patternfly.core.Dataset;
+import org.patternfly.handler.ComponentHandler;
+import org.patternfly.style.Classes;
+import org.patternfly.style.Modifiers.Disabled;
+
+import elemental2.dom.Element;
+import elemental2.dom.Event;
+import elemental2.dom.HTMLButtonElement;
+import elemental2.dom.HTMLDivElement;
+import elemental2.dom.HTMLElement;
+
+import static org.jboss.elemento.Elements.button;
+import static org.jboss.elemento.Elements.div;
+import static org.jboss.elemento.Elements.failSafeRemoveFromParent;
+import static org.jboss.elemento.Elements.insertFirst;
+import static org.jboss.elemento.Elements.removeChildrenFrom;
+import static org.jboss.elemento.Elements.span;
+import static org.jboss.elemento.EventType.click;
+import static org.patternfly.component.IconPosition.end;
+import static org.patternfly.component.IconPosition.start;
+import static org.patternfly.core.Aria.pressed;
+import static org.patternfly.style.Classes.component;
+import static org.patternfly.style.Classes.icon;
+import static org.patternfly.style.Classes.item;
+import static org.patternfly.style.Classes.modifier;
+import static org.patternfly.style.Classes.text;
+import static org.patternfly.style.Classes.toggleGroup;
+
+/** An individual toggle button within a {@link ToggleGroup} component. */
+/** A toggle group item within a {@link ToggleGroup} component. */
+public class ToggleGroupItem extends ToggleGroupSubComponent<HTMLDivElement, ToggleGroupItem> implements
+        ComponentContext<HTMLDivElement, ToggleGroupItem>,
+        ComponentIcon<HTMLDivElement, ToggleGroupItem>,
+        ComponentIconAndText<HTMLDivElement, ToggleGroupItem>,
+        Disabled<HTMLDivElement, ToggleGroupItem>,
+        ElementContainerDelegate<HTMLDivElement, ToggleGroupItem>,
+        ElementTextMethods<HTMLDivElement, ToggleGroupItem>,
+        HasIdentifier<HTMLDivElement, ToggleGroupItem> {
+
+    // ------------------------------------------------------ factory
+
+    public static ToggleGroupItem toggleGroupItem(String identifier) {
+        return new ToggleGroupItem(identifier, null);
+    }
+
+    public static ToggleGroupItem toggleGroupItem(String identifier, String text) {
+        return new ToggleGroupItem(identifier, text);
+    }
+
+    // ------------------------------------------------------ instance
+
+    public static final String SUB_COMPONENT_ID = "tgi";
+    public static final String SUB_COMPONENT_NAME = "ToggleGroupItem";
+    private final String identifier;
+    private final Map<String, Object> data;
+    private final HTMLContainerBuilder<HTMLButtonElement> button;
+    private HTMLElement textElement;
+    private HTMLElement iconContainer;
+
+    ToggleGroupItem(String identifier, String text) {
+        super(SUB_COMPONENT_ID, SUB_COMPONENT_NAME, div().css(component(toggleGroup, item))
+                .data(Dataset.identifier, identifier)
+                .element());
+        this.identifier = identifier;
+        this.data = new HashMap<>();
+        this.button = button(ButtonType.button).css(component(toggleGroup, Classes.button))
+                .aria(pressed, false)
+                .on(click, this::onClick);
+        element().appendChild(button.element());
+        text(text);
+    }
+
+    @Override
+    public Element containerDelegate() {
+        return button.element();
+    }
+
+    // ------------------------------------------------------ builder
+
+    @Override
+    public ToggleGroupItem disabled(boolean disabled) {
+        button.element().disabled = disabled;
+        return this;
+    }
+
+    @Override
+    public ToggleGroupItem icon(Element icon) {
+        removeChildrenFrom(iconContainer);
+        failSafeIconContainer(start).appendChild(icon);
+        return this;
+    }
+
+    @Override
+    public ToggleGroupItem iconAndText(Element icon, String text, IconPosition iconPosition) {
+        removeIcon();
+        failSafeIconContainer(iconPosition).appendChild(icon);
+        failSafeTextElement(iconPosition).textContent = text;
+        return this;
+    }
+
+    @Override
+    public ToggleGroupItem removeIcon() {
+        failSafeRemoveFromParent(iconContainer);
+        iconContainer = null;
+        return this;
+    }
+
+    @Override
+    public ToggleGroupItem text(String text) {
+        if (text == null) {
+            failSafeRemoveFromParent(textElement);
+            textElement = null;
+        } else {
+            failSafeTextElement(end).textContent = text;
+        }
+        return this;
+    }
+
+    @Override
+    public <T> ToggleGroupItem store(String key, T value) {
+        data.put(key, value);
+        return this;
+    }
+
+    @Override
+    public ToggleGroupItem that() {
+        return this;
+    }
+
+    // ------------------------------------------------------ events
+
+    public ToggleGroupItem onClick(ComponentHandler<ToggleGroupItem> clickHandler) {
+        button.on(click, e -> clickHandler.handle(e, this));
+        return this;
+    }
+
+    // ------------------------------------------------------ api
+
+    @Override
+    public String identifier() {
+        return identifier;
+    }
+
+    @Override
+    public boolean isDisabled() {
+        return button.element().disabled;
+    }
+
+    @Override
+    public String text() {
+        if (textElement != null) {
+            return textElement.textContent;
+        }
+        return null;
+    }
+
+    @Override
+    public boolean has(String key) {
+        return data.containsKey(key);
+    }
+
+    @SuppressWarnings("unchecked")
+    public <T> T get(String key) {
+        if (data.containsKey(key)) {
+            return (T) data.get(key);
+        }
+        return null;
+    }
+
+    // ------------------------------------------------------ internal
+
+    void onClick(Event event) {
+        ToggleGroup toggleGroup = lookupComponent();
+        if (toggleGroup.selectionMode == SelectionMode.single) {
+            if (!isSelected()) {
+                toggleGroup.select(this);
+            }
+        } else if (toggleGroup.selectionMode == SelectionMode.multi) {
+            toggleGroup.select(this, !isSelected(), true);
+        }
+    }
+
+    void markSelected(boolean selected) {
+        button.aria(pressed, selected);
+        button.classList().toggle(modifier(Classes.selected), selected);
+    }
+
+    boolean isSelected() {
+        return Boolean.parseBoolean(button.element().getAttribute(pressed));
+    }
+
+    private HTMLElement failSafeTextElement(IconPosition iconPosition) {
+        if (textElement == null) {
+            textElement = span().css(component(toggleGroup, text)).element();
+            if (iconPosition == IconPosition.start) {
+                button.add(textElement);
+            } else {
+                insertFirst(button.element(), textElement);
+            }
+        }
+        return textElement;
+    }
+
+    private HTMLElement failSafeIconContainer(IconPosition iconPosition) {
+        if (iconContainer == null) {
+            iconContainer = span().css(component(toggleGroup, icon)).element();
+            if (iconPosition == start) {
+                insertFirst(button.element(), iconContainer);
+            } else {
+                button.add(iconContainer);
+            }
+        }
+        return iconContainer;
+    }
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"IntUnaryOperator.js.map",
+"lineCount":49,
+"mappings":"A;;;;;;;;;;MAwBiB,gB;;QAES,+C;EAAAA,2B;EACtBA,uEAAOC,OAAPD;GAAkBE,eAAlBF;M;;;CAGE,sB,eAAeC,O;;CAEM,mF,yBAAyBE,K;;CAKzB,mF,yBAAyBC,M;;QAbnC,M;EAAAC,2B;EAAAA,8B;;;QAQU,kI,4DAAyBF,K;EAAzBG,2B;EACvBA,wF;EACAA,uEAAOL,OAAPK;GAAkBC,8EAAlBD;M;;;QAGuB,kI,4DAAyBF,M;EAAzBI,2B;EACvBA,yF;EACAA,uEAAOP,OAAPO;GAAkBC,+EAAlBD;M;;;QAfa,O;EAAAE,mC;EAAAA;",
+"sources":["IntUnaryOperator.java"],
+"names":["java.util.function.IntUnaryOperator.identity","operand","java.util.function.IntUnaryOperator.<lambda in identity>","after","before","java.util.function.IntUnaryOperator.<synthetic: adapt_lambda>","java.util.function.IntUnaryOperator.andThen__$default","java.util.function.IntUnaryOperator.<lambda in andThen__$default>","java.util.function.IntUnaryOperator.compose__$default","java.util.function.IntUnaryOperator.<lambda in compose__$default>","java.util.function.IntUnaryOperator.<clinit>"]
+}

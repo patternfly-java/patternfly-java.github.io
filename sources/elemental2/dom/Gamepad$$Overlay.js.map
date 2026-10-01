@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Gamepad$$Overlay.js.map",
+"lineCount":20,
+"mappings":"A;;;;;MA0BiB,Q;;QA0BF,gE,gDAAiBA,I;EAAjBC,mB;EACXA,2G;;;QAOW,6E,2CAA8BC,O;EAA9BC,mB;EACXA,2G;;;QAnCa,O;EAAAC,2B;EAAAA;",
+"sources":["Gamepad.java"],
+"names":["axes","elemental2.dom.Gamepad$$Overlay.setAxes__$devirt","buttons","elemental2.dom.Gamepad$$Overlay.setButtons__$devirt","elemental2.dom.Gamepad$$Overlay.<clinit>"]
+}

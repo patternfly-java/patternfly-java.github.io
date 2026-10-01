@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BodyObserver$ElementObserver.js.map",
+"lineCount":40,
+"mappings":"A;;;;;;;;;;MA6O+B,e;;CAAA,W;EAAAA,Q;EAAAA;OAEF,sDAFEA,C;EAAAA;OAGG,2DAHHA,C;EAAAA;OAIQ,4DAJRA,C;;;QAMf,0F,gBAAuBC,E,qBAAgBC,O,0BAA0BC,Q;EAAjEC,0B;EAAAA,sC;EAAAA,iL;EAAAA,iB;;;CAAA,+I,gBAAuBH,E,qBAAgBC,O,0BAA0BC,Q;EAAUE,qC;EAC/EA,iE;EACAA,2E;EACAA,6E;;;QATmB,O;EAAAC,kC;EAAAA,+B;EAAAA;",
+"sources":["BodyObserver.java"],
+"names":["org.jboss.elemento.BodyObserver$ElementObserver.<synthetic: ctor_js>","id","element","callback","org.jboss.elemento.BodyObserver$ElementObserver.<synthetic: ctor_create>","org.jboss.elemento.BodyObserver$ElementObserver.<init>","org.jboss.elemento.BodyObserver$ElementObserver.<clinit>"]
+}

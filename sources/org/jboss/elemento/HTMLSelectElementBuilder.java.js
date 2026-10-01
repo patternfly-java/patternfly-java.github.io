@@ -1,0 +1,35 @@
+goog.module('org.jboss.elemento.HTMLSelectElementBuilder');
+
+goog.require('elemental2.dom.AddEventListenerOptions.$Overlay');
+goog.require('elemental2.dom.Event.$Overlay');
+goog.require('elemental2.dom.EventTarget.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLSelectElement.$Overlay');
+goog.require('java.lang.Iterable');
+goog.require('java.lang.Object');
+goog.require('java.util.Objects');
+goog.require('java.util.function.Consumer');
+goog.require('java.util.function.Supplier');
+goog.require('nativebootstrap.Util');
+goog.require('org.gwtproject.safehtml.shared.SafeHtml');
+goog.require('org.jboss.elemento.By');
+goog.require('org.jboss.elemento.ClassList');
+goog.require('org.jboss.elemento.ElementAttributeMethods');
+goog.require('org.jboss.elemento.ElementClassListMethods');
+goog.require('org.jboss.elemento.ElementConsumerMethods');
+goog.require('org.jboss.elemento.ElementEventMethods');
+goog.require('org.jboss.elemento.ElementHTMLMethods');
+goog.require('org.jboss.elemento.ElementIdMethods');
+goog.require('org.jboss.elemento.ElementQueryMethods');
+goog.require('org.jboss.elemento.ElementTextMethods');
+goog.require('org.jboss.elemento.EventType');
+goog.require('org.jboss.elemento.HTMLElementAttributeMethods');
+goog.require('org.jboss.elemento.HTMLElementDataMethods');
+goog.require('org.jboss.elemento.HTMLElementStyleMethods');
+goog.require('org.jboss.elemento.HTMLElementVisibilityMethods');
+goog.require('org.jboss.elemento.HTMLSelectElementMethods');
+goog.require('org.jboss.elemento.Role');
+goog.require('vmbootstrap.Casts');
+
+const HTMLSelectElementBuilder = goog.require('org.jboss.elemento.HTMLSelectElementBuilder$impl');
+exports = HTMLSelectElementBuilder;

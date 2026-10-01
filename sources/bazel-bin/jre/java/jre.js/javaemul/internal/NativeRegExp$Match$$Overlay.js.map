@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"NativeRegExp$Match$$Overlay.js.map",
+"lineCount":8,
+"mappings":"A;;;MAsCmB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["NativeRegExp.java"],
+"names":["javaemul.internal.NativeRegExp$Match$$Overlay.<clinit>"]
+}

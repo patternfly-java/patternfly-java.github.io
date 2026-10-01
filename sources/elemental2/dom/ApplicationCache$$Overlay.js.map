@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ApplicationCache$$Overlay.js.map",
+"lineCount":61,
+"mappings":"A;;;;;MAwBa,Q;;YAoCwB,oD;EAAAA,iG;;;YACA,uD;EAAAA,oG;;;YACA,gD;EAAAA,6F;;;YACA,oD;EAAAA,iG;;;YACA,oD;EAAAA,iG;;;YACA,uD;EAAAA,oG;;;QAzCxB,O;EAAAC,2B;EAAAA,wB;EAoCwBA,gG;EACAA,sG;EACAA,wF;EACAA,gG;EACAA,gG;EACAA,sG;;;;;;;;;;AAzCxB;SAoCwB,0DApCxB,K;AAAA;SAqCwB,6DArCxB,K;AAAA;SAsCwB,sDAtCxB,K;AAAA;SAuCwB,0DAvCxB,K;AAAA;SAwCwB,0DAxCxB,K;AAAA;SAyCwB,6DAzCxB;",
+"sources":["ApplicationCache.java"],
+"names":["elemental2.dom.ApplicationCache$$Overlay.<synthetic: getter>","elemental2.dom.ApplicationCache$$Overlay.<clinit>"]
+}

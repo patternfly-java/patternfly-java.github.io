@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CodeBlockSubComponent.js.map",
+"lineCount":27,
+"mappings":"A;;;;;;;;;;;;;MAwBe,qB;;CAAA,W;EAAAA,Q;;;CAEX,qI,gBAA6BC,c,iBAAuBC,gB,WAAoBC,O;EACpEC,8Q;;;QAHO,O;EAAAC,wC;EAAAA,qC;EAAAA;",
+"sources":["CodeBlockSubComponent.java"],
+"names":["org.patternfly.component.codeblock.CodeBlockSubComponent.<synthetic: ctor_js>","subComponentId","subComponentName","element","org.patternfly.component.codeblock.CodeBlockSubComponent.<init>","org.patternfly.component.codeblock.CodeBlockSubComponent.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Void.js.map",
+"lineCount":46,
+"mappings":"A;;;;;;;;;;;;MAkBmB,I;;CAAA,W;EAAAA,Q;;;QAKT,S;EAAAC,0B;EAAAA,gB;;;YAHwB,sB;EAAAC,2D;;;QAFf,O;EAAAC,uB;EAAAA,oB;EAAAA,qB;EAEeA,sD;;;;;;;;;;;;;AAFf;KAEe,4BAFf;",
+"sources":["Void.java"],
+"names":["java.lang.Void.<synthetic: ctor_js>","java.lang.Void.<synthetic: ctor_create>","java.lang.Void.<synthetic: getter>","java.lang.Void.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"NotificationDrawerItemBody.js.map",
+"lineCount":95,
+"mappings":"A;;;;;;;;;;;;;;;;;;MA8Ba,0B;;CAAA,W;EAAAA,Q;;;QAKgC,8F;EAAAC,qC;EACrCA,8C;;;QAGqC,gH,gBAAkCC,I;EAAlCD,qC;EACrCA,gM;;;QAQJ,S;EAAAE,qC;EAAAA,iD;EAAAA,0F;EAAAA,iB;;;CAAA,6E;EACIC,6kC;;;CAO8B,wE;EAC9BC,Y;;;;CA3BK,uC;EAAAA,uF;;;;CAAA,yD;EAAAC,mO;;;;CAAA,wB;EAAAA,0G;;;;CAAA,0F;EAAAA,mO;;;QAAA,O;EAAAC,6C;EAAAA,0C;EAAAA,yC;EAAAA,6B;;;;;;;;;;;;;;;;;;AAekB;2BAAA,oFAAA,U;AACA;2BAAA,sFAAA;",
+"sources":["NotificationDrawerItemBody.java"],
+"names":["org.patternfly.component.notification.NotificationDrawerItemBody.<synthetic: ctor_js>","org.patternfly.component.notification.NotificationDrawerItemBody.notificationDrawerItemBody","text","org.patternfly.component.notification.NotificationDrawerItemBody.<synthetic: ctor_create>","org.patternfly.component.notification.NotificationDrawerItemBody.<init>","org.patternfly.component.notification.NotificationDrawerItemBody.that","org.patternfly.component.notification.NotificationDrawerItemBody.text","org.patternfly.component.notification.NotificationDrawerItemBody.<clinit>"]
+}

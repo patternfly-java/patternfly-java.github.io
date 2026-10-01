@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Object.js.map",
+"lineCount":54,
+"mappings":"A;;;;;;;;;;;MAuBa,U;;CAAA,W;EAAAA,0B;;;QAAA,S;EAAAC,qB;EAAAA,iC;EAAAA,0C;EAAAA,iB;;;CAAA,6B;;CAGI,M,UAAcC,I;EAAdC,qB;EACbA,mC;;;CAIS,Q;EAAAC,qB;EACTA,iD;;;CAIY,Q;EAAAC,qB;EACZA,kQ;;;CAGoB,2B;EAAAC,qB;EACpBA,wF;;;QAGa,W,UAAmBC,Q;EAAnBC,qB;EACbA,wC;;;QAtBS,O;EAAAC,6B;EAAAA;",
+"sources":["Object.java"],
+"names":["java.lang.Object.<synthetic: ctor_js>","java.lang.Object.<synthetic: ctor_create>","that","java.lang.Object.equals","java.lang.Object.hashCode","java.lang.Object.toString","java.lang.Object.getClass","instance","java.lang.Object.$isInstance","java.lang.Object.<clinit>"]
+}

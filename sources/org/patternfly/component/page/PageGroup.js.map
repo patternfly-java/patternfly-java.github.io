@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"PageGroup.js.map",
+"lineCount":104,
+"mappings":"A;;;;;;;;;;;;;;;;;;;;;MA2Ca,S;;CAAA,W;EAAAA,Q;;;QAOe,oD;EAAAC,oB;EACpBA,6B;;;QAQJ,S;EAAAC,oB;EAAAA,gC;EAAAA,iE;EAAAA,iB;;;CAAA,oD;EACIC,8/B;;;CAQsE,oG,8BAC5CC,W;EAC1BC,8I;;;CAQa,8E,eAAcC,M;EAC3BC,mT;;;CAMa,mF,4BAA2BD,M;EACxCC,sO;;;CAMa,oD;EACbC,yS;;;CAMa,uD;EACbC,4S;;;CAMa,yD;EACbC,8S;;;CAIa,+C;EACbC,Y;;;;CArEK,uC;EAAAA,8D;;;QAAA,O;EAAAC,4B;EAAAA,yB;EAAAA,uB;;;;;;;;;;;;;;;;;;;;;AAakB;UAAA,2DAAA,Q;AACA;UAAA,6DAAA;",
+"sources":["PageGroup.java"],
+"names":["org.patternfly.component.page.PageGroup.<synthetic: ctor_js>","org.patternfly.component.page.PageGroup.pageGroup","org.patternfly.component.page.PageGroup.<synthetic: ctor_create>","org.patternfly.component.page.PageGroup.<init>","pageSection","org.patternfly.component.page.PageGroup.addSection","sticky","org.patternfly.component.page.PageGroup.sticky","org.patternfly.component.page.PageGroup.shadowTop","org.patternfly.component.page.PageGroup.shadowBottom","org.patternfly.component.page.PageGroup.overflowScroll","org.patternfly.component.page.PageGroup.that","org.patternfly.component.page.PageGroup.<clinit>"]
+}

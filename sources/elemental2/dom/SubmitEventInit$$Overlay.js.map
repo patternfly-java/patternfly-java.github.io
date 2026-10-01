@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SubmitEventInit$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA0BiB,Q;;QAEQ,wC;EAAAA,mB;EACrBA,2L;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["SubmitEventInit.java"],
+"names":["elemental2.dom.SubmitEventInit$$Overlay.create","elemental2.dom.SubmitEventInit$$Overlay.<clinit>"]
+}

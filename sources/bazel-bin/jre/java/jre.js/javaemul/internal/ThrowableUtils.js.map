@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ThrowableUtils.js.map",
+"lineCount":101,
+"mappings":"A;;;;;;;;;;;;MAuBmB,c;;CAAA,W;EAAAA,Q;;;QASO,yD,UAAwBC,C;EAAxBC,yB;EACtBA,6C;;;kBAKwB,gB,UAA0BC,K,mBAAiBC,a;;QAE/C,6D,UAAiBD,K;EAAjBE,yB;EACpBA,+C;;;QAcoB,iE,UAAqBF,K;EAArBG,yB;EACpBA,mD;;;QAcM,S;EAAAC,qC;EAAAA,0D;EAAAA,iB;;;CAAA,6C;EAAiBC,qC;;;QA/CR,O;EAAAC,iC;EAAAA,8B;EAAAA,qB;;;;;;;;;;;;;;;;;;;ACvBnBC,6B;AACAA,E;AACAA,kE;AACAA,mE;AACAA,0C;AACAA,E;AACAA,kD;AACAA,E;AACAA,sE;AACAA,oE;AACAA,2E;AACAA,sE;AACAA,iC;;;AAGAA,G;CACCA,kB;CACAA,+B;CACAA,S;CACAA,E;AACDA,8D;EACEA,8B;IACEA,K;MACEA,gE;MACAA,mC;MACAA,kE;MACAA,gC;QACEA,Q;UACEA,uE;QACFA,E;MACFA,G;IACFA,oB;EACFA,C;AACFA;",
+"sources":["ThrowableUtils.java","ThrowableUtils.native_js"],
+"names":["javaemul.internal.ThrowableUtils.<synthetic: ctor_js>","e","javaemul.internal.ThrowableUtils.getJavaThrowable","error","javaThrowable","javaemul.internal.ThrowableUtils.isError","javaemul.internal.ThrowableUtils.isTypeError","javaemul.internal.ThrowableUtils.<synthetic: ctor_create>","javaemul.internal.ThrowableUtils.<init>","javaemul.internal.ThrowableUtils.<clinit>","javaemul.internal.ThrowableUtils.<native>"]
+}

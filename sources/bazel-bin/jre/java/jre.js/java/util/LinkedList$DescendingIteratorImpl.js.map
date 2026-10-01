@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LinkedList$DescendingIteratorImpl.js.map",
+"lineCount":70,
+"mappings":"A;;;;;;;;;;;;;;;;MAqCsB,sB;;CAAA,W;EAAAA,Q;EAAAA;OAAA,wDAAAA,C;EAAAA;OACY,mDADZA,C;;;QAAA,6B;EAAAC,iC;EAAAA,6C;EAAAA,sG;EAAAA,iB;;;CAAA,8E;EAAAC,4E;EAAAA,qC;EAAAA,kE;;;CAIH,kB;EACbC,yF;;;CAIO,wB;EACPC,+F;;;CAIU,c;EACVC,0E;;;;CAfgB,I;EAAAC,8J;;;;CAAA,qD;EAAAC,yG;;;CAAA,0D;EACYL,ya;;;QADZ,O;EAAAM,yC;EAAAA,sC;EAAAA,qB;EAAAA;",
+"sources":["LinkedList.java"],
+"names":["java.util.LinkedList$DescendingIteratorImpl.<synthetic: ctor_js>","java.util.LinkedList$DescendingIteratorImpl.<synthetic: ctor_create>","java.util.LinkedList$DescendingIteratorImpl.<init>","java.util.LinkedList$DescendingIteratorImpl.hasNext","java.util.LinkedList$DescendingIteratorImpl.next","java.util.LinkedList$DescendingIteratorImpl.remove","java.util.LinkedList$DescendingIteratorImpl._private_jsNext__","java.util.LinkedList$DescendingIteratorImpl.forEachRemaining","java.util.LinkedList$DescendingIteratorImpl.<clinit>"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"SVGElementStyleMethods.js.map",
+"lineCount":73,
+"mappings":"A;;;;;;;;;;;;;;;;MAuBiB,sB;;CAIH,0D,gBAAaA,K;;CAKb,mE,gBAAaA,K,iBAAeC,M;;CAU5B,+D,gBAAaC,Q,gBAAcC,K;;CAK3B,4E,gBAAaD,Q,iBAAiBC,K;;CAK9B,wE,gBAAaD,Q,gBAAcC,K,iBAAeC,S;;CAK1C,qF,gBAAaF,Q,iBAAiBC,K,iBAAeC,S;;QA9B7C,mH,+DAAaJ,K;EAAbK,iC;EACNA,iG;;;QAIM,4H,+DAAaL,K,iBAAeC,M;EAA5BI,iC;EACNA;;IACIA,uHADJA;IACIA,oKADJA;;;GAGIA,sHAHJA;G;EAKAA,0D;;;QAIM,wH,+DAAaH,Q,gBAAcC,K;EAA3BE,iC;EACNA,2K;;;QAIM,qI,+DAAaH,Q,iBAAiBC,K;EAA9BE,iC;EACNA,8H;;;QAIM,iI,+DAAaH,Q,gBAAcC,K,iBAAeC,S;EAA1CC,iC;EACNA,+K;;;QAIM,8I,+DAAaH,Q,iBAAiBC,K,iBAAeC,S;EAA7CC,iC;EACNA,IAAOC,QAAPD,gC;EACAA,6I;EACAA,0D;;;QArCS,O;EAAAE,yC;EAAAA;",
+"sources":["SVGElementStyleMethods.java"],
+"names":["style","append","property","value","important","org.jboss.elemento.svg.SVGElementStyleMethods.style__$default","priority","org.jboss.elemento.svg.SVGElementStyleMethods.<clinit>"]
+}

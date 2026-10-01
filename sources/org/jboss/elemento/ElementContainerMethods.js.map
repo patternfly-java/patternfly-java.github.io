@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ElementContainerMethods.js.map",
+"lineCount":137,
+"mappings":"A;;;;;;;;;;;;;;;;;;;MA4BiB,uB;;CAKH,wD,gBAAWA,I;;CAMX,2D,aAASC,I;;CAMT,oE,qBAAiBC,O;;CAQjB,mE,uBAAmBC,Q;;CAMnB,sE,oBAAeC,K;;CAQf,yE,uBAAkBC,Q;;CAQlB,6E,2BAAsBA,Q;;CAQtB,+E,4BAAuBA,Q;;CAUvB,6D,oBAAmBA,Q;;CAanB,sE,8BAA6BF,Q;;QAzE7B,8G,gEAAWH,I;EAAXM,kC;EACNA,sR;EACAA,0D;;;QAIM,iH,6DAASL,I;EAATK,kC;EACNA,sF;EACAA,0D;;;QAIM,0H,qEAAiBJ,O;EAAjBI,kC;EACNA;GACIA,6IADJA;G;EAGAA,0D;;;QAIM,yH,uEAAmBH,Q;EAAnBG,kC;EACNA,mK;EACAA,0D;;;QAIM,4H,oEAAeF,K;EAAfG,kC;EACNA;GAAAA,IAAUN,IAAVM,kBAAAA;;IACIA,2EADJA;;G;EAGAA,0D;;;QAIM,+H,uEAAkBF,Q;EAAlBE,kC;EACNA;GAAAA,IAAaL,OAAbK,kBAAAA;;IACIA,8EADJA;;G;EAGAA,0D;;;QAIM,mI,2EAAsBF,Q;EAAtBE,kC;EACNA;GAAAA,IAAiBL,OAAjBK,kBAAAA;;IACIA,8EADJA;;G;EAGAA,0D;;;QAIM,qI,4EAAuBF,Q;EAAvBE,kC;EACNA;GAAAA,IAAkBL,OAAlBK,kBAAAA;;IACIA;KACIA,sIADJA;KADJA;;G;EAKAA,0D;;;QAIM,mH,oEAAmBF,Q;EAAnBE,kC;EACNA;GAAAA,IAAYL,OAAZK,wCAAAA;;IACIA;KACIA,6HADJA;WAEOA;KAEHA,4LAFGA;KAHXA;;G;EAQAA,0D;;;QAIM,4H,8EAA6BJ,Q;EAA7BI,kC;EACNA,oL;EACAA,0D;;;QAhFS,O;EAAAC,0C;EAAAA;",
+"sources":["ElementContainerMethods.java"],
+"names":["text","node","element","supplier","nodes","elements","org.jboss.elemento.ElementContainerMethods.add__$default","org.jboss.elemento.ElementContainerMethods.addAll__$default","org.jboss.elemento.ElementContainerMethods.<clinit>"]
+}

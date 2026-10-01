@@ -1,0 +1,30 @@
+{
+  "bullet": {
+    "name": "bullet",
+    "title": "Bullet",
+    "route": "/charts/bullet",
+    "clazz": "org.patternfly.chart.bullet.Bullet",
+    "summary": "A bullet chart can be thought of as an extension to a bar chart that measures a dynamic value with thresholds and target values. "
+  },
+  "donut": {
+    "name": "donut",
+    "title": "Donut",
+    "route": "/charts/donut",
+    "clazz": "org.patternfly.chart.donut.Donut",
+    "summary": "A donut chart represents relative amounts that must add up to 100%."
+  },
+  "donut-utilization": {
+    "name": "donut-utilization",
+    "title": "Donut utilization",
+    "route": "/charts/donut-utilization",
+    "clazz": "org.patternfly.chart.utilization.DonutUtilization",
+    "summary": "A donut utilization chart is a donut chart used specifically to show utilization metrics."
+  },
+  "pie": {
+    "name": "pie",
+    "title": "Pie",
+    "route": "/charts/pie",
+    "clazz": "org.patternfly.chart.pie.Pie",
+    "summary": "A pie chart is commonly used to show percentages or proportional data."
+  }
+}

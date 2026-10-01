@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ThrowableUtils$HasJavaThrowable$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAiEoB,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["ThrowableUtils.java"],
+"names":["javaemul.internal.ThrowableUtils$HasJavaThrowable$$Overlay.<clinit>"]
+}

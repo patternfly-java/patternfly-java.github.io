@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"ResourcesImpl$5.js.map",
+"lineCount":39,
+"mappings":"A;;;;;;;MAkIwB,E;;CAAA,W;EAAAA,Q;EAAAA;OAAA,oDAAAA,C;;;QAAiF,8C;EAAAC,a;EAAAA,yB;EAAAA,mH;EAAAA,iB;;;CAAA,2F;EAAjFC,wE;EAAiFA,+F;;;CAC/D,2B;EACVC,m2V;;;CAEU,2B;EACVC,e;;;QALR,O;EAAAC,qB;EAAAA,kB;EAAAA;",
+"sources":["ResourcesImpl.java"],
+"names":["org.patternfly.showcase.ResourcesImpl$5.<synthetic: ctor_js>","org.patternfly.showcase.ResourcesImpl$5.<synthetic: ctor_create>","org.patternfly.showcase.ResourcesImpl$5.<init>","org.patternfly.showcase.ResourcesImpl$5.getText","org.patternfly.showcase.ResourcesImpl$5.getName","org.patternfly.showcase.ResourcesImpl$5.<clinit>"]
+}

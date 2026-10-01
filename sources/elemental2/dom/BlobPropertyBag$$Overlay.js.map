@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BlobPropertyBag$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MAyBiB,Q;;QAEQ,wC;EAAAA,mB;EACrBA,2L;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["BlobPropertyBag.java"],
+"names":["elemental2.dom.BlobPropertyBag$$Overlay.create","elemental2.dom.BlobPropertyBag$$Overlay.<clinit>"]
+}

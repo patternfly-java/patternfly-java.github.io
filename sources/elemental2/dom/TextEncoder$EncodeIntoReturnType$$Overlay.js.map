@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"TextEncoder$EncodeIntoReturnType$$Overlay.js.map",
+"lineCount":16,
+"mappings":"A;;;;;;MA4BmB,Q;;QAEyB,yD;EAAAA,mB;EACtCA,6K;;;QAHa,O;EAAAC,2B;EAAAA;",
+"sources":["TextEncoder.java"],
+"names":["elemental2.dom.TextEncoder$EncodeIntoReturnType$$Overlay.create","elemental2.dom.TextEncoder$EncodeIntoReturnType$$Overlay.<clinit>"]
+}

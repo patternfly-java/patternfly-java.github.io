@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"CanvasPathMethods$RoundRectRadiiArrayUnionType$$Overlay.js.map",
+"lineCount":32,
+"mappings":"A;;;;;;;MA0BmB,Q;;QAEuC,qF,UAAUA,C;EAAVC,mB;EACpDA,yE;;;QAImB,qH;EAAAC,mB;EACnBA,2F;;;QAIa,oG;EAAAC,mB;EACbA,0G;;;QAIc,2F;EAAAC,mB;EACdA,oC;;;QAlBa,O;EAAAC,2B;EAAAA;",
+"sources":["CanvasPathMethods.java"],
+"names":["o","elemental2.dom.CanvasPathMethods$RoundRectRadiiArrayUnionType$$Overlay.of","elemental2.dom.CanvasPathMethods$RoundRectRadiiArrayUnionType$$Overlay.asDOMPointInit__$devirt","elemental2.dom.CanvasPathMethods$RoundRectRadiiArrayUnionType$$Overlay.asDouble__$devirt","elemental2.dom.CanvasPathMethods$RoundRectRadiiArrayUnionType$$Overlay.isDouble__$devirt","elemental2.dom.CanvasPathMethods$RoundRectRadiiArrayUnionType$$Overlay.<clinit>"]
+}

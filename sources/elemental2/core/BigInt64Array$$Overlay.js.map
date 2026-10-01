@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BigInt64Array$$Overlay.js.map",
+"lineCount":90,
+"mappings":"A;;;;;;;MA2Ba,Q;;QAyGoD,4H,2BACrCA,M,qCAAgCC,K,WAASC,O;EADJC,mB;EAE7DA,2H;;;QAIgC,0G,2BACRH,M,qCAAgCC,K;EADxBE,mB;EAEhCA,kH;;;QAIgC,iE,2BAA2BH,M;EAA3BG,mB;EAChCA,2G;;;QAI6D,iI,sBAChDH,M,qCAAgCC,K,WAASC,O;EADOC,mB;EAE7DA,+P;;;QAIgC,+G,sBAAgBH,M,qCAAgCC,K;EAAhDE,mB;EAChCA,oO;;;QAIgC,sE,sBAAgBH,M;EAAhBG,mB;EAChCA,oL;;;QAI6D,4H,+BACFH,M,qCACjCC,K,WACtBC,O;EAHyDC,mB;EAI7DA,2H;;;QAIgC,0G,+BAC2BH,M,qCACjCC,K;EAFME,mB;EAGhCA,kH;;;QAIgC,iE,+BAC2BH,M;EAD3BG,mB;EAEhCA,2G;;;QAI6D,kH,gBACpDH,M,qCAAgCC,K,WAASC,O;EADWC,mB;EAE7DA,2H;;;QAIgC,gG,gBAAYH,M,qCAAgCC,K;EAA5CE,mB;EAChCA,kH;;;QAIgC,uD,gBAAYH,M;EAAZG,mB;EAChCA,2G;;;YA7EyB,2D;EAAAC,wG;;;QA9FhB,O;EAAAC,2B;EAAAA,wB;EA8FgBA,6G;;;;;;;;;;;;AA9FhB;SA8FgB,iEA9FhB;",
+"sources":["BigInt64Array.java"],
+"names":["source","mapFn","thisArg","elemental2.core.BigInt64Array$$Overlay.from","elemental2.core.BigInt64Array$$Overlay.<synthetic: getter>","elemental2.core.BigInt64Array$$Overlay.<clinit>"]
+}

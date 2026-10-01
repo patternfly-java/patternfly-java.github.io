@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"MediaStreamTrackEvent$$Overlay.js.map",
+"lineCount":10,
+"mappings":"A;;;;;MAsBa,Q;;QAAA,O;EAAAA,2B;EAAAA;",
+"sources":["MediaStreamTrackEvent.java"],
+"names":["elemental2.dom.MediaStreamTrackEvent$$Overlay.<clinit>"]
+}

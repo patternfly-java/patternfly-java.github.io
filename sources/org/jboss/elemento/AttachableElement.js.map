@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"AttachableElement.js.map",
+"lineCount":18,
+"mappings":"A;;;;;;;;;;;;MAuBiB,iB;;QAAA,O;EAAAA,oC;EAAAA,iC;EAAAA;",
+"sources":["AttachableElement.java"],
+"names":["org.jboss.elemento.AttachableElement.<clinit>"]
+}

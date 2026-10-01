@@ -1,0 +1,31 @@
+goog.module('org.patternfly.component.progressstepper.ProgressStep');
+
+goog.require('elemental2.dom.Element.$Overlay');
+goog.require('elemental2.dom.HTMLButtonElement.$Overlay');
+goog.require('elemental2.dom.HTMLDivElement.$Overlay');
+goog.require('elemental2.dom.HTMLElement.$Overlay');
+goog.require('elemental2.dom.HTMLLIElement.$Overlay');
+goog.require('java.lang.Class');
+goog.require('java.lang.String');
+goog.require('java.util.Objects');
+goog.require('nativebootstrap.Equality');
+goog.require('nativebootstrap.Util');
+goog.require('org.jboss.elemento.ElementTextDelegate');
+goog.require('org.jboss.elemento.Elements');
+goog.require('org.jboss.elemento.HTMLContainerBuilder');
+goog.require('org.jboss.elemento.logger.Logger');
+goog.require('org.patternfly.component.ComponentIcon');
+goog.require('org.patternfly.component.ComponentType');
+goog.require('org.patternfly.component.HasIdentifier');
+goog.require('org.patternfly.component.SubComponent');
+goog.require('org.patternfly.component.popover.Popover');
+goog.require('org.patternfly.component.progressstepper.ProgressStepVariant');
+goog.require('org.patternfly.core.Aria');
+goog.require('org.patternfly.core.Attributes');
+goog.require('org.patternfly.icon.PredefinedIcon');
+goog.require('org.patternfly.style.Classes');
+goog.require('vmbootstrap.Arrays');
+goog.require('vmbootstrap.Casts');
+
+const ProgressStep = goog.require('org.patternfly.component.progressstepper.ProgressStep$impl');
+exports = ProgressStep;

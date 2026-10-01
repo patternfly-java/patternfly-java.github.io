@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"StorageEvent$$Overlay.js.map",
+"lineCount":22,
+"mappings":"A;;;;;;;MA2Ba,Q;;QAwDO,gN,+CACPA,O,iBACCC,Y,iBACAC,a,iBACDC,M,iBACUC,W,iBACAC,W,iBACVC,M,iBACWC,c;EARJC,mB;EAShBA,mM;;;QAYgB,kN,+CACPR,O,iBACCC,Y,iBACAC,a,iBACDC,M,iBACUC,W,iBACAC,W,aACbC,M,iBACcC,c;EARJC,mB;EAShBA,mM;;;QAtFS,O;EAAAC,2B;EAAAA;",
+"sources":["StorageEvent.java"],
+"names":["typeArg","canBubbleArg","cancelableArg","keyArg","oldValueArg","newValueArg","urlArg","storageAreaArg","elemental2.webstorage.StorageEvent$$Overlay.initStorageEvent__$devirt","elemental2.webstorage.StorageEvent$$Overlay.<clinit>"]
+}

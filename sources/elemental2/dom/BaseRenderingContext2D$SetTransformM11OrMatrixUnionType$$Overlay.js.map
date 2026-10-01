@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.js.map",
+"lineCount":38,
+"mappings":"A;;;;;;;;MAgXmB,Q;;QAE0D,8F,UACpDA,C;EADoDC,mB;EAEvEA,yE;;;QAIkC,wI;EAAAC,mB;EAClCA,wI;;;QAIa,mG;EAAAC,mB;EACbA,yD;;;QAIc,+G;EAAAC,mB;EACdA,wD;;;QAIc,oG;EAAAC,mB;EACdA,oC;;;QAxBa,O;EAAAC,2B;EAAAA;",
+"sources":["BaseRenderingContext2D.java"],
+"names":["o","elemental2.dom.BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.of","elemental2.dom.BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.asDOMMatrixReadOnly__$devirt","elemental2.dom.BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.asDouble__$devirt","elemental2.dom.BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.isDOMMatrixReadOnly__$devirt","elemental2.dom.BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.isDouble__$devirt","elemental2.dom.BaseRenderingContext2D$SetTransformM11OrMatrixUnionType$$Overlay.<clinit>"]
+}
