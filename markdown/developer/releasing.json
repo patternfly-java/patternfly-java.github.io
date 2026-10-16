@@ -1,0 +1,72 @@
+{
+  "id": "developer/releasing",
+  "title": "Releasing",
+  "html": "<h1 id=\"releasing\" class=\"pf-v6-c-title pf-m-4xl\">Releasing</h1>\n<p>This page describes how to create a new PatternFly Java release, what the release workflow does, and how to roll back a failed release.</p>\n<h2 id=\"prerequisites\" class=\"pf-v6-c-title pf-m-2xl\">Prerequisites</h2>\n<p>Before releasing, ensure:</p>\n<ul>\n<li>You are on the <code>main</code> branch with no uncommitted changes</li>\n<li>The <a href=\"https://github.com/patternfly-java/patternfly-java/actions/workflows/verify.yml\">Verify Codebase</a> workflow is green</li>\n<li>The <code>CHANGELOG.md</code> has entries in the <code>Unreleased</code> section</li>\n<li>You have push access to the repository</li>\n</ul>\n<h2 id=\"creating-a-release\" class=\"pf-v6-c-title pf-m-2xl\">Creating a Release</h2>\n<p>Run the release script with the release version and the next snapshot version:</p>\n<pre class=\"shiki shiki-themes github-light github-dark\" style=\"background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B392F0\">./release.sh</span><span style=\"color:#D73A49;--shiki-dark:#F97583\"> &#x3C;</span><span style=\"color:#032F62;--shiki-dark:#9ECBFF\">release-versio</span><span style=\"color:#24292E;--shiki-dark:#E1E4E8\">n</span><span style=\"color:#D73A49;--shiki-dark:#F97583\">></span><span style=\"color:#D73A49;--shiki-dark:#F97583\"> &#x3C;</span><span style=\"color:#032F62;--shiki-dark:#9ECBFF\">next-versio</span><span style=\"color:#24292E;--shiki-dark:#E1E4E8\">n</span><span style=\"color:#D73A49;--shiki-dark:#F97583\">></span></span></code></pre>\n<p>For example:</p>\n<pre class=\"shiki shiki-themes github-light github-dark\" style=\"background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B392F0\">./release.sh</span><span style=\"color:#005CC5;--shiki-dark:#79B8FF\"> 1.0.0</span><span style=\"color:#005CC5;--shiki-dark:#79B8FF\"> 1.1.0</span></span></code></pre>\n<p>The script performs these steps:</p>\n<ol>\n<li>Bump the version to <code>1.0.0</code> across all POMs and NPM packages</li>\n<li>Update <code>README.md</code> with the new version</li>\n<li>Move changelog entries from <code>Unreleased</code> to the <code>1.0.0</code> section</li>\n<li>Commit and push to <code>main</code></li>\n<li>Create and push the tag <code>v1.0.0</code></li>\n<li>Bump the version to <code>1.1.0-SNAPSHOT</code></li>\n<li>Commit and push to <code>main</code></li>\n</ol>\n<p>Pushing the <code>v*</code> tag triggers the <a href=\"https://github.com/patternfly-java/patternfly-java/actions/workflows/release.yml\">release workflow</a> on GitHub.</p>\n<h2 id=\"release-workflow\" class=\"pf-v6-c-title pf-m-2xl\">Release Workflow</h2>\n<p>The <code>release.yml</code> workflow runs six jobs in sequence:</p>\n<h3 id=\"1-deploy-bom\" class=\"pf-v6-c-title pf-m-lg\">1. Deploy BOM</h3>\n<p>Builds and publishes the Bill of Materials to Maven Central with GPG signing.</p>\n<h3 id=\"2-deploy-maven-artifacts\" class=\"pf-v6-c-title pf-m-lg\">2. Deploy Maven Artifacts</h3>\n<p>Builds the full project and publishes all modules to Maven Central with GPG signing. This is the main release artifact — the Java libraries that users depend on.</p>\n<h3 id=\"3-publish-npm-packages\" class=\"pf-v6-c-title pf-m-lg\">3. Publish NPM Packages</h3>\n<p>Publishes three NPM packages to the npm registry:</p>\n<table>\n<thead>\n<tr>\n<th>Package</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>@patternfly-java/core</code></td>\n<td><code>core/npm/</code></td>\n</tr>\n<tr>\n<td><code>@patternfly-java/finder</code></td>\n<td><code>extensions/finder/npm/</code></td>\n</tr>\n<tr>\n<td><code>@patternfly-java/charts</code></td>\n<td><code>charts/npm/</code> (built with pnpm before publishing)</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"4-publish-showcase\" class=\"pf-v6-c-title pf-m-lg\">4. Publish Showcase</h3>\n<p>Builds the production showcase (<code>mvn -P showcase,prod package</code>) and deploys the static site to <code>patternfly-java/patternfly-java.github.io</code> (gh-pages).</p>\n<h3 id=\"5-publish-api-documentation\" class=\"pf-v6-c-title pf-m-lg\">5. Publish API Documentation</h3>\n<p>Generates Javadoc with dependency graphs (requires Graphviz) and deploys to <code>patternfly-java/apidocs</code> (gh-pages).</p>\n<h3 id=\"6-create-github-release\" class=\"pf-v6-c-title pf-m-lg\">6. Create GitHub Release</h3>\n<p>Creates a GitHub Release from the tag. The release body is extracted from <code>CHANGELOG.md</code> using the changelog-reader action.</p>\n<h2 id=\"job-dependencies\" class=\"pf-v6-c-title pf-m-2xl\">Job Dependencies</h2>\n<pre><code>deploy-bom\n    └─► deploy-patternfly\n            ├─► publish-npm\n            │       └─► publish-showcase\n            └─► release (GitHub Release)\n\npublish-apidocs (runs independently)\n</code></pre>\n<p>The BOM must be published first because other modules depend on it. NPM packages must be published before the showcase because the charts module's NPM package is consumed during the showcase build.</p>\n<h2 id=\"version-management\" class=\"pf-v6-c-title pf-m-2xl\">Version Management</h2>\n<p>The <code>versionBump.sh</code> script updates version strings across the project:</p>\n<table>\n<thead>\n<tr>\n<th>File(s)</th>\n<th>Updated by</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>All <code>pom.xml</code> files</td>\n<td><code>mvn versions:set</code></td>\n</tr>\n<tr>\n<td><code>bom/pom.xml</code></td>\n<td><code>mvn versions:set</code> (separate reactor)</td>\n</tr>\n<tr>\n<td><code>core/npm/package.json</code></td>\n<td><code>npm version</code></td>\n</tr>\n<tr>\n<td><code>charts/npm/package.json</code></td>\n<td><code>npm version</code></td>\n</tr>\n<tr>\n<td><code>extensions/finder/npm/package.json</code></td>\n<td><code>npm version</code></td>\n</tr>\n</tbody>\n</table>\n<p>The documentation uses a placeholder version (<code>\\{\\{version\\}\\}</code>) instead of a concrete version string, so no version bumping is needed for markdown files.</p>\n<p>The script is called by <code>release.sh</code> twice: once for the release version and once for the next snapshot version.</p>\n<h2 id=\"what-gets-published\" class=\"pf-v6-c-title pf-m-2xl\">What Gets Published</h2>\n<p>After a successful release, the following artifacts are available:</p>\n<table>\n<thead>\n<tr>\n<th>Artifact</th>\n<th>Location</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Maven libraries</td>\n<td><a href=\"https://central.sonatype.com/namespace/org.patternfly\">Maven Central</a></td>\n</tr>\n<tr>\n<td>NPM packages</td>\n<td><a href=\"https://www.npmjs.com/org/patternfly-java\">npmjs.com/@patternfly-java</a></td>\n</tr>\n<tr>\n<td>Showcase website</td>\n<td><a href=\"https://patternfly-java.github.io\">patternfly-java.github.io</a></td>\n</tr>\n<tr>\n<td>API documentation</td>\n<td><a href=\"https://patternfly-java.github.io/apidocs\">patternfly-java.github.io/apidocs</a></td>\n</tr>\n<tr>\n<td>GitHub Release</td>\n<td><a href=\"https://github.com/patternfly-java/patternfly-java/releases\">GitHub Releases</a></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"rolling-back-a-release\" class=\"pf-v6-c-title pf-m-2xl\">Rolling Back a Release</h2>\n<p>If a release fails (e.g., Maven Central deployment fails), use <code>unrelease.sh</code>:</p>\n<pre class=\"shiki shiki-themes github-light github-dark\" style=\"background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B392F0\">./unrelease.sh</span><span style=\"color:#D73A49;--shiki-dark:#F97583\"> &#x3C;</span><span style=\"color:#032F62;--shiki-dark:#9ECBFF\">release-versio</span><span style=\"color:#24292E;--shiki-dark:#E1E4E8\">n</span><span style=\"color:#D73A49;--shiki-dark:#F97583\">></span></span></code></pre>\n<p>For example:</p>\n<pre class=\"shiki shiki-themes github-light github-dark\" style=\"background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8\" tabindex=\"0\"><code><span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B392F0\">./unrelease.sh</span><span style=\"color:#005CC5;--shiki-dark:#79B8FF\"> 1.0.0</span></span></code></pre>\n<p>This script:</p>\n<ol>\n<li>Deletes the tag <code>v1.0.0</code> locally and on the remote</li>\n<li>Bumps the version back to <code>1.0.0-SNAPSHOT</code></li>\n<li>Commits and pushes to <code>main</code></li>\n</ol>\n<p>After running <code>unrelease.sh</code>, you must manually revert any changelog changes that were made by the release.</p>",
+  "toc": [
+    {
+      "id": "prerequisites",
+      "text": "Prerequisites",
+      "level": 2
+    },
+    {
+      "id": "creating-a-release",
+      "text": "Creating a Release",
+      "level": 2
+    },
+    {
+      "id": "release-workflow",
+      "text": "Release Workflow",
+      "level": 2
+    },
+    {
+      "id": "1-deploy-bom",
+      "text": "1. Deploy BOM",
+      "level": 3
+    },
+    {
+      "id": "2-deploy-maven-artifacts",
+      "text": "2. Deploy Maven Artifacts",
+      "level": 3
+    },
+    {
+      "id": "3-publish-npm-packages",
+      "text": "3. Publish NPM Packages",
+      "level": 3
+    },
+    {
+      "id": "4-publish-showcase",
+      "text": "4. Publish Showcase",
+      "level": 3
+    },
+    {
+      "id": "5-publish-api-documentation",
+      "text": "5. Publish API Documentation",
+      "level": 3
+    },
+    {
+      "id": "6-create-github-release",
+      "text": "6. Create GitHub Release",
+      "level": 3
+    },
+    {
+      "id": "job-dependencies",
+      "text": "Job Dependencies",
+      "level": 2
+    },
+    {
+      "id": "version-management",
+      "text": "Version Management",
+      "level": 2
+    },
+    {
+      "id": "what-gets-published",
+      "text": "What Gets Published",
+      "level": 2
+    },
+    {
+      "id": "rolling-back-a-release",
+      "text": "Rolling Back a Release",
+      "level": 2
+    }
+  ]
+}
